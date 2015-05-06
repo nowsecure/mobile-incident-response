@@ -1,3 +1,6 @@
-# First Chapter
+# Introduction to Mobile Incident Response
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+Ideas
+* What is IR
+* Why is mobile IR different than traditional IR?
+* SCAN principle? 
