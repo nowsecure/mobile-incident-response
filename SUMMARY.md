@@ -1,5 +1,6 @@
 # Summary
 
+* [introduction](README.md)
 * [Introduction](introduction.md)
 * [Getting Started](getting-started.md)
 * [Attacking Mobile Devices](mobile-attacks.md)
@@ -8,5 +9,5 @@
 * [Android Incident Reponse](android-incident-response.md)
 * [iOS Incident Response](ios-incident-response.md)
 * [Mobile Malware Analysis](mobile-malware-analysis.md)
-* [Remediation and Precention](remediation-prevention.md)
+* [Remediation and Prevention](remediation-prevention.md)
 
