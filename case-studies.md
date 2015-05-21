@@ -1,6 +1,11 @@
 # Case Studies
 
-Theory is great, but we often learn by example. This chapter will provide case studies for comming incident response scenarios you are likley to encounter.
+Theory is great, but we often learn by example. This chapter will provide real-world case studies for common incident response scenarios you are likley to encounter. These scenarios include:
+
+* CEOs phone is acting weird
+* Mobile malware discovered on app stores
+* Trojaned iOS app installs
+* Internal investigation
 
 ## CEOs phone is acting weird
 
@@ -24,6 +29,7 @@ The app, downloaded over 175,000 times, copied the 1st screen of the official Ae
 
 `He contacted the other 23 impacted companies and while some did not respond, many did. Then Jim had the app downloaded and analyzed.`
 
+## Trojaned iOS app installs
 
 ## Internal investigation
 
