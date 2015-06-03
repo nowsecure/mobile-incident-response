@@ -1,8 +1,8 @@
 # Case Studies
 
-Theory is great, but we often learn by example. This chapter will provide real-world case studies for common incident response scenarios you are likley to encounter. These scenarios include:
+Theory is great, but we often learn by example. This chapter will provide real-world case studies for common incident response scenarios you are likely to encounter. These scenarios include:
 
-* CEOs phone is acting weird
+* CEOs phone is acting odd
 * Mobile malware discovered on app stores
 * Trojaned iOS app installs
 * Internal investigation
@@ -12,11 +12,11 @@ Theory is great, but we often learn by example. This chapter will provide real-w
 ## Mobile malware discovered on app stores
 In the fall of 2013, Jim Routh (Chief Information Security Officer at insurance giant Aetna) asked his staff to provide a list of all Aetna's mobile apps. 
 
-This is often a surprising diffucult question for a large organization to answer. Mobile apps tend to proliferate. An ambitious department within the company could hire a 3rd party developer and release a mobile app. Subsiduaries, affiliates and even unauthorized entities may publish an app that involved your company.
+This is often a surprising difficult question for a large organization to answer. Mobile apps tend to proliferate. An ambitious department within the company could hire a 3rd party developer and release a mobile app. Subsidiaries, affiliates and even unauthorized entities may publish an app that involved your company.
 
-Ultimately, Jim worked with a third party to help indentify his mobile applications. The resulting list was about 20 apps and Jim reviewed the list.
+Ultimately, Jim worked with a third party to help identify his mobile applications. The resulting list was about 20 apps and Jim reviewed the list.
 
-He identified an app that he was not familar with. The name of app, Aetna++, stood out to Jim. His initial thought was that the app was developed for a marketing campaign. 
+He identified an app that he was not familiar with. The name of app, Aetna++, stood out to Jim. His initial thought was that the app was developed for a marketing campaign. 
 
 Jim decided to see who developed the application. He found that the developer was Nayem and based on his LinkedIn profile, we was a ColdFusion developer based in Hydrabad, India. He looked Nayem up in the employee directory but was unable to find him. Jim's next thought was that Nayem might be a contractor and he attempted to locate with the help of large contracting firms Aetna used. But he was still unable to locate Nayem.
 
