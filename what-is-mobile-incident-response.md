@@ -35,11 +35,20 @@ Incident response is closely connected with digital forensics as nearly every in
 3. [Android Security Cookbook](http://www.amazon.com/Android-Security-Cookbook-Keith-Makan/dp/1782167161/ref=sr_1_1?s=books&ie=UTF8&qid=1433593041&sr=1-1&keywords=Android+Security+Cookbook) with co-author Scott Alexander-Bown
 4. [Android Hacker’s Handbook](http://www.amazon.com/Android-Hackers-Handbook-Joshua-Drake/dp/111860864X/ref=sr_1_1?s=books&ie=UTF8&qid=1433593102&sr=1-1&keywords=Android+Hacker%E2%80%99s+Handbook) with co-author Pau Oliva Fora
 
-As you explore mobile incident response more deeply, these books can provide far deeper technical details on mobile forensics and security.
+As you explore mobile incident response more thoroughly, these books can provide far deeper technical details on mobile forensics and security.
 
-## How is mobile IR different than traditional computers?
+## How is mobile IR different than traditional computers-focused IR?
 
-Mobile is different. Duh!
+Mobile is different than traditional computers (desktops, laptops and servers) for several reasons:
+
+1. Built for individuals
+2. Explosive growth
+3. Always connected
+4. Large attack surface
+5. App store model
+
+We will explore these differences in depth in the [Attacking Mobile Devices](mobile-attacks.md) chapter however each of these differences ultimately add up to enough to create a paradigm shift from traditional computer-based IR.
+
 
 # Common Mobile Incidents
 There are a number of common scenarios you will encounter when it performing IR for mobile devices:
