@@ -1,2 +1,0 @@
-# Santoku Linux
-Santoku Linux is an Ubuntu-based Linux distribution focused on mobile forensics, malware analysis and app testing. It comes pre-installed many of the tools needed to support these capabilities. The distribution is open source and maintained by [NowSecure](https://www.nowsecure.com/)
