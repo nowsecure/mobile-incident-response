@@ -1,33 +1,52 @@
 # Mobile Incident Response
 
-This chapter will explore the basic concepts behind incident response including a brief history, the process, how to incorporate mobile technology and well as common incidents you are likely to encounter.
+This chapter will explore the basic concepts behind incident response including a brief history, the IR process, how to account for mobile technologies and common incidents you are likely to encounter.
 
 # What is Mobile Incident Response
 
 ## A brief history of incident response
-On November 2, 1998, Robert Tappan Morris released the first worm on the Internet (dubbed the Morris Worm) and became part of computer security history in several infamous ways:
+On November 2, 1998, Robert Tappan Morris released the first worm on the Internet (dubbed the Morris Worm) and became part of computer security history by:
 
-1. Unleashed the first large scale denial-of-service (DoS) attack on the Internet
-2. Impacted an estimated (and refuted) 10% of computers on the Internet at that time (6,000 impacted)
-3. First person prosecuted under the Computer Fraud and Abuse Act (CFAA)
+1. Unleashing the first large scale denial-of-service (DoS) attack on the Internet
+2. Impacting an estimated (and refuted) 10% of computers on the Internet at that time (6,000 impacted)
+3. Being the first person prosecuted under the Computer Fraud and Abuse Act (CFAA)
 
-The impact to the Internet plus the significant challenges in coordinating a response led to the creation of the Computer Emergency Response Team Coordination Center (CERT/CC) by DARPA in 1988.[^1] The [CERT/CC](https://cert.org/) flourishes today and is part of the  Software Engineering Institute at Carnegie Mellon University. 
+The impact to the Internet plus the significant challenges in coordinating a response is such a distributed environemtn led to the creation of the Computer Emergency Response Team Coordination Center (CERT/CC) by DARPA in 1988.[^1] The [CERT/CC](https://cert.org/) flourishes today and is part of the  Software Engineering Institute at Carnegie Mellon University. 
 
 ## Defining Incident Response
 
-It's helpful to define incident response ("IR"):
+The goal of incident response is to quickly contain and mitigate incident. It's helpful to provide a more formal definition of incident response ("IR"):
 
 >Incident response is an organized approach to addressing and managing the aftermath of a security breach or attack (also known as an incident). The goal is to handle the situation in a way that limits damage and reduces recovery time and costs. An incident response plan includes a policy that defines, in specific terms, what constitutes an incident and provides a step-by-step process that should be followed when an incident occurs. [^2] 
 
-While this will be covered more fully in chapter [Framework for Mobile Incident Response](mobile-incident-response-framework.md), it's helpful to start with this definition so we can clearly identify the goals of this book:
+Over the past 3 decades, the process of incident response has matured. Bruce Schneier, a respected security technologist, wrote about evolution and future of IR in his popular [Schneier on Security](https://www.schneier.com/blog/archives/2014/11/the_future_of_i.html) [^3] blog. He identified broad goals in each decade since the 1990s starting with protection, then moving into detection and finally focused on response by the 2010s.
 
-1. Demonstrate how mobile devices are attacked
-2. Identify tools and processes required upfront to effectively address mobile incidents
-3. Annotate NIST's "Computer Security Incident Handling Guide" with regards to mobile
-4. Provide step-by-steps examples of mobile incident response through case studies and labs
-5. Discuss remediation and prevention techniques 
+He reflected that in recent years, new IR products and services are being developed and implemented due to three important trends:
 
-Incident response is closely connected with digital forensics as nearly every incident requires the collection, storage and analysis of evidence.  This is a topic the authors and NowSecure employees have written about extensively since 2011:
+1. Devices and data now regularly reside outside the control of IT departments (mobile, cloud, etc.)
+2. Attack and threats are far more sophisticated and effective
+3. Companies continue to under-invest protection and detection, increase the need for response
+
+The trend of companies under-investing in security is, unfortunately, a clear reality in mobile. This amplifies the need for mobile incident response as the technology and data is clearly distributed, generally outside the control of IT and have a large number of security and privacy flaws.
+
+*** Insert stats on insecure mobile apps ***
+
+## Incident Response Process
+
+The [SANS Institute](https://www.sans.org/) has defined 6 key IR steps in their book [Computer Security Incident Handling: Step-by-Step](http://www.amazon.com/Computer-Security-Incident-Handling-Step-/dp/0972427376/ref=sr_1_1?ie=UTF8&qid=1436392071&sr=8-1&keywords=Computer+Security+Incident+Handling%3A+Step-by-Step):
+
+1. Preparation
+2. Identification
+3. Containment
+4. Eradication
+5. Recovery
+6. Lessons learned
+
+While we will cover this topic extensively in the chapter [Framework for Mobile Incident Response](mobile-incident-response-framework.md) and build upon frameworks from both SANS and NIST.
+
+### Digital Forensics and Incident Response
+
+Incident response is closely connected with forensics as nearly every incident requires the collection, storage and analysis of digital evidence.  This is a topic the authors and NowSecure employees have written about extensively since 2011:
 
 1. [Android Forensics: Investigation, Analysis and Mobile Security for Google Android](http://www.amazon.com/Android-Forensics-Investigation-Analysis-Security/dp/1597496510) by Andrew Hoog
 2. [iPhone and iOS Forensics: Investigation, Analysis and Mobile Security for Apple iPhone, iPad and iOS Devices](http://www.amazon.com/iPhone-iOS-Forensics-Investigation-Analysis/dp/1597496596/ref=pd_bxgy_14_img_y) by Katie Strzempka and Andrew Hoog
@@ -66,3 +85,5 @@ Let's mimic what [Wikipedia does for citations](http://en.wikipedia.org/wiki/Rob
 
 [^1]: http://www.ietf.org/rfc/rfc2350.txt (appendix c)
 [^2]: Rouse, Margaret. "What Is Incident Response?" SearchSecurity. TechTarget, Inc, Sept. 2005. Web. 03 June 2015. <http://searchsecurity.techtarget.com/definition/incident-response>
+[^3]: Schneier, Bruce. "The Future of Incident Response" Schneier on Security. Nov. 2014. Web. 08 July 2015. <https://www.schneier.com/blog/archives/2014/11/the_future_of_i.html>
+[^4]: http://www.amazon.com/Computer-Security-Incident-Handling-Step-/dp/0972427376/ref=sr_1_1?ie=UTF8&qid=1436392071&sr=8-1&keywords=Computer+Security+Incident+Handling%3A+Step-by-Step

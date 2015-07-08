@@ -6,16 +6,6 @@ This chapter will provide an:
 * Overview of the NIST Incident Response Framework
 * Provide suggestions for how to adapt the framework to mobile devices
 
-
-Mention SANS 6 steps?
-
-1. Preparation
-2. Identification
-3. Containment
-4. Eradication
-5. Recovery
-6. Lessons learned
-
 Mention NIST ["Computer Security Incident Handling Guide"](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf) framework:
 
 * performing incident response effectively is a complex undertaking, establishing a successful incident response capability requires substantial planning and resources. 
