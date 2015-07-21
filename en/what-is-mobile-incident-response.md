@@ -132,7 +132,7 @@ There are a number of common scenarios you will encounter when it performing IR 
 
 - http://www.cert.org/incident-management/csirt-development/csirt-faq.cfm?
 
-# [Chapter1](chapter1.md) Citations
+# [Chapter 1](chapter1.md) Citations
 
 Let's mimic what [Wikipedia does for citations](http://en.wikipedia.org/wiki/Robert_Tappan_Morris#References). We can use their style (MLA?) and then either the ^1 approach for a footnote or just the id in brackets. The disadvantage is we might have to manually re-number links. I'm open to other ideas!
 
