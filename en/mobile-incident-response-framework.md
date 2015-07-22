@@ -12,3 +12,11 @@ Mention NIST ["Computer Security Incident Handling Guide"](http://nvlpubs.nist.g
 * assists organizations in establishing computer security incident response capabilities and handling incidents efficiently and effectively. 
 * provides guidelines for incident handling, particularly for analyzing incident-related data and determining the appropriate response to each incident. 
 * Independently of particular hardware platforms, operating systems, protocols, or applications.
+
+# Citations
+
+## notes to self
+
+- http://www.cert.org/incident-management/csirt-development/csirt-faq.cfm
+
+## real citations

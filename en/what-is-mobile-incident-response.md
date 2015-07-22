@@ -1,10 +1,10 @@
-# Chapter 1: Mobile Incident Response
+# Mobile Incident Response
 
 This chapter will explore the basic concepts behind incident response including a brief history, the IR process, how to account for mobile technologies and common incidents you are likely to encounter.
 
-# [Chapter 1](chapter1.md) What is Mobile Incident Response
+# What is Mobile Incident Response
 
-## [Part I](part1/history.md) A brief history of incident response
+## A brief history of incident response
 On November 2, 1998, Robert Tappan Morris released the first worm on the Internet (dubbed the Morris Worm) and became part of computer security history by:
 
 1. Unleashing the first large scale denial-of-service (DoS) attack on the Internet
@@ -13,7 +13,7 @@ On November 2, 1998, Robert Tappan Morris released the first worm on the Interne
 
 The impact to the Internet plus the significant challenges in coordinating a response is such a distributed environemtn led to the creation of the Computer Emergency Response Team Coordination Center (CERT/CC) by DARPA in 1988.[^1] The [CERT/CC](https://cert.org/) flourishes today and is part of the  Software Engineering Institute at Carnegie Mellon University. 
 
-## [Part II](part2/defining.md) Defining Incident Response
+## Defining Incident Response
 
 The goal of incident response is to quickly contain and mitigate incident. It's helpful to provide a more formal definition of incident response ("IR"):
 
@@ -34,7 +34,7 @@ The trend of companies under-investing in security is, unfortunately, a clear re
 This amplifies the need for mobile incident response as the technology and data is clearly distributed, generally outside the control of IT and have a large number of security and privacy flaws.
 
 
-## [Part III](part3/process.md) Incident Response Process
+## Incident Response Process
 
 The [SANS Institute](https://www.sans.org/) has defined 6 key IR steps in their book [Computer Security Incident Handling: Step-by-Step](http://www.amazon.com/Computer-Security-Incident-Handling-Step-/dp/0972427376/ref=sr_1_1?ie=UTF8&qid=1436392071&sr=8-1&keywords=Computer+Security+Incident+Handling%3A+Step-by-Step):
 
@@ -59,7 +59,7 @@ Incident response is closely connected with forensics as nearly every incident r
 
 As you explore mobile incident response more thoroughly, these books can provide far deeper technical details on mobile forensics and security.
 
-## [Part IV](part4/mobileirvstraditional.md) How is mobile IR different than traditional computers-focused IR?
+## How is mobile IR different than traditional computers-focused IR?
 
 While the generalized incident response process should largely not need to change to incorporate new technologies, there are unique properties of mobile devices and operating systems that pose unique challenges.
 
@@ -121,18 +121,14 @@ It has never been easier to install an application on a computing device.
 
 These differences ultimately add up sufficiently to create a paradigm shift from traditional computer-based IR.
 
-# [Chapter 1](chapter1.md) Common Mobile Incidents
+# Common Mobile Incidents
 There are a number of common scenarios you will encounter when it performing IR for mobile devices:
 
 * Internal investigation
 * Malware discovered
 * Device acting suspiciously
 
-# [Chapter 1](chapter1.md) Running reference notes
-
-- http://www.cert.org/incident-management/csirt-development/csirt-faq.cfm?
-
-# [Chapter 1](chapter1.md) Citations
+#Citations
 
 Let's mimic what [Wikipedia does for citations](http://en.wikipedia.org/wiki/Robert_Tappan_Morris#References). We can use their style (MLA?) and then either the ^1 approach for a footnote or just the id in brackets. The disadvantage is we might have to manually re-number links. I'm open to other ideas!
 
