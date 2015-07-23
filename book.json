@@ -1,0 +1,10 @@
+{
+    "gitbook": "2.x.x",
+    "plugins": [],
+    "links": {
+        "sidebar": {
+            "NowSecure": "https://www.nowsecure.com/"
+        }
+    },
+    "pluginsConfig": {}
+}
