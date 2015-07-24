@@ -17,3 +17,6 @@ _book
 *.epub
 *.mobi
 *.pdf
+
+# vim swap files
+.swp
