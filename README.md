@@ -12,5 +12,13 @@ The goal of this book is to prepare companies for the inevitable increase in mob
 | Chapter                           | Lead Author | Supporting Authors | Draft 1 | Draft 2 | Draft 3 | Final  | Target Words | Current Words |
 | -------                           | ----------- | ------------------ | ------- | ------- | ------- | -----  | ------------ | ------------- |
 | What is Mobile Incident Response  | Andrew Hoog | none               | Aug 25  | Sept x  | Sept y  | Oct 15 |  20,000      | 9,181         |
-
+| Tools for Mobile Incident Response | Andrew | Katie, David, Andrey               | Aug 25  | Sept x  | Sept y  | Oct 15 |  20,000      |         |
+| Mobile IR Case Studies | Andrew | Andrey               | Aug 25  | Sept x  | Sept y  | Oct 15 |  20,000      |         |
+| Framework for Mobile Incident Response | Katie | Andrew, David, Andrey               | Aug 25  | Sept x  | Sept y  | Oct 15 |  20,000      |         |
+| Attacking Mobile Devices | Sebas | David, Andre               | Aug 25  | Sept x  | Sept y  | Oct 15 |  20,000      |         |
+| Mobile Persist and Exfil | David | Andrey, Sebas, Andrew               | Aug 25  | Sept x  | Sept y  | Oct 15 |  20,000      |         |
+| Android Incident Response | David | Andrew, R&D?               | Aug 25  | Sept x  | Sept y  | Oct 15 |  20,000      |         |
+| iOS Incident Response | Andrey | David, R&D?               | Aug 25  | Sept x  | Sept y  | Oct 15 |  20,000      |         |
+| Mobile Malware Analysis | Sebas | David, Andrey, R&D?               | Aug 25  | Sept x  | Sept y  | Oct 15 |  20,000      |         |
+| Remediation & PRevention | Andrew | Katie, David, Andrey               | Aug 25  | Sept x  | Sept y  | Oct 15 |  20,000      |         |
 
