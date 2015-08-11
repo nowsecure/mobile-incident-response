@@ -47,5 +47,7 @@
     * [Malware Analysis Best Practices](mobile-malware-analysis/malware-analysis-best-practices.md)
     * [Android Malware Analysis](mobile-malware-analysis/android-malware-analysis.md)
     * [iOS Malware Analysis](mobile-malware-analysis/ios-malware-analysis.md)
-* [Remediation and Prevention](mobile-incident-remediation-prevention.md)
+* [Remediation and Prevention](remediate-prevent-mobile-incidents/README.md)
+    * [Mobile Remediation Techniques](remediate-prevent-mobile-incidents/mobile-remediation-techniques.md)
+    * [Mobile Incident Prevention](remediate-prevent-mobile-incidents/mobile-incident-prevention.md)
 * [References](references.md)
