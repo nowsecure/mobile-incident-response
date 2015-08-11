@@ -1,6 +1,6 @@
-# Answers - Android IR Online Lab Exercise
+# Answers - iOS IR Online Lab Exercise
 
-Hopefully you successfull performed the Android IR analysis. This section will provide you with the answers and a step-by-step walk through.
+Hopefully you successfull performed the iOS IR analysis. This section will provide you with the answers and a step-by-step walk through.
 
 ## Answers
 
@@ -10,7 +10,7 @@ You should have concluded:
 1. bbb
 1. ccc
 
-## Step-by-Step Android Incident Response Walkthrough
+## Step-by-Step iOS Incident Response Walkthrough
 
 ### Notes about interview/background
 
@@ -26,7 +26,7 @@ we already collected the follow data for you from the template:
 
 For clarity, let's spend a few minutes showing how we colelcted this data.
 
-### Android IR Analysis
+### iOS IR Analysis
 
 Here's where we take them through our analysis
 
