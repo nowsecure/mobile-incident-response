@@ -21,4 +21,4 @@ The goal of this book is to prepare companies for the inevitable increase in mob
 | iOS Incident Response | Andrey | David, R&D?               | Sep 6  | Sep 20  | Oct 4  | Oct 11 |  20,000      |         |
 | Mobile Malware Analysis | Sebas | David, Andrey, R&D?               | Sep 6  | Sep 20  | Oct 4  | Oct 11 |  20,000      |         |
 | Remediation & Prevention | Andrew | Katie, David, Andrey               | Sep 6  | Sep 20  | Oct 4  | Oct 11 |  20,000      |         |
-|                          |        |                                    |        |         |        |        | **20,000** | **8,061** |
+|                          |        |                                    |        |         |        |        | **200,000** | **8,061** (4.03%) |
