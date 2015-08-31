@@ -22,6 +22,7 @@
     * [NIST Computer Security Incident Handling Guide](mobile-incident-response-framework/nist.md)
     * [SANS Incident Handling Steps](mobile-incident-response-framework/sans.md)
     * [Mobile Incident Response Plan](mobile-incident-response-framework/mobile-ir-plan.md)
+    * [Mobile Incident Response Playbooks](mobile-incident-response-framework/mobile-ir-playbooks.md)
 * [Attacking Mobile Devices](mobile-attacks/README.md)
     * [The SCAN Principle of Mobile Security](mobile-attacks/scan-principle-of-mobile-security.md)
     * [Anatomy of a Mobile Attack](mobile-attacks/anatomy-of-a-mobile-attack.md)
