@@ -74,5 +74,10 @@ In addition to only allowing signed applications, iOS also enforces strong isola
 
 ## Jailbreaking
 
+As we've looked at the security mechanisms built into iOS, some readers might got an impression that choices and restrictions Apple made to improve security can impair certain areas of functionality and usability. Unfortunately, this is true: iOS is a more locked down and less open to customizations than other mobile operating systems out there. Overcoming those limitations is one of the main reasons *jailbreaks* exist.
+
+Jailbreaking is essentially disabling some or all of the security measures described above. This allows users to run so-called tweaks and apps that provide functionality that Apple wouldn't otherwise allow into its AppStore. Jailbreaking is also very important for iOS security research as it provides researchers with better access to iOS kernel and internal.
+
+It is important to understand that because jailbreak disables many of the built-in security protections, devices that are jailbroken are far more likely to be affected by infected by malicious code or exploited by malicious people. Therefore it is highly recommended to institute and enforce a policy that actively prohibits use of jailbroken devices in your enterprise environment.
 
 # Mach-O Executable File Format
