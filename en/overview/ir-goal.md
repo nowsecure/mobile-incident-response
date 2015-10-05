@@ -1,6 +1,6 @@
-# Defining Incident Response
+# Goals and Need for Incident Response
 
-The goal of incident response is to quickly contain and mitigate incident. It's helpful to provide a more formal definition of incident response ("IR"):
+The goal of incident response is to quickly contain and mitigate incident. It is helpful to provide a more formal definition of incident response ("IR"):
 
 >Incident response is an organized approach to addressing and managing the aftermath of a security breach or attack (also known as an incident). The goal is to handle the situation in a way that limits damage and reduces recovery time and costs. An incident response plan includes a policy that defines, in specific terms, what constitutes an incident and provides a step-by-step process that should be followed when an incident occurs. [^2]
 
@@ -10,8 +10,30 @@ He reflected that in recent years, new IR products and services are being develo
 
 1. Devices and data now regularly reside outside the control of IT departments (mobile, cloud, etc.)
 2. Attack and threats are far more sophisticated and effective
-3. Companies continue to under-invest protection and detection, increasing the need for response
+3. Companies continue to under-invest in protection and detection, increasing the need for response
 
+Each of these trends a very much a reality for the mobile ecosystem and worth exploring further.
+
+## Controling mobile devices and data
+Mobile technolgy, by its very definition, lives outside defined boundries. It is fairly trivial to identify these trends in mobile devices.
+
+First, the vast majority of mobiles devices that impact an enterprise''s security are not purchased or managed by the enterprise IT department. Some examples of this include:
+
+* Employee/Contractor BYOD
+* Vendors
+    * Suppliers
+    * Attorneys
+    * Real estate agents
+    * ...
+* Consultants
+* Customers  
+
+## Effectiviness of attacks and threats
+
+- Hacking Team example
+- Samsung keyboard / Stagefright
+
+## Under-investing in security
 The trend of companies under-investing in security is, unfortunately, a clear reality in mobile.
 
 *** Insert stats on insecure mobile apps ***

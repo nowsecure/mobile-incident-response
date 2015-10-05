@@ -1,8 +1,8 @@
 # Summary
 
 * [What is Mobile Incident Response](overview/README.md)
-    * [A Brief History of Incident Response](overview/history-of-ir.md)
-    * [Defining Incident Response](overview/ir-definition.md)
+    * [Goals and Need for Incident Response](overview/ir-goal.md)
+    * [Brief History and Overview of Incident Response](overview/history-overview-ir.md)
     * [Incident Response Process](overview/ir-process.md)
     * [Difference Between Mobile and Computer IR](overview/mobile-ir-differences.md)
     * [Mobile Incident Types](overview/mobile-ir-types.md)
