@@ -32,15 +32,17 @@ Increasing, the mobiles devices which impact an enterprise's security are neithe
 * Vendors and supply chain
 * Customers
 
+![Where can attackers find your mobile data?](../assets/where-is-your-mobile-data.png)
+
 While the recent trend in enterprise mobile security has been to deploy management software such as MDM, EMM and similar on BYOD scenarios, this is clearly a strategy that will not scale to your vendors, supply chain and customers. 
 
 Furthermore, there is a growing backlash from device owner regarding these management tools and their impact on privacy. In some instances, the legal teams at large enterprises are also pushing back against solutions which intercept or collect significant personal information as it becomes a liability for them. 
 
 The trend in mobile devices and applications is clearly towards an ecosystem where the IT and security departments have very little control over the devices.
 
-## Effectiviness of attacks and threats
+## Effectiveness of attacks and threats
 
-As mobile devices and apps proliferate, cyber criminals and actors focused on espionage (for both intellectual property and national security) are clearly following the trend. They recognize that a significant amount of data they are targeting is now present and at times more accessible to them on mobile devices. 
+As mobile devices and apps proliferate, cyber criminals and actors focused on espionage (with both intellectual property and national security objetives) are clearly following the trend. They recognize that a significant amount of data they are targeting is now present and at times more accessible to them on mobile devices. 
 
 While early mobile attacks were farily trivial and frankly lazy, recent trends have revealved a more sophisticated and sustained effrot to thwart mobile defences. While we will explore this topic thoroughly in the [Attacking Mobile Devices](../mobile-attacks/README.md) chapter, it is helpful to provide several examples here. 
 
@@ -53,11 +55,11 @@ Educating enterprises decision makers about the risks of mobile threats and atta
 1. Due to lack of visibility, many individuals and enterprises are not aware an attack occurred
 1. In server-side attacks, enterprise may be compelled to disclose the breach due to consumer protection laws however it is unlikely a targeted mobile attack would trigger such action  
 
-For these reasons, the most important tool available today to educate individuals and enterprises about mobile risks are identifying the threats which could expose them to compromise.
+For these reasons, the most effective resources available today to educate individuals and enterprises about mobile risks are identifying the threats which could expose them to compromise.
 
 #### Android Security Threats
 
-Android encompasses a deep intertwined ecosystem including Google, OEMs, wireless carriers and app developers. The the purpose of this brief overview, we will simply provide an example of a security in each category.  
+Android encompasses a deep intertwined ecosystem including Google, OEMs, wireless carriers and app developers. In this brief overview, we will simply provide an example of a security threat in each category.  
 
 ##### Andorid Stagefright vulnerability
 
@@ -67,7 +69,7 @@ Joshua coordinated with the Android Security team and patches were submitted to 
 
 ##### Samsung keyboard vulnerability
 
-In June 2015, NowSecure researcher Ryan Welton ([@Fuzion24](https://twitter.com/Fuzion24)) presented at BlackHat London [^4] and exposed a serious flaw in over 600 million Samsung devices. [^5] Despite following a responsible and coordinated disclosure process over the course of 9 months, the flaw was ultimately misunderstood by Samsung and at the time of the disclosure, there was no patch that users or enterprises could apply. 
+In June 2015, NowSecure researcher Ryan Welton ([@Fuzion24](https://twitter.com/Fuzion24)) presented at [BlackHat London](https://www.blackhat.com/ldn-15/summit.html#abusing-android-apps-and-gaining-remote-code-execution) [^4] and exposed a serious flaw in over [600 million Samsung devices](https://www.nowsecure.com/keyboard-vulnerability/). [^5] Despite following a responsible and coordinated disclosure process over the course of 9 months, the flaw was ultimately misunderstood by Samsung and at the time of the disclosure, there was no patch that users or enterprises could apply. 
 
 To make matters worse, the insecure application was signed with system privledges granting the app and thus the attacker significant access to teh device and data through remote code execution. The app could not be disabled and regular checked for updates over the network, the trigger necessary to launch the attack. Anyone attacker with a position on the network between the endpoint and the SwiftKey update server could execuate this attack.
 
@@ -115,9 +117,27 @@ Unlike mobile threats, mobile attacks identify actual instances of mobile threat
 * Targeted attacks
 * Weaponizations of mobile threats 
 
-#### Apple iOS XCodeGhost attack
+In the [Case Studies](../case-studies/README.md) chapter we will provide deeper examination of real world mobile attackes. However, it is useful to provide quick examples of mobile attacks in each category.
+
+#### Mobile Malware
+
+Mobile malware is the most common form of mobile attacks, in particualr because they are far easier to identify by examining mobile apps. While all mobile attacks are undesirable, mobile malware is the most benign of the categories listed above. We will provide an example of malware on both iOS and Android.
+
+##### Apple iOS XCodeGhost attack
+
+In late 2015, researchers from Palo Alto uncovered modified versions of XCode, the development environment for iOS, avaiavle on multiple websites in China. XCode is a large download and developers in China would often choose cached versions of XCode hosted in China to improve download times.
+
+Attackers sezied this opportunity and modified XCode so that when developers complied and ultimately deployed thier applications to the App Store, malicious code was automatically included in the applications. The malicious code would exfiltrate private data from the iOS devices after the app was installed and run.
+
+Apple identified the affected applications and immediately removed them from the App Store. They published the list of apps on their website and worked closely with the developers to ensure a new version was pushed to the App Store quickly. Some of the apps extremely popular and the full impact of the attack is likley not yet understood.
+
+##### Android YYY Malware
+
+So many to choose from...which one should we pick?
 
 #### Hacking Team weaponization of mobile threats
+
+In perhaps the most compelling example of the risk from mobile attacks, the compromise of Italian firm Hacking Team exposed a company weaponizing and selling exploits to nation states with documented human rights violations against reporters and activists. Until the time of the compromise, Hacking Team adamently denied they sould their software to any countires with documented human rights violations. However, the compromise and then expouse of 400GB of th
 
 ## Under-investing in security
 The trend of companies under-investing in security is, unfortunately, a clear reality in mobile.
@@ -128,8 +148,8 @@ This amplifies the need for mobile incident response as the technology and data 
 
 #### Footnotes
 [^1]: 1st footnote 
-[^2]: https://www.schneier.com/blog/archives/2014/11/the_future_of_i.html
+[^2]: The Future of Incident Response - Schneier on Security. Web. Wed Oct 21 2015. <https://www.schneier.com/blog/archives/2014/11/the_future_of_i.html>.
 [^3]: 3nd footnote
-[^4]: link to Ryan's BH talk/video
-[^5]: link to NS Samsung landing page or our blog
-[^6]: link to Samsung Flaw GH repo
+[^4]: Black Hat London 2015 | Summit. Web. Wed Oct 21 2015. <https://www.blackhat.com/ldn-15/summit.html#abusing-android-apps-and-gaining-remote-code-execution>.
+[^5]: NowSecure. Samsung Keyboard Security Risk Disclosed: Over 600M+ Devices Worldwide Impacted  | NowSecure. Web. Wed Oct 21 2015. <https://www.nowsecure.com/keyboard-vulnerability/>.
+[^6]:
