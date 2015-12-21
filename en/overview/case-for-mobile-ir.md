@@ -5,12 +5,12 @@ The goal of incident response is to quickly contain and mitigate an incident. It
 
 >Incident response is an organized approach to addressing and managing the aftermath of a security breach or attack (also known as an incident). The goal is to handle the situation in a way that limits damage and reduces recovery time and costs. An incident response plan includes a policy that defines, in specific terms, what constitutes an incident and provides a step-by-step process that should be followed when an incident occurs. [^1]
 
+## Mobile Incident Response
 Mobile devices have already sufficently penetrated enterprises to warrant full support in an incident response strategy. They have access to sensitive data and impact the operations of an enterprise. And, like all technolgy, they have security flaws which expose the enterprise to risk.
 
 While most enterprises have some level of incident response plans in place, very few have developed processes and tools to respond to a mobile incident. This is a clear gap that security teams must address.
 
 ## Future of Incident Response
-
 Over the past 3 decades, the process of incident response has matured. Bruce Schneier, a respected security technologist, wrote about evolution and future of IR in his popular [Schneier on Security](https:/
 /www.schneier.com/blog/archives/2014/11/the_future_of_i.html) [^2] blog. He identified broad focuses in each decade since the 1990s starting with protection, then moving into detection and finally focused on response by the 2010s.
 
@@ -63,9 +63,11 @@ Android encompasses a deep intertwined ecosystem including Google, OEMs, wireles
 
 ##### Andorid Stagefright vulnerability
 
-In September 2015, Zimprium researcher Joshua Drake ([@jduck](https://twitter.com/jduck/)) disclosed a vulnerability impacting nearly all Android devices since Android 1.5 to ??remote code execution??. The flaw was discovered in the Stagefright library, share coded that Android devices use to process media files. By employing fuzzing techniques, it was doscovered that specifically crafted media files including images, audio and video files sent to the device would crash libstagefright and provide the attacker with the ability to compromise the device.
+In September 2015, Zimprium researcher Joshua Drake ([@jduck](https://twitter.com/jduck/)) disclosed a vulnerability impacting nearly all Android devices since Android 1.5 which could allow an attached to remotely execute code on the device. The flaw was discovered in the Stagefright library, shared coded that Android devices use to process media files. By employing fuzzing techniques, it was discovered that specifically crafted media files including images, audio and video files sent to the device would crash libstagefright and provide the attacker with the ability to compromise the device.
 
 Joshua coordinated with the Android Security team and patches were submitted to the AOSP and shared in advance with Android partners. However, the patches were not fully effective in mitigating the flaws and additional research uncovered new attack vectors. In addition, due to the complexity to deploying changes to the fragmented Android ecosystem, most users remain vulnerable to the threat.
+
+Note: if you own or manage risk for Android devices, you can determine if the device is vulnerable to Stagefight or other know flaws by running the [VTS for Android app](https://play.google.com/store/apps/details?id=com.nowsecure.android.vts). The app, developed by the NowSecure Research Team, is fully [open sourced](https://github.com/nowsecure/android-vts/) and is actively maintained.
 
 ##### Samsung keyboard vulnerability
 
@@ -147,7 +149,7 @@ The trend of companies under-investing in security is, unfortunately, a clear re
 This amplifies the need for mobile incident response as the technology and data is clearly distributed, generally outside the control of IT and have a large number of security and privacy flaws.
 
 #### Footnotes
-[^1]: 1st footnote 
+[^1]: What is incident response? Definition from WhatIs.com. Wed. Wed Nov 11 2015. <http://searchsecurity.techtarget.com/definition/incident-response>.
 [^2]: The Future of Incident Response - Schneier on Security. Web. Wed Oct 21 2015. <https://www.schneier.com/blog/archives/2014/11/the_future_of_i.html>.
 [^3]: 3nd footnote
 [^4]: Black Hat London 2015 | Summit. Web. Wed Oct 21 2015. <https://www.blackhat.com/ldn-15/summit.html#abusing-android-apps-and-gaining-remote-code-execution>.
