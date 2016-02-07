@@ -7,6 +7,7 @@
     * [Difference Between Mobile and Computer IR](overview/mobile-ir-differences.md)
     * [Mobile Incident Types](overview/mobile-ir-types.md)
 * [Tools for Mobile Incident Response](tools/README.md)
+    * [Categories of Mobile IR Tools](tools/mobile-ir-tool-categories.md)
     * [Open Source Incident Response Tools](tools/open-source-ir-tools.md)
     * [Free Incident Response Tools](tools/free-ir-tools.md)
     * [Commercial Incident Reponse Tools](tools/commercial-ir-tools.md)
