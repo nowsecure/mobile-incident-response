@@ -1,8 +1,8 @@
 # Summary
 
 * [Mobile Incident Response Overview](overview/README.md)
-    * [Case for Mobile Incident Response](overview/case-for-mobile-ir.md)
     * [Brief History and Overview of Incident Response](overview/history-overview-ir.md)
+    * [Case for Mobile Incident Response](overview/case-for-mobile-ir.md)
     * [Incident Response Process](overview/ir-process.md)
     * [Difference Between Mobile and Computer IR](overview/mobile-ir-differences.md)
     * [Mobile Incident Types](overview/mobile-ir-types.md)
