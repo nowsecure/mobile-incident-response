@@ -9,11 +9,16 @@ The impact to the Internet plus the significant challenges in coordinating a res
 
 The [CERT/CC](https://cert.org/) flourishes today and is part of the Software Engineering Institute at Carnegie Mellon University.
 
+## Goal of Incident Response
+The goal of incident response is to quickly contain and mitigate an incident. It is helpful to provide a more formal definition of incident response ("IR"):
+
+>Incident response is an organized approach to addressing and managing the aftermath of a security breach or attack (also known as an incident). The goal is to handle the situation in a way that limits damage and reduces recovery time and costs. An incident response plan includes a policy that defines, in specific terms, what constitutes an incident and provides a step-by-step process that should be followed when an incident occurs. [^2]
+
 ## Incident Response Today (2016)
 
 Today, most large government and enterprise organization have an incident response team. And government regulations increasing include mandates for incident response capabilities.
 
-For example, the Federal Financial Institution Examination Council (FFIEC) is a "formal interagency body empowered to prescribe uniform principles, standards, and report forms for the federal examination of financial institutions" [^2] that developed a system dubbed InfoBase to help introduce and educate the finacial services industry on topics that the their field examiners inspect during audits. The [FFIEC's guidance on incident response](http://ithandbook.ffiec.gov/it-booklets/business-continuity-planning/other-policies,-standards-and-processes-/incident-response.aspx) includes a mandate to develop and integrate this discipline into their the financial instituions business continuity planning process.
+For example, the Federal Financial Institution Examination Council (FFIEC) is a "formal interagency body empowered to prescribe uniform principles, standards, and report forms for the federal examination of financial institutions" [^3] that developed a system dubbed InfoBase to help introduce and educate the finacial services industry on topics that the their field examiners inspect during audits. The [FFIEC's guidance on incident response](http://ithandbook.ffiec.gov/it-booklets/business-continuity-planning/other-policies,-standards-and-processes-/incident-response.aspx) includes a mandate to develop and integrate this discipline into their the financial instituions business continuity planning process.
 
 This is simply one example of regulated industries which have incident response mandates. Other examples include:
 
@@ -24,11 +29,11 @@ This is simply one example of regulated industries which have incident response 
 
 ## CERT Organizations
 
-There is a large group of resources support CERTs around the world. They can be loosly organized into three types based on their sponsors:
+There is a large group of resources support CERTs around the world. They can be loosely organized into three types based on their sponsors:
 
 1. Government
-1. Enterprise
-1. Community 
+2. Enterprise
+3. Community 
 
 Below is a list of various organizations which often provide extensive information and at times support during an incident.
 
@@ -38,13 +43,19 @@ These organizations generally coordinate incident responses for entire nations.
 
 1. [US-CERT](https://www.us-cert.gov/) (United States Computer Emergency Readiness Team)
 1. [ENISA](https://www.enisa.europa.eu/) (European Union Agency for Network and Information Security)
+1. [CERT](https://www.cert.org/) (CERT Division is located within the Software Engineering Institue, a federally funded research and development center at Carnegie Mellon University, the majority of our work contributes to government and national security efforts.)
+1. [CNCERT/CC](http://www.cert.org.cn/publish/english/index.html) (National Computer Network Emergency Response Technical Team/Coordination Center of China)
 
 ### Enterprise-sponsored CERTs / CSIRTs
 
 These organization, while focused on a particular enterprise, have a visibile public presence and sometimes include supporting the industry with educational information and tools:
 
-1. MSFT?
-1. Does CMU Cert go here? Create .edu one?
+1. [Microsoft Security Response Center](https://technet.microsoft.com/en-us/security/dn528958)
+1. [Apple Product Security](https://www.apple.com/support/security/)
+1. [Facebook Security](https://www.facebook.com/security)
+1. [Google Application Security](https://www.google.com/about/appsecurity/)
+1. [Android Security](https://source.android.com/security/index.html)
+ 
 
 ### Community
 
@@ -58,5 +69,6 @@ Incident response is closely connected with forensics as nearly every incident r
 As you explore mobile incident response more thoroughly, these books can provide far deeper technical details on mobile forensics and security.
 
 [^1]: https://en.wikipedia.org/wiki/Morris_worm
-[^2]: http://ithandbook.ffiec.gov
+[^2]: What is incident response? Definition from WhatIs.com. Wed. Wed Nov 11 2015. <http://searchsecurity.techtarget.com/definition/incident-response>.
+[^3]: http://ithandbook.ffiec.gov
 

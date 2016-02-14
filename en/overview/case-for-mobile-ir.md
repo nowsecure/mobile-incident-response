@@ -1,18 +1,27 @@
 # The Case for Mobile Incident Response
 
-## Goal of Incident Response
-The goal of incident response is to quickly contain and mitigate an incident. It is helpful to provide a more formal definition of incident response ("IR"):
-
->Incident response is an organized approach to addressing and managing the aftermath of a security breach or attack (also known as an incident). The goal is to handle the situation in a way that limits damage and reduces recovery time and costs. An incident response plan includes a policy that defines, in specific terms, what constitutes an incident and provides a step-by-step process that should be followed when an incident occurs. [^1]
-
 ## Mobile Incident Response
 Mobile devices have already sufficently penetrated enterprises to warrant full support in an incident response strategy. They have access to sensitive data and impact the operations of an enterprise. And, like all technolgy, they have security flaws which expose the enterprise to risk.
 
 While most enterprises have some level of incident response plans in place, very few have developed processes and tools to respond to a mobile incident. This is a clear gap that security teams must address.
 
-## Future of Incident Response
+## Regulation and Law Enforcement
+
+-- FTC v Wyndham
+http://www.ecommercetimes.com/story/82914.html?sthash.mVCAs8ee.mjjo
+
+Judge Thomas Ambro wrote (appeals court) stated a company does not act equitably when:
+
+1. it publishes a privacy policy to attract customers who are concerned about data privacy
+2. fails to make good on that promise by investing inadequate resources in cybersecurity, exposes its unsuspecting customers to substantial financial injury, and retains the profits of their business
+
+this is significant because the App & Play stores requires #1 and if people don’t invest in “cybersecurity” they are then under scope of the FTC’s law enforcement powers (which they already exercised on Wyndham)
+
+Re: #2, https://securityintelligence.com/mobile-insecurity/
+
+## Future of (Mobile) Incident Response
 Over the past 3 decades, the process of incident response has matured. Bruce Schneier, a respected security technologist, wrote about evolution and future of IR in his popular [Schneier on Security](https:/
-/www.schneier.com/blog/archives/2014/11/the_future_of_i.html) [^2] blog. He identified broad focuses in each decade since the 1990s starting with protection, then moving into detection and finally focused on response by the 2010s.
+/www.schneier.com/blog/archives/2014/11/the_future_of_i.html) [^1] blog. He identified broad focuses in each decade since the 1990s starting with protection, then moving into detection and finally focused on response by the 2010s.
 
 He reflected that in recent years, new IR products and services are being developed and implemented due to three important trends:
 
@@ -149,8 +158,7 @@ The trend of companies under-investing in security is, unfortunately, a clear re
 This amplifies the need for mobile incident response as the technology and data is clearly distributed, generally outside the control of IT and have a large number of security and privacy flaws.
 
 #### Footnotes
-[^1]: What is incident response? Definition from WhatIs.com. Wed. Wed Nov 11 2015. <http://searchsecurity.techtarget.com/definition/incident-response>.
-[^2]: The Future of Incident Response - Schneier on Security. Web. Wed Oct 21 2015. <https://www.schneier.com/blog/archives/2014/11/the_future_of_i.html>.
+[^1]: The Future of Incident Response - Schneier on Security. Web. Wed Oct 21 2015. <https://www.schneier.com/blog/archives/2014/11/the_future_of_i.html>.
 [^3]: 3nd footnote
 [^4]: Black Hat London 2015 | Summit. Web. Wed Oct 21 2015. <https://www.blackhat.com/ldn-15/summit.html#abusing-android-apps-and-gaining-remote-code-execution>.
 [^5]: NowSecure. Samsung Keyboard Security Risk Disclosed: Over 600M+ Devices Worldwide Impacted  | NowSecure. Web. Wed Oct 21 2015. <https://www.nowsecure.com/keyboard-vulnerability/>.
