@@ -24,9 +24,6 @@ While this ruling does not directly involve mobile devices or apps, it is signif
 1. Mobile apps are required to publish a privacy policy through multiple mechanisms including the Terms of Serivce for Apple's App Store and Google Play as well as various privacy laws including [California's Online Privacy Protection Act](http://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=BPC&division=8.&title=&part=&chapter=22.&article=) and the European Union's [Data Protection Directive (95/46/EC)](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:en:HTML);
 2. A compromise involing a mobile deivce or app would likely trigger the "investing inadequate resources in cybersecurity" unless the company performed security testing and had an incident response policy in place to minimize the impact of any breach.
 
-In an IBM sponsored study in 2015, the Ponemon Institue found that:
-> Among the more than 400 organizations studied — nearly 40 percent of which were Fortune 500 companies — almost 40 percent of them aren’t scanning the code in their apps for security vulnerabilities, leaving the door wide open to the potential hacking of sensitive user, corporate and customer data. The average organization tests fewer than half of the mobile apps it builds, and a whopping 33 percent of companies never test their apps. [^7]
-
 The combination of the FTC v Wyndham ruling plus a widespread lack of investment in mobile security does not bode well for enterprises benefiting from mobile devices and apps.
 
 ## Mobile Devices and Incident Response Trends
