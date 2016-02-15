@@ -59,7 +59,7 @@ For these reasons, the most effective resources available today to educate indiv
 
 #### Android Security Threats
 
-Android encompasses a deep intertwined ecosystem including Google, OEMs, wireless carriers and app developers. In this brief overview, we will simply provide an example of a security threat in each category.  
+Android encompasses a deep intertwined ecosystem including Google/Android, OEMs, wireless carriers and app developers. In this brief overview, we will simply provide an example of a security threat in each category.  
 
 ##### Andorid Stagefright vulnerability
 
@@ -67,7 +67,7 @@ In September 2015, Zimprium researcher Joshua Drake ([@jduck](https://twitter.co
 
 Joshua coordinated with the Android Security team and patches were submitted to the AOSP and shared in advance with Android partners. However, the patches were not fully effective in mitigating the flaws and additional research uncovered new attack vectors. In addition, due to the complexity to deploying changes to the fragmented Android ecosystem, most users remain vulnerable to the threat.
 
-Note: if you own or manage risk for Android devices, you can determine if the device is vulnerable to Stagefight or other know flaws by running the [VTS for Android app](https://play.google.com/store/apps/details?id=com.nowsecure.android.vts). The app, developed by the NowSecure Research Team, is fully [open sourced](https://github.com/nowsecure/android-vts/) and is actively maintained.
+Note: if you own or manage risk for Android devices, you can determine if the device is vulnerable to Stagefight or other know flaws by running the [VTS for Android app]. The app, developed by the NowSecure Research Team, is fully [open sourced](https://github.com/nowsecure/android-vts/) and is actively maintained.
 
 ##### Samsung keyboard vulnerability
 
@@ -144,7 +144,10 @@ In perhaps the most compelling example of the risk from mobile attacks, the comp
 ## Under-investing in security
 The trend of companies under-investing in security is, unfortunately, a clear reality in mobile.
 
-*** Insert stats on insecure mobile apps ***
+In an IBM sponsored study in 2015, the Ponemon Institue found that:
+> Among the more than 400 organizations studied — nearly 40 percent of which were Fortune 500 companies — almost 40 percent of them aren’t scanning the code in their apps for security vulnerabilities, leaving the door wide open to the potential hacking of sensitive user, corporate and customer data. The average organization tests fewer than half of the mobile apps it builds, and a whopping 33 percent of companies never test their apps. [^7]
+
+- Insert stats on insecure mobile apps 
 
 This amplifies the need for mobile incident response as the technology and data is clearly distributed, generally outside the control of IT and have a large number of security and privacy flaws.
 
@@ -154,4 +157,5 @@ This amplifies the need for mobile incident response as the technology and data 
 [^3]: 3nd footnote
 [^4]: Black Hat London 2015 | Summit. Web. Wed Oct 21 2015. <https://www.blackhat.com/ldn-15/summit.html#abusing-android-apps-and-gaining-remote-code-execution>.
 [^5]: NowSecure. Samsung Keyboard Security Risk Disclosed: Over 600M+ Devices Worldwide Impacted  | NowSecure. Web. Wed Oct 21 2015. <https://www.nowsecure.com/keyboard-vulnerability/>.
-[^6]:
+[^6]: aaa
+[^7]: https://securityintelligence.com/mobile-insecurity/
