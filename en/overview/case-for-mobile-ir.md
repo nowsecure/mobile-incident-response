@@ -44,6 +44,7 @@ Each of these trends are very much a reality in the mobile ecosystem and worth e
 ## Controling mobile devices and data
 Mobile technology, by its very definition, lives outside the traditional defined IT boundries such as local networks and firewalls. This dramatically impacts the enterprises ability to control both the devices and, perhaps more importantly, the data residing on them.  
 
+### Device ownership and data storage
 Increasing, the mobiles devices which impact an enterprise's security are neither purchased nor managed by the IT department. Some quick examples of this include:
 
 * Employee BYOD
@@ -55,7 +56,33 @@ Increasing, the mobiles devices which impact an enterprise's security are neithe
 
 While the recent trend in enterprise mobile security has been to deploy management software such as MDM, EMM and similar on BYOD scenarios, this is clearly a strategy that will not scale to your vendors, supply chain and customers. 
 
-Furthermore, there is a growing backlash from device owner regarding these management tools and their impact on privacy. In some instances, the legal teams at large enterprises are also pushing back against solutions which intercept or collect significant personal information as it becomes a liability for them. 
+### Network perimeter
+Clearly mobile devices defy traditional network policy enforcement since they do not exclusively reside on the corporate network. By design, mobile devices likely have a least two and generally more ways they can connect to networks.
+
+The obviosuly netowrk connection not directly controlled by the enterprise is the mobile phone network. Todya 4G networks are fast and very prevelant and many individuals simply use the mobile operators network over corporate-provided Wi-Fi.
+
+The next most common accessible networks are provided via Wi-Fi. This generally includes a network provided by the enterprise (and thus a controlled ingres/egress point where a company can exert oversight or control) but also a home network and then various networks available to the general public. These could include Wi-Fi access point provided by retail stores (Starbucks, for example), airports, city-wide public networks, home-based Wi-Fi via companies like Comcast via their XFINITY service and, unfortunately, malicious networks that are controlled by attackers.
+
+While cellular and Wi-Fi networks are the most common paths to network access, there are additional techniques including:
+
+* Bluetooth networks
+* Tethering over USB
+* GPS (a form of radio-based network traffic)
+
+Suffice to say, there are many ways for mobile devices can connect to networks and very few of them provide enterprises with control over the traffic. While some IT departments and mobile security solutions attempt to backhaul all mobile traffic over a device or per-app VPN, this technique will ultimately fail due to a number of causes discussed in the next section.
+
+### Privacy implications
+There is a growing backlash from device owner regarding mobile device management tools, techniques and their impact on privacy. In some instances, the legal teams at large enterprises are also pushing back against solutions which intercept or collect significant personal information as it becomes a liability for them. 
+
+The biggest challenges are best examined exploring the impacts on a single technique. For this example, let's examine how a device or per-app VPN impacts a mobile device:
+
+1. Initial setup is cumbersome
+1. Re-connecting to the VPN is frustrating and time consuming
+1. A VPN slows down many network connections, espeically on a higher latency mobile network
+1. Additional battery drain is incurred
+1. Personal privacy is significantly imapcts
+1. Enterprises have access to sensitive employee data (e.g. Internet searches, app traffic and geo-location) which can place significant liability on the enterprise
+1. These solutions are not possible outside of employees and perhaps contracts (though the later is unlikely)
 
 The trend in mobile devices and applications is clearly towards an ecosystem where the IT and security departments have very little control over the devices.
 
