@@ -6,20 +6,30 @@ Mobile devices have already sufficently penetrated enterprises to warrant full s
 While most enterprises have some level of incident response plans in place, very few have developed processes and tools to respond to a mobile incident. This is a clear gap that security teams must address.
 
 ## Regulation and Law Enforcement
+In the previous section, we explored a few examples of regulations that cover incident response. However, smartphones are a relatively new technology and at best are addressed broadly in a few of these regualted industries. This means that the industry is largely self-regulated today and, unfortunately, there are many mobile device and app security issues.
 
--- FTC v Wyndham
-http://www.ecommercetimes.com/story/82914.html?sthash.mVCAs8ee.mjjo
+If these issues persist and become a larger problem, it will ultimately lead to regulation and law enforcement. This is something the mobile industry should strive to avoid and attempt to address these issues within the ecosystem. This can be achieved far more quickly and efficiently than government regulations.
 
-Judge Thomas Ambro wrote (appeals court) stated a company does not act equitably when:
+### FTC v Wyndham
+In 2008, Wyndham Worldwide Corporation experineced several security incidents resulting in the loss of credit card data. The impact of this data breach was over $10.6 million in fraud loss. The Federal Trade Commission filed a complaint in federal court against Wyndham under Section 5 of the FTC Act for unfair method of competition. 
 
-1. it publishes a privacy policy to attract customers who are concerned about data privacy
-2. fails to make good on that promise by investing inadequate resources in cybersecurity, exposes its unsuspecting customers to substantial financial injury, and retains the profits of their business
+Wyndham fought the FTC suit but the District Judge ruled in favor of the FTC. Wyndham appealed the decision but in August 2015, the U.S. Court of Appeals for the Third Circuit affirmed the district court, upholding the FTC's data protection authority.  
 
-this is significant because the App & Play stores requires #1 and if people don’t invest in “cybersecurity” they are then under scope of the FTC’s law enforcement powers (which they already exercised on Wyndham)
+Judge Thomas Ambro stated:
 
-Re: #2, https://securityintelligence.com/mobile-insecurity/
+> A company does not act equitably when it publishes a privacy policy to attract customers who are concerned about data privacy, fails to make good on that promise by investing inadequate resources in cybersecurity, exposes its unsuspecting customers to substantial financial injury, and retains the profits of their business. [^6]
 
-## Future of (Mobile) Incident Response
+While this ruling does not directly involve mobile devices or apps, it is significant for several reasons:
+
+1. Mobile apps are required to publish a privacy policy through multiple mechanisms including the Terms of Serivce for Apple's App Store and Google Play as well as various privacy laws including [California's Online Privacy Protection Act](http://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=BPC&division=8.&title=&part=&chapter=22.&article=) and the European Union's [Data Protection Directive (95/46/EC)](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:en:HTML);
+2. A compromise involing a mobile deivce or app would likely trigger the "investing inadequate resources in cybersecurity" unless the company performed security testing and had an incident response policy in place to minimize the impact of any breach.
+
+In an IBM sponsored study in 2015, the Ponemon Institue found that:
+> Among the more than 400 organizations studied — nearly 40 percent of which were Fortune 500 companies — almost 40 percent of them aren’t scanning the code in their apps for security vulnerabilities, leaving the door wide open to the potential hacking of sensitive user, corporate and customer data. The average organization tests fewer than half of the mobile apps it builds, and a whopping 33 percent of companies never test their apps. [^7]
+
+The combination of the FTC v Wyndham ruling plus a widespread lack of investment in mobile security does not bode well for enterprises benefiting from mobile devices and apps.
+
+## Mobile Devices and Incident Response Trends
 Over the past 3 decades, the process of incident response has matured. Bruce Schneier, a respected security technologist, wrote about evolution and future of IR in his popular [Schneier on Security](https:/
 /www.schneier.com/blog/archives/2014/11/the_future_of_i.html) [^1] blog. He identified broad focuses in each decade since the 1990s starting with protection, then moving into detection and finally focused on response by the 2010s.
 
@@ -153,7 +163,7 @@ In perhaps the most compelling example of the risk from mobile attacks, the comp
 ## Under-investing in security
 The trend of companies under-investing in security is, unfortunately, a clear reality in mobile.
 
-*** Insert stats on insecure mobile apps ***
+Insert stats on insecure mobile apps
 
 This amplifies the need for mobile incident response as the technology and data is clearly distributed, generally outside the control of IT and have a large number of security and privacy flaws.
 
@@ -162,4 +172,5 @@ This amplifies the need for mobile incident response as the technology and data 
 [^3]: 3nd footnote
 [^4]: Black Hat London 2015 | Summit. Web. Wed Oct 21 2015. <https://www.blackhat.com/ldn-15/summit.html#abusing-android-apps-and-gaining-remote-code-execution>.
 [^5]: NowSecure. Samsung Keyboard Security Risk Disclosed: Over 600M+ Devices Worldwide Impacted  | NowSecure. Web. Wed Oct 21 2015. <https://www.nowsecure.com/keyboard-vulnerability/>.
-[^6]:
+[^6]: http://www2.ca3.uscourts.gov/opinarch/143514p.pdf
+[^7]: https://securityintelligence.com/mobile-insecurity/

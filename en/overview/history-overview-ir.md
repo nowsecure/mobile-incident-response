@@ -55,18 +55,28 @@ These organization, while focused on a particular enterprise, have a visibile pu
 1. [Facebook Security](https://www.facebook.com/security)
 1. [Google Application Security](https://www.google.com/about/appsecurity/)
 1. [Android Security](https://source.android.com/security/index.html)
- 
 
 ### Community
 
+These organization provide various resources to the incident response community including threat reporting, training, certifications, conferences and research. 
+
 1. [FIRST](http://www.first.org/) (global Forum for Incident Response and Security Teams) 
- 
+1. [SANS Institute](https://www.sans.org/about/)
+1. [Internet Storm Center](https://isc.sans.edu/) (part of SANS)
+
+The FIRST website maintains a [contact list of incident response teams](https://www.first.org/about/organization/teams) at participating member organization. Please note, leveraging this list for any marketing initiative is strictly prohibited. 
 
 ## Digital Forensics and Incident Response
 
-Incident response is closely connected with forensics as nearly every incident requires the collection, storage and analysis of digital evidence.  
+Incident response is closely connected with digital forensics as nearly every incident requires the collection, storage and analysis of digital evidence.  
 
-As you explore mobile incident response more thoroughly, these books can provide far deeper technical details on mobile forensics and security.
+As you explore mobile incident response more thoroughly, below are some mobile forensic resources what may be helpful:
+
+* [Linux for Mobile Forensics](https://info.nowsecure.com/linux-101-forensics-training-download) - free training
+* [JTAG for Mobile Forensics](https://info.nowsecure.com/jtag-forensics-training-download) - free training
+* [Santoku Linux](https://santoku-linux.com/) - free Linux distro for mobile forensics
+
+#### Endnotes
 
 [^1]: https://en.wikipedia.org/wiki/Morris_worm
 [^2]: What is incident response? Definition from WhatIs.com. Wed. Wed Nov 11 2015. <http://searchsecurity.techtarget.com/definition/incident-response>.
