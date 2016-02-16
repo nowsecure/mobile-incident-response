@@ -45,8 +45,11 @@ h4 {
 /* Links */
 
 /* Targets all links */
+
+/* to do: why is color not working */
 a:hover {
   color: #33ccff !important;
+  text-decoration: none !important;
 }
 
 /* Targets links in lists and copy */
@@ -57,14 +60,25 @@ section.normal a {
   color: #0099ff !important;
 }
 
-/* Target book copy links */
-ul li a:hover {
-  text-decoration: none !important;
+ul li a:hover,
+ol li a:hover,
+section p a:hover,
+section.normal a:hover {
+  color: #33ccff !important;
 }
 
 /* Sidebar */
 ul.summary {
-  background: #FCFCFC !important;
+  background: #F5FCFF !important;
+}
+
+.book .book-summary ul.summary li.divider {
+  background: #F5FCFF !important;
+}
+
+ul.summary a.gitbook-link {
+  color: #cccdd5 !important;
+  margin-top: 20px;
 }
 
 /* Top left link */
@@ -93,3 +107,7 @@ ul.summary a:hover {
 }
 
 /* Lists */
+
+.book .book-summary {
+  border-right: none !important;
+}
