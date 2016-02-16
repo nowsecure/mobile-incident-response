@@ -1,10 +1,15 @@
 {
     "gitbook": "2.x.x",
     "plugins": [],
+    "title": "Incident Response",
     "links": {
         "sidebar": {
             "NowSecure": "https://www.nowsecure.com/"
         }
     },
-    "pluginsConfig": {}
+    "pluginsConfig": {},
+    "styles": {
+        "website": "styles/website.css",
+        "pdf": "styles/pdf.css"
+    }
 }
