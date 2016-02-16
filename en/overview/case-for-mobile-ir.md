@@ -64,6 +64,7 @@ While cellular and Wi-Fi networks are the most common paths to network access, t
 
 * Bluetooth networks
 * Tethering over USB
+* Near Field Communication (NFC)
 * GPS (a form of radio-based network traffic)
 
 Suffice to say, there are many ways for mobile devices can connect to networks and very few of them provide enterprises with control over the traffic. While some IT departments and mobile security solutions attempt to backhaul all mobile traffic over a device or per-app VPN, this technique will ultimately fail due to a number of causes discussed in the next section.
@@ -180,9 +181,11 @@ Apple identified the affected applications and immediately removed them from the
 
 So many to choose from...which one should we pick?
 
-#### Hacking Team weaponization of mobile threats
+#### Weaponization of mobile threats
 
-In perhaps the most compelling example of the risk from mobile attacks, the compromise of Italian firm Hacking Team exposed a company weaponizing and selling exploits to nation states with documented human rights violations against reporters and activists. Until the time of the compromise, Hacking Team adamently denied they sould their software to any countires with documented human rights violations. However, the compromise and then expouse of 400GB of th
+In perhaps the most compelling example of the risk from mobile attacks, the compromise of Italian firm Hacking Team exposed a company weaponizing and selling exploits to nation states with documented human rights violations against reporters and activists. Until the time of the compromise, Hacking Team adamently denied they sould their software to any countires with documented human rights violations. However, the compromise and then exposure of 400GB of [Hacking Team emails](https://wikileaks.org/hackingteam/emails/) and files revealed that Hacking Team was [weaponizing mobile security flaws](https://wikileaks.org/hackingteam/emails/emailid/1028689) and selling them to governments around the world. 
+
+We explore the [Hacking Team case study](../case-studies/hacking-team-analysis.html) in more detail but a key takeaway for security professionals is that attackers see value in targeting mobile devices and there are not only techniques for doing this but companies whose business model is to "sell offensive intrusion and surveillance capabilities to governments, law enforcement agencies and corporations." [^8] 
 
 ## Under-investing in security
 The trend of companies under-investing in security is, unfortunately, a clear reality in mobile.
@@ -201,3 +204,4 @@ This amplifies the need for mobile incident response as the technology and data 
 [^5]: NowSecure. Samsung Keyboard Security Risk Disclosed: Over 600M+ Devices Worldwide Impacted  | NowSecure. Web. Wed Oct 21 2015. <https://www.nowsecure.com/keyboard-vulnerability/>.
 [^6]: http://www2.ca3.uscourts.gov/opinarch/143514p.pdf
 [^7]: https://securityintelligence.com/mobile-insecurity/
+[^8]: https://en.wikipedia.org/wiki/Hacking_Team
