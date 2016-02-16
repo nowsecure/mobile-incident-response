@@ -82,8 +82,12 @@ ul.summary a.gitbook-link {
 }
 
 /* Top left link */
-nav ul.summary li a.custom-link {
-  background-image: url("assets/logo.svg") !important;
+.book .book-summary ul.summary li a.custom-link {
+  margin: 20px 10px 10px 10px;
+  background: url("../assets/logo.svg") no-repeat;
+  background-position: left center;
+  background-size: 200px;
+  text-indent: -999px;
 }
 
 /* Sub chapter titles */
