@@ -2,7 +2,7 @@
 
 Preparation is a key component to responding to any type of incident. Part of that step involves setting up an environment which contains all of the tools a mobile responder might need to properly respond to a situation. This chapter will provide you with the necessary tools to provide mobile incident response at your organization. We will focus on free and/or open source software. In addition, this book will provide labs you can perform on your workstation with detailed HOWTO walk-throughs.
 
-NS Forensics
-NS Lab
-Santoku?
+In order to install and run the tools needed to respond to a mobile incident, it is easiest to simply setup a Linux virtual machine which already has everything pre-installed and ready for use. Santoku is a Linux distribution that contains a collection of tools related to mobile security, malware, and forensics and will be used in the various exercises and labs throughout this book.  
+
+On the mobile security side, app decompilation and disassembly tools are provided, along with scripts to automate decrypting binaries, deploying apps, and enumerating app details in order to detect common issues in mobile applications. Mobile device emulators are also provided along with utilities to simulate network services for dynamic analysis, which can be useful for both analysis of mobile malware and standard mobile apps. Finally, there are forensic tools available to help acquire and analyze data that resides on a mobile device. These include firmware flashing, forensic imaging, and other scripts that are specifically designed for mobile forensics. Later in this chapter, we provide a detailed list of free, open-source, and commercial tools that can 
 
