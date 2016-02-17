@@ -1,4 +1,4 @@
-/* to do: no matter how specific I target something !important is still required...except for typography; why? */
+/* FYI: requires SUPER specific selectors to style w/out !important */
 
 body {
   font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
@@ -44,40 +44,28 @@ h4 {
 
 /* Links */
 
-/* Targets all links */
-
-/* to do: why is color not working */
-a:hover {
-  color: #33ccff !important;
-  text-decoration: none !important;
-}
-
 /* Targets links in lists and copy */
-ul li a,
-ol li a,
-section p a,
-section.normal a {
-  color: #0099ff !important;
+.book .book-body .page-wrapper .page-inner section.normal a {
+  color: #0099ff;
 }
 
-ul li a:hover,
-ol li a:hover,
-section p a:hover,
-section.normal a:hover {
-  color: #33ccff !important;
+.book .book-body .page-wrapper .page-inner section.normal a:hover {
+  color: #33ccff;
+  text-decoration: none;
 }
+
 
 /* Sidebar */
-ul.summary {
-  background: #F5FCFF !important;
+.book .book-summary ul.summary {
+  background: #F5FCFF;
 }
 
 .book .book-summary ul.summary li.divider {
-  background: #F5FCFF !important;
+  background: #F5FCFF;
 }
 
-ul.summary a.gitbook-link {
-  color: #cccdd5 !important;
+.book .book-summary ul.summary li a.gitbook-link {
+  color: #cccdd5;
   margin-top: 20px;
 }
 
@@ -91,29 +79,28 @@ ul.summary a.gitbook-link {
 }
 
 /* Sub chapter titles */
-ul.summary ul li a {
-  color: #999cab !important;
-  font-weight: 200 !important;
+.book .book-summary ul.summary li ul li a {
+  color: #999cab;
+  font-weight: 200;
 }
 
-ul.summary ul li a:hover {
-  color: #262a48 !important;
+.book .book-summary ul.summary li ul li a:hover {
+  color: #262a48;
 }
 
 /* main chapter title */
-ul.summary a {
-  color: #999cab !important;
-  font-weight: 700 !important;
+.book .book-summary ul.summary li a {
+  color: #999cab;
+  font-weight: 700;
 }
 
-ul.summary a:hover {
-  color: #262a48 !important;
+.book .book-summary ul.summary li a:hover {
+  color: #262a48;
 }
 
-/* Lists */
-
+/* Sidebar */
 .book .book-summary {
-  border-right: none !important;
+  border-right: none;
 }
 
 /* Change page */
@@ -122,7 +109,7 @@ ul.summary a:hover {
   background: #f7f7f7;
 }
 
-/* how do I say all the sup (in blockquotes) after #endnotes only? */
+/* Bump down red num in endnotes */
 #endnotes ~ blockquote sup {
   top: 0;
 }
