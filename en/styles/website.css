@@ -112,4 +112,39 @@ h4 {
 /* Bump down red num in endnotes */
 #endnotes ~ blockquote sup {
   top: 0;
+  font-weight: 700;
+}
+
+/* Copy lists */
+.book .book-body .page-wrapper .page-inner section.normal ul li {
+  list-style: none;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal ul li:before {
+  content: '\2022';
+  display: block;
+  position: relative;
+  max-width: 0;
+  max-height: 0;
+  left: -20px;
+  top: -16px;
+  color: #33ccff;
+  font-size: 35px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal ol li {
+    list-style-type: none;
+    counter-increment: list;
+    position: relative;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal ol li:after {
+    content: counter(list) ".";
+    position: absolute;
+    font-weight: 700;
+    left: -2.5em;
+    width: 2em;
+    text-align: right;
+    color:  #33ccff;
+    top: 0;
 }
