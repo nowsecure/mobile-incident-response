@@ -115,3 +115,14 @@ ul.summary a:hover {
 .book .book-summary {
   border-right: none !important;
 }
+
+/* Change page */
+.book .book-body .navigation.navigation-prev:hover,
+.book .book-body .navigation.navigation-next:hover {
+  background: #f7f7f7;
+}
+
+/* how do I say all the sup (in blockquotes) after #endnotes only? */
+#endnotes ~ blockquote sup {
+  top: 0;
+}
