@@ -177,9 +177,15 @@ Attackers sezied this opportunity and modified XCode so that when developers com
 
 Apple identified the affected applications and immediately removed them from the App Store. They published the list of apps on their website and worked closely with the developers to ensure a new version was pushed to the App Store quickly. Some of the apps extremely popular and the full impact of the attack is likley not yet understood.
 
-##### Android YYY Malware
+##### Android SimpleLocker Malware
 
-So many to choose from...which one should we pick?
+The Android ecosystem has been a larger target of mobile malware than any other smart phone to date. As such, choosing an example malware to discuss is actually a difficult task. In our Mobile IR Case Studies section, we will explore the outbreak of a [malicious app targeting Aetna customers](../case-studies/mobile-malware-discovered.html) and how the incident was handled. For this overview, though, we will discuss a piece of malware that falls into the "Ransonware" category.
+
+In June 2014, a number of security companies ([Sophos](https://nakedsecurity.sophos.com/2014/06/06/cryptolocker-wannabe-simplelocker-android/) | [Blue Coat](https://www.bluecoat.com/security-blog/2014-06-06/simplelocker-android-ransomware-encrypts-files)) began reporting on and analyzing a newly discovered instance of malware dubbed SimplerLocker.
+
+The inital attack vector appeared to be fake porn sites that promoted the user to download and install a video player. [^9] After installtion, the app launches and immediately takes over the screen, presenting a threatening message and demading payment to decrypt the users files. The back button is disabled and if the user hits the Home button, the app rapidly re-launches. During this time, the app encrypts images (PNG, JPEG) and plain text files (TXT) on the device's media storage. It also leverages the TOR network for it's Command and Control (C2) traffic.
+
+We will study this malware more closely in the Lab Exercises included in this book.  
 
 #### Weaponization of mobile threats
 
@@ -205,3 +211,4 @@ This amplifies the need for mobile incident response as the technology and data 
 [^6]: http://www2.ca3.uscourts.gov/opinarch/143514p.pdf
 [^7]: https://securityintelligence.com/mobile-insecurity/
 [^8]: https://en.wikipedia.org/wiki/Hacking_Team
+[^9]: http://securitywatch.pcmag.com/mobile-security/324666-mobile-threat-monday-android-ransomware-encrypts-your-files-don-t-pay-up
