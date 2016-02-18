@@ -64,6 +64,7 @@ While cellular and Wi-Fi networks are the most common paths to network access, t
 
 * Bluetooth networks
 * Tethering over USB
+* Near Field Communication (NFC)
 * GPS (a form of radio-based network traffic)
 
 Suffice to say, there are many ways for mobile devices can connect to networks and very few of them provide enterprises with control over the traffic. While some IT departments and mobile security solutions attempt to backhaul all mobile traffic over a device or per-app VPN, this technique will ultimately fail due to a number of causes discussed in the next section.
@@ -128,21 +129,31 @@ Adlib?
 
 #### iOS Security Threats
 
-Apple is incredibly effective in how they position and market the security of iOS devices. And there are indeed many excellent security features built into the platform. However, Apple developers are just as susciptiple to creating security flaws as any other developer. A key difference between Apple's approach to security and Google's approach with Android is the availability of core Android source code (via the Android Open Source Project) for community inspection. This open approach has resulted in more flaws being identified and patched at the core of Android. However, security researcher have to employ different techniques, often requiring more time and effort, when examining iOS code. Based on Apple's effective marketing and the lack on open source code for inspection, many people in the IT industry believe that Apple is more secure. However, this is clearly not the case and can be clearly shown by examining publicaly available data.
+Apple is incredibly effective in how they position and market the security of iOS devices. And there are indeed many excellent security features built into the platform. However, Apple developers are just as susciptiple to creating security flaws as any other developer. 
+
+A key difference between Apple's approach to security and Google's approach with Android is the availability of core Android source code (via the Android Open Source Project) for community inspection. This open approach has resulted in more flaws being identified and patched at the core of Android. However, when examining iOS code, seecurity researchers have to employ different techniques, often requiring more time and effort. 
+
+Based on Apple's effective marketing and the lack on open source code for inspection, many people in the IT industry believe that Apple is more secure. However, the the real answer is far more nuanced but can be quantitatively analyzed by examining publicaly available vulnerability data.
 
 ##### Apple iOS CVEs
 
-The Common Vulnerablilty and Exposure system maintained bt MITRE was designed to provide visibility to flaws expused in IT systems. You can filter the data by vendor and operating system which provides start contrast between the number of CVEs in Apple iOS vs. Android:
+The Common Vulnerablilty and Exposure system maintained bt MITRE was designed to provide visibility to flaws exposed in IT systems. You can filter the data by vendor and operating system which provides visibility to the quantity and category of CVEs for Apple iOS and Android:
 
--- INSERT CVE graphs for iOS and Android --
+![iOS CVEs from 2007 - 2016](../assets/iOS-CVEs-2007-2016.png)
 
-Clearly Apple developers fair no better than any other developer in writing secure code. And the closed nature of their system means far fewer eyes are available to insect and find security flaws. Arguably, Google's more open prroach has resulted in a higher velocity of both finding and patching security flaws in the Android platform. 
+Figure 1: [iOS CVEs from 2007-2016](http://www.cvedetails.com/product/15556/Apple-Iphone-Os.html?vendor_id=49)
+
+![Android CVEs from 2009 - 2016](../assets/Android-CVEs-2009-2016.png)
+
+Figure 2: [Android CVEs from 2009-2016](http://www.cvedetails.com/product/19997/Google-Android.html?vendor_id=1224)
+
+Clearly Apple developers fair no better than any other developer in writing secure code. And the closed nature of their system means far fewer eyes are available to insect and find security flaws. If your strategy for mobile security is to simply rely on the Apple iOS platform, you should strongly consider additional layers of protection.
 
 ##### Apple's iOS 9 Security Updates
 
 It is also revealing to examine Apple's own security page for flaws they patched in each new version. I applaud Apple and other technology companies for the transparency in posting these updates but it certainly contrasts with the security marketing Apple publishes.
 
-In particular, in the initial iOS 9 release, Apple patched ??109?? security flaws, many of the quite serious. There is also a history of making rapid release just after a major release to patch serious security flaws found by researchers in the new update. For example, Apple has had over ??10?? pin-bypass flaws over the years ( try to locate the article about this, I think in fool.com), a visibile example that many end users quickly understand. The ability for an attacker to circumvent the lock screen on iOS devices broadly exposes the device and data to compromise and exfiltration. 
+In particular, in the initial iOS 9 release, [Apple patched over 70 security flaws](https://support.apple.com/en-us/HT205212), many of the quite serious. There is also a history of making rapid release just after a major release to patch serious security flaws found by researchers in the new update. For example, Apple has had over 10 pin-bypass flaws over the years, a visibile example that many end users quickly understand. The ability for an attacker to circumvent the lock screen on iOS devices broadly exposes the device and data to compromise and exfiltration. 
 
 ##### iPhone 4 hardware flaw
 
@@ -162,7 +173,7 @@ Unlike mobile threats, mobile attacks identify actual instances of mobile threat
 * Targeted attacks
 * Weaponizations of mobile threats 
 
-In the [Case Studies](../case-studies/README.md) chapter we will provide deeper examination of real world mobile attackes. However, it is useful to provide quick examples of mobile attacks in each category.
+In the [Case Studies](../case-studies/README.md) chapter we will provide deeper examination of real world mobile attackes. However, it is useful to provide examples of several known mobile attacks.
 
 #### Mobile Malware
 
@@ -176,13 +187,21 @@ Attackers sezied this opportunity and modified XCode so that when developers com
 
 Apple identified the affected applications and immediately removed them from the App Store. They published the list of apps on their website and worked closely with the developers to ensure a new version was pushed to the App Store quickly. Some of the apps extremely popular and the full impact of the attack is likley not yet understood.
 
-##### Android YYY Malware
+##### Android SimpleLocker Malware
 
-So many to choose from...which one should we pick?
+The Android ecosystem has been a larger target of mobile malware than any other smart phone to date. As such, choosing an example malware to discuss is actually a difficult task. In our Mobile IR Case Studies section, we will explore the outbreak of a [malicious app targeting Aetna customers](../case-studies/mobile-malware-discovered.html) and how the incident was handled. For this overview, though, we will discuss a piece of malware that falls into the "Ransonware" category.
 
-#### Hacking Team weaponization of mobile threats
+In June 2014, a number of security companies ([Sophos](https://nakedsecurity.sophos.com/2014/06/06/cryptolocker-wannabe-simplelocker-android/) | [Blue Coat](https://www.bluecoat.com/security-blog/2014-06-06/simplelocker-android-ransomware-encrypts-files)) began reporting on and analyzing a newly discovered instance of malware dubbed SimplerLocker.
 
-In perhaps the most compelling example of the risk from mobile attacks, the compromise of Italian firm Hacking Team exposed a company weaponizing and selling exploits to nation states with documented human rights violations against reporters and activists. Until the time of the compromise, Hacking Team adamently denied they sould their software to any countires with documented human rights violations. However, the compromise and then expouse of 400GB of th
+The inital attack vector appeared to be fake porn sites that promoted the user to download and install a video player. [^9] After installtion, the app launches and immediately takes over the screen, presenting a threatening message and demading payment to decrypt the users files. The back button is disabled and if the user hits the Home button, the app rapidly re-launches. During this time, the app encrypts images (PNG, JPEG) and plain text files (TXT) on the device's media storage. It also leverages the TOR network for it's Command and Control (C2) traffic.
+
+We will study this malware more closely in the Lab Exercises included in this book.  
+
+#### Weaponizing mobile threats
+
+In perhaps the most compelling example of the risk from mobile attacks, the compromise of Italian firm Hacking Team exposed a company weaponizing and selling exploits to nation states with documented human rights violations against reporters and activists. Until the time of the compromise, Hacking Team adamently denied they sould their software to any countires with documented human rights violations. However, the compromise and then exposure of 400GB of [Hacking Team emails](https://wikileaks.org/hackingteam/emails/) and files revealed that Hacking Team was [weaponizing mobile security flaws](https://wikileaks.org/hackingteam/emails/emailid/1028689) and selling them to governments around the world. 
+
+We explore the [Hacking Team case study](../case-studies/hacking-team-analysis.html) in more detail but a key takeaway for security professionals is that attackers see value in targeting mobile devices and there are not only techniques for doing this but companies whose business model is to "sell offensive intrusion and surveillance capabilities to governments, law enforcement agencies and corporations." [^8] 
 
 ## Under-investing in security
 The trend of companies under-investing in security is, unfortunately, a clear reality in mobile.
@@ -201,3 +220,5 @@ This amplifies the need for mobile incident response as the technology and data 
 [^5]: NowSecure. Samsung Keyboard Security Risk Disclosed: Over 600M+ Devices Worldwide Impacted  | NowSecure. Web. Wed Oct 21 2015. <https://www.nowsecure.com/keyboard-vulnerability/>.
 [^6]: http://www2.ca3.uscourts.gov/opinarch/143514p.pdf
 [^7]: https://securityintelligence.com/mobile-insecurity/
+[^8]: https://en.wikipedia.org/wiki/Hacking_Team
+[^9]: http://securitywatch.pcmag.com/mobile-security/324666-mobile-threat-monday-android-ransomware-encrypts-your-files-don-t-pay-up
