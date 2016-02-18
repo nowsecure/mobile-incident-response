@@ -1,5 +1,7 @@
 /* Requires different selectors than site */
 
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
 body {
   font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
@@ -101,11 +103,6 @@ a:active:after {
 
 }
 */
-
-/*sup {
-  position: relative;
-  top: 5px;
-}*/
 
 #endnotes ~ blockquote sup {
   position: relative;
