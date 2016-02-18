@@ -1,3 +1,8 @@
+<div class="cta-banner">
+  <a class="cta-banner-pdf" href="#">Read PDF<i class="fa fa-file-pdf-o"></i></a>
+  <a class="cta-banner-update" href="#">Receive Updates<i class="fa fa-bell-o"></i></a>
+</div>
+
 Incident Response for Android and iOS
 =======
 

@@ -1,9 +1,9 @@
 {
-    "gitbook": "2.0.1",
+    "gitbook": "2.x.x",
     "plugins": ["edit-link"],
     "pluginsConfig": {
         "edit-link": {
-            "base": "https://github.com/viaforensics/mobile-incident-response/tree/master/en",
+            "base": "https://github.com/viaforensics/mobile-incident-response/tree/master",
             "label": "Edit This Page"
         }
     },
