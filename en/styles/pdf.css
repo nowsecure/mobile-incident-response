@@ -42,6 +42,10 @@ h4 {
   letter-spacing: 1px;
 }
 
+.section.toc {
+  color: #999cab;
+}
+
 ul li {
   list-style: none;
 }
@@ -88,11 +92,22 @@ a:active:after {
 	font-weight: normal;
 }
 
-/* Header & Footer */
+/*
 .pdf-header:after {
 
 }
 
 .pdf-footer {
 
+}
+*/
+
+/*sup {
+  position: relative;
+  top: 5px;
+}*/
+
+#endnotes ~ blockquote sup {
+  position: relative;
+  top: 5px;
 }
