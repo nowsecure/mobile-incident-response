@@ -131,7 +131,7 @@ a {
   background: #f7f7f7;
 }
 
-/* Bump down red num in endnotes */
+/* Bump down sup num in endnotes/footnotes */
 #endnotes ~ blockquote sup {
   top: 0;
   font-weight: 700;
