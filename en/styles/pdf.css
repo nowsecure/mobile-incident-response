@@ -1,0 +1,41 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+/* Typography */
+h1 {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.625em;
+  color: #0099ff;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #0099ff;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.125em;
+  line-height: 2.063em;
+  color: #999cab;
+  letter-spacing: 1px;
+}
+
+h4 {
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: .75em;
+  line-height: 1em;
+  color: #999cab;
+  letter-spacing: 1px;
+}
