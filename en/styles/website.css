@@ -1,5 +1,7 @@
 /* FYI: requires SUPER specific selectors to style w/out !important */
 
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
 body {
   font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
@@ -44,9 +46,17 @@ h4 {
 
 /* Links */
 
+a {
+  text-decoration: none !important;
+}
+
 /* Targets links in lists and copy */
 .book .book-body .page-wrapper .page-inner section.normal a {
   color: #0099ff;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal a:visited {
+  text-decoration: none;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal a:hover {
@@ -54,6 +64,10 @@ h4 {
   text-decoration: none;
 }
 
+.book .book-body .page-wrapper .page-inner section.normal a:active {
+  text-decoration: none;
+  color: #0099ff;
+}
 
 /* Sidebar */
 .book .book-summary ul.summary {
@@ -62,11 +76,6 @@ h4 {
 
 .book .book-summary ul.summary li.divider {
   background: #F5FCFF;
-}
-
-.book .book-summary ul.summary li a.gitbook-link {
-  color: #cccdd5;
-  margin-top: 20px;
 }
 
 /* Top left link */
@@ -78,24 +87,14 @@ h4 {
   text-indent: -999px;
 }
 
-/* Sub chapter titles */
-.book .book-summary ul.summary li ul li a {
-  color: #999cab;
-  font-weight: 200;
-}
-
-.book .book-summary ul.summary li ul li a:hover {
-  color: #262a48;
-}
-
 /* main chapter title */
-.book .book-summary ul.summary li a {
+.book .book-summary ul.summary li.chapter a {
   color: #999cab;
   font-weight: 700;
 }
 
-.book .book-summary ul.summary li a:hover {
-  color: #262a48;
+.book .book-summary ul.summary ul.articles a {
+  font-weight: 400;
 }
 
 /* Sidebar */
@@ -103,8 +102,27 @@ h4 {
   border-right: none;
 }
 
+.book .book-summary ul.summary li a:visited {
+  color: #999cab;
+}
+
 .book .book-summary ul.summary li.active>a {
   color: #33ccff;
+}
+
+.book .book-summary ul.summary li a:hover {
+  color: #262a48;
+}
+
+/* Gitbook link */
+.book .book-summary ul.summary li a.gitbook-link {
+  color: #cccdd5;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.book .book-summary ul.summary li a.gitbook-link:visited {
+  color: #cccdd5;
 }
 
 /* Change page */
@@ -130,10 +148,10 @@ h4 {
   position: relative;
   max-width: 0;
   max-height: 0;
-  left: -20px;
-  top: -16px;
+  left: -19px;
+  top: -8px;
   color: #33ccff;
-  font-size: 35px;
+  font-size: 26px;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal ol li {
@@ -151,4 +169,9 @@ h4 {
     text-align: right;
     color:  #33ccff;
     top: 0;
+}
+
+/* Misc */
+.fa-check:before {
+  display: none;
 }
