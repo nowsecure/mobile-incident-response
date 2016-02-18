@@ -137,6 +137,11 @@ a {
   font-weight: 700;
 }
 
+#footnotes ~ blockquote sup {
+  top: 0;
+  font-weight: 700;
+}
+
 /* Copy lists */
 .book .book-body .page-wrapper .page-inner section.normal ul li {
   list-style: none;
