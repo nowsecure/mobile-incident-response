@@ -46,6 +46,11 @@ h4 {
 
 /* Links */
 
+/* The edit page plugin cuts off almost all of the title so it's best to hide rn */
+.book .book-header h1 a {
+  display: none;
+}
+
 a {
   text-decoration: none !important;
 }
@@ -180,3 +185,28 @@ a {
 .fa-check:before {
   display: none;
 }
+
+/* Temp & wonky CTAs, custom plugin required. Don't forget to display: none in PDF */
+.cta-banner .cta-banner-pdf,
+.cta-banner .cta-banner-update {
+  text-align: center;
+  color: #CCCCCC !important;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.cta-banner .cta-banner-pdf:hover,
+.cta-banner .cta-banner-update:hover {
+  color: gray !important;
+}
+
+.cta-banner .cta-banner-pdf {
+  padding-left: 0;
+  margin-right: 30px;
+}
+
+.fa-bell-o,
+.fa-file-pdf-o {
+  padding-left: 10px;
+}
+/* End CTAs */

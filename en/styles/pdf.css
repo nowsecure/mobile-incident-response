@@ -94,11 +94,11 @@ a:active:after {
 	font-weight: normal;
 }
 
-/*
 .pdf-header:after {
-
+  border-bottom: 1px solid gray;
+  color: #CCCCCC;
 }
-
+/*
 .pdf-footer {
 
 }
@@ -107,4 +107,20 @@ a:active:after {
 #endnotes ~ blockquote sup {
   position: relative;
   top: 5px;
+}
+
+#footnotes ~ blockquote sup {
+  position: relative;
+  top: 5px;
+}
+
+/* Do not display temp CTAs in md files */
+.cta-banner .cta-banner-pdf,
+.cta-banner .cta-banner-update {
+  display: none;
+}
+
+.fa-bell-o,
+.fa-file-pdf-o {
+  display: none;
 }
