@@ -129,21 +129,31 @@ Adlib?
 
 #### iOS Security Threats
 
-Apple is incredibly effective in how they position and market the security of iOS devices. And there are indeed many excellent security features built into the platform. However, Apple developers are just as susciptiple to creating security flaws as any other developer. A key difference between Apple's approach to security and Google's approach with Android is the availability of core Android source code (via the Android Open Source Project) for community inspection. This open approach has resulted in more flaws being identified and patched at the core of Android. However, security researcher have to employ different techniques, often requiring more time and effort, when examining iOS code. Based on Apple's effective marketing and the lack on open source code for inspection, many people in the IT industry believe that Apple is more secure. However, this is clearly not the case and can be clearly shown by examining publicaly available data.
+Apple is incredibly effective in how they position and market the security of iOS devices. And there are indeed many excellent security features built into the platform. However, Apple developers are just as susciptiple to creating security flaws as any other developer. 
+
+A key difference between Apple's approach to security and Google's approach with Android is the availability of core Android source code (via the Android Open Source Project) for community inspection. This open approach has resulted in more flaws being identified and patched at the core of Android. However, when examining iOS code, seecurity researchers have to employ different techniques, often requiring more time and effort. 
+
+Based on Apple's effective marketing and the lack on open source code for inspection, many people in the IT industry believe that Apple is more secure. However, the the real answer is far more nuanced but can be quantitatively analyzed by examining publicaly available vulnerability data.
 
 ##### Apple iOS CVEs
 
-The Common Vulnerablilty and Exposure system maintained bt MITRE was designed to provide visibility to flaws expused in IT systems. You can filter the data by vendor and operating system which provides start contrast between the number of CVEs in Apple iOS vs. Android:
+The Common Vulnerablilty and Exposure system maintained bt MITRE was designed to provide visibility to flaws exposed in IT systems. You can filter the data by vendor and operating system which provides visibility to the quantity and category of CVEs for Apple iOS and Android:
 
--- INSERT CVE graphs for iOS and Android --
+![iOS CVEs from 2007 - 2016](../assets/iOS-CVEs-2007-2016.png)
 
-Clearly Apple developers fair no better than any other developer in writing secure code. And the closed nature of their system means far fewer eyes are available to insect and find security flaws. Arguably, Google's more open prroach has resulted in a higher velocity of both finding and patching security flaws in the Android platform. 
+Figure 1: [iOS CVEs from 2007-2016](http://www.cvedetails.com/product/15556/Apple-Iphone-Os.html?vendor_id=49)
+
+![Android CVEs from 2009 - 2016](../assets/Android-CVEs-2009-2016.png)
+
+Figure 2: [Android CVEs from 2009-2016](http://www.cvedetails.com/product/19997/Google-Android.html?vendor_id=1224)
+
+Clearly Apple developers fair no better than any other developer in writing secure code. And the closed nature of their system means far fewer eyes are available to insect and find security flaws. If your strategy for mobile security is to simply rely on the Apple iOS platform, you should strongly consider additional layers of protection.
 
 ##### Apple's iOS 9 Security Updates
 
 It is also revealing to examine Apple's own security page for flaws they patched in each new version. I applaud Apple and other technology companies for the transparency in posting these updates but it certainly contrasts with the security marketing Apple publishes.
 
-In particular, in the initial iOS 9 release, Apple patched ??109?? security flaws, many of the quite serious. There is also a history of making rapid release just after a major release to patch serious security flaws found by researchers in the new update. For example, Apple has had over ??10?? pin-bypass flaws over the years ( try to locate the article about this, I think in fool.com), a visibile example that many end users quickly understand. The ability for an attacker to circumvent the lock screen on iOS devices broadly exposes the device and data to compromise and exfiltration. 
+In particular, in the initial iOS 9 release, [Apple patched over 70 security flaws](https://support.apple.com/en-us/HT205212), many of the quite serious. There is also a history of making rapid release just after a major release to patch serious security flaws found by researchers in the new update. For example, Apple has had over 10 pin-bypass flaws over the years, a visibile example that many end users quickly understand. The ability for an attacker to circumvent the lock screen on iOS devices broadly exposes the device and data to compromise and exfiltration. 
 
 ##### iPhone 4 hardware flaw
 
@@ -163,7 +173,7 @@ Unlike mobile threats, mobile attacks identify actual instances of mobile threat
 * Targeted attacks
 * Weaponizations of mobile threats 
 
-In the [Case Studies](../case-studies/README.md) chapter we will provide deeper examination of real world mobile attackes. However, it is useful to provide quick examples of mobile attacks in each category.
+In the [Case Studies](../case-studies/README.md) chapter we will provide deeper examination of real world mobile attackes. However, it is useful to provide examples of several known mobile attacks.
 
 #### Mobile Malware
 
@@ -187,7 +197,7 @@ The inital attack vector appeared to be fake porn sites that promoted the user t
 
 We will study this malware more closely in the Lab Exercises included in this book.  
 
-#### Weaponization of mobile threats
+#### Weaponizing mobile threats
 
 In perhaps the most compelling example of the risk from mobile attacks, the compromise of Italian firm Hacking Team exposed a company weaponizing and selling exploits to nation states with documented human rights violations against reporters and activists. Until the time of the compromise, Hacking Team adamently denied they sould their software to any countires with documented human rights violations. However, the compromise and then exposure of 400GB of [Hacking Team emails](https://wikileaks.org/hackingteam/emails/) and files revealed that Hacking Team was [weaponizing mobile security flaws](https://wikileaks.org/hackingteam/emails/emailid/1028689) and selling them to governments around the world. 
 
