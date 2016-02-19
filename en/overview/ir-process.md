@@ -12,17 +12,11 @@ The [SANS Institute](https://www.sans.org/) has defined 6 key IR steps in their 
 While we will cover this topic extensively in the chapter [Framework for Mobile Incident Response](mobile-incident-response-framework.md) and build upon frameworks from both SANS and NIST, we'd like to discuss this process here at a high level and how it relates to mobile.
 
 ## Preparation
-Preparing for a mobile incident involves a number of steps, including the following:
+Preparing for a mobile incident involves a number of steps. First, in order to determine the risks that exist within an organization today, a mobile threat assessment should be performed. This threat assessment would involve identifying mobile assets on the corporate network, including devices, the operating system versions their running, and list of installed applications if available. This inventoried information should then be correlated with mobile security intelligence to determine vulnerabilities in devices, OS versions, leaky and insecure apps, known malware, or other risks such as malicious WiFi networks. The last step of the mobile threat assessment should be to Work the problem. Once you've collected intelligence from the mobile devices on your network, analyze that data to identify security risks, eliminate low hangout fruit, address risk that is unacceptable to your organization, document remaining risks, and prepare playbooks for each scenario.
 
-* Mobile threat assessment of your organization
-  * Perform a mobile inventory to identify assets (devices, operating systems, installed apps)
-  * Correlate your inventory with mobile security intelligence to determine vulnerabilities in devices, OS versions, leaky and insecure apps, known malware, or other risks such as malicious WiFi networks.
-  * Work the problem. Once you've collected intelligence from the mobile devices on your network, analyze that data to identify security risks, eliminate low hangout fruit, address risk that is unacceptable to your organization, document remaining risks, and prepare playbooks for each scenario.
-* Building your mobile IR tool box.  When an incident occurs, your team needs to be prepared with a list of tools that are specific to mobile. Chapter 2 - [Tools for Mobile Incident Response](HOW DO I LINK TO CHAPTER?) goes into depth on different categories of mobile IR tools, a list of suggested tools, and instructions on how to setup a mobile IR workstation.
-* Defining and documenting a process
-* Practice that process by treating everything as an incident. Once you've developed your documentation and prepared a workstation with pre-installed tools, the preparation should not stop there. The very best way to be prepared for an incident is practice and repetition. 
+Building your mobile IR tool box is another criticial step in the preparation process.  When an incident occurs, your team needs to be prepared with a list of tools that are specific to mobile. Chapter 2 - [Tools for Mobile Incident Response](HOW DO I LINK TO CHAPTER?) goes into depth on different categories of mobile IR tools, a list of suggested tools, and instructions on how to setup a mobile IR workstation.
 
-In a later chapter, we will provide you with sample scenarios where you can walk through some practice labs.
+Finally, you cannot fully be prepared without defining and documenting a process, and develop playbooks for each type of mobile threat scenario. Once you've developed your documentation and prepared a workstation with pre-installed tools, the preparation should not stop there. The very best way to be prepared for an incident is practice and repetition. In a later chapter, we will provide you with sample scenarios where you can walk through some practice labs.
 
 
 ## Identification
@@ -36,7 +30,6 @@ Once you have identified and logged an incident, it must be contained. It is pre
 
 ## Eradication 
 NEED TO UPDATE
-
 Analyze attack artifacts, determine if threat can be removed, identify all impacted (if malware on app store), remove threat or wipe corporate data.
 
 ## Recovery
