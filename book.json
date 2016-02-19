@@ -1,10 +1,13 @@
 {
     "gitbook": "2.x.x",
-    "plugins": ["edit-link"],
+    "plugins": ["edit-link", "ga"],
     "pluginsConfig": {
         "edit-link": {
             "base": "https://github.com/viaforensics/mobile-incident-response/tree/master",
             "label": "Edit This Page"
+        },
+        "ga": {
+          "token": "UA-4968988-13"
         }
     },
     "title": "Incident Response",
