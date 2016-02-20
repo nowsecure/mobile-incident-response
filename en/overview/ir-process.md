@@ -26,27 +26,14 @@ Another type of mobile incident may involve mobile application reputation monito
 
 
 ## Containment
-Once you have identified and logged an incident, it must be contained. It is preferable to have physical access to the device. If this is the case, baseline information should be captured including type of device, OS version, and list of installed apps. If appropriate, network analysis should also be considered. The full forensic acquisition of the device should then be performed before isolating it from the network to contain the problem.
+Once you have identified and logged an incident, it must be contained. It is preferable to have physical access to the device, which can be a challenge with mobile. If access to the device is obtained, baseline information should be captured including type of device, OS version, and list of installed apps. If appropriate, network analysis should also be considered. The full forensic acquisition of the device should then be performed before isolating it from the network to contain the problem.
 
 ## Eradication 
-NEED TO UPDATE
-Analyze attack artifacts, determine if threat can be removed, identify all impacted (if malware on app store), remove threat or wipe corporate data.
+The artifacts that have been collected from the mobile device, router, or network packet capture must then be analyzed in an effort to determined if the threat can be removed. At this step, it is important ot identify all impacted users or devices, remove the threat, or wipe corporate data if necessary.  
 
 ## Recovery
-NEED TO UPDATE
-* Re-provision mobile devices
-* Ensure attacker didn't move laterally within your organization
-* Monitor accounts and systems connected to mobile device and impacted user(s)
-  * Effectiveness of social engineering attacks is greatly increased
+Steps should then be taken to preoprly bring back up the systems that may have been shut down during the incident, such as re-provisioning the mobile device(s). This should also include ensuring attacker didn't move laterally within your organization, and proactively monitoring accounts and systems that are connected to the mobile device and impacted user(s).  At this phase, the effectiveness of social engineering attacks is greatly increased, so ensure that your employees are properly educated and trained in this area. 
 
 ## Lessons Learned
-NEED TO UPDATE
-* Determine IOCs
-  * Attribution
-  * Share threat intel data
-* Inoculate against future attacks
-  * Static signatures generally ineffective
-  * Focus on anomaly detection
-  * Shared insights and cross-referanceable data
-
+The final step in the IR process is just as important as those before it, as it's purpose is to summarize what went wrong, what worked, and most importantly, what can be improved. A debrief with the team should take place to identify recommended policies and procedure changes and user education.  The team should discuss the indicators of compromise and strategize on how to best incoluate against future attacks by focusing on anomaly detection as well as shared insights and cross-referencable data.
 
