@@ -11,7 +11,7 @@ In the previous section, we explored a few examples of regulations that cover in
 If these issues persist and become a larger problem, it will ultimately lead to regulation and law enforcement. This is something the mobile industry should strive to avoid and attempt to address these issues within the ecosystem. This can be achieved far more quickly and efficiently than government regulations.
 
 ### FTC v Wyndham
-In 2008, Wyndham Worldwide Corporation experineced several security incidents resulting in the loss of credit card data. The impact of this data breach was over $10.6 million in fraud loss. The Federal Trade Commission filed a complaint in federal court against Wyndham under Section 5 of the FTC Act for unfair method of competition. 
+In 2008, Wyndham Worldwide Corporation experienced several security incidents resulting in the loss of credit card data. The impact of this data breach was over $10.6 million in fraud loss. The Federal Trade Commission filed a complaint in federal court against Wyndham under Section 5 of the FTC Act for unfair method of competition. 
 
 Wyndham fought the FTC suit but the District Judge ruled in favor of the FTC. Wyndham appealed the decision but in August 2015, the U.S. Court of Appeals for the Third Circuit affirmed the district court, upholding the FTC's data protection authority.  
 
@@ -21,8 +21,8 @@ Judge Thomas Ambro stated:
 
 While this ruling does not directly involve mobile devices or apps, it is significant for several reasons:
 
-1. Mobile apps are required to publish a privacy policy through multiple mechanisms including the Terms of Serivce for Apple's App Store and Google Play as well as various privacy laws including [California's Online Privacy Protection Act](http://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=BPC&division=8.&title=&part=&chapter=22.&article=) and the European Union's [Data Protection Directive (95/46/EC)](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:en:HTML);
-2. A compromise involing a mobile deivce or app would likely trigger the "investing inadequate resources in cybersecurity" unless the company performed security testing and had an incident response policy in place to minimize the impact of any breach.
+1. Mobile apps are required to publish a privacy policy through multiple mechanisms including the Terms of Service for Apple's App Store and Google Play as well as various privacy laws including [California's Online Privacy Protection Act](http://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=BPC&division=8.&title=&part=&chapter=22.&article=) and the European Union's [Data Protection Directive (95/46/EC)](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:en:HTML);
+2. A compromise involving a mobile device or app would likely trigger the "investing inadequate resources in cybersecurity" unless the company performed security testing and had an incident response policy in place to minimize the impact of any breach.
 
 The combination of the FTC v Wyndham ruling plus a widespread lack of investment in mobile security does not bode well for enterprises benefiting from mobile devices and apps.
 
@@ -51,14 +51,14 @@ Increasing, the mobiles devices which impact an enterprise's security are neithe
 
 ![Where can attackers find your mobile data?](../assets/where-is-your-mobile-data.png)
 
-While the recent trend in enterprise mobile security has been to deploy management software such as MDM, EMM and similar on BYOD scenarios, this is clearly a strategy that will not scale to your vendors, supply chain and customers. 
+While the recent trend in enterprise mobile security has been to deploy management software such as MDM, EMM and similar in BYOD scenarios, this is clearly a strategy that will not scale to your vendors, supply chain and customers. 
 
 ### Network perimeter
 Clearly mobile devices defy traditional network policy enforcement since they do not exclusively reside on the corporate network. By design, mobile devices likely have a least two and generally more ways they can connect to networks.
 
-The obviosuly netowrk connection not directly controlled by the enterprise is the mobile phone network. Todya 4G networks are fast and very prevelant and many individuals simply use the mobile operators network over corporate-provided Wi-Fi.
+The obvious network connection not directly controlled by the enterprise is the mobile phone network. Today 4G networks are fast and very prevalant and many individuals simply use the mobile operator's network over corporate-provided Wi-Fi.
 
-The next most common accessible networks are provided via Wi-Fi. This generally includes a network provided by the enterprise (and thus a controlled ingres/egress point where a company can exert oversight or control) but also a home network and then various networks available to the general public. These could include Wi-Fi access point provided by retail stores (Starbucks, for example), airports, city-wide public networks, home-based Wi-Fi via companies like Comcast via their XFINITY service and, unfortunately, malicious networks that are controlled by attackers.
+The next most common accessible networks are provided via Wi-Fi. This generally includes a network provided by the enterprise (and thus a controlled ingress/egress point where a company can exert oversight or control) but also a home network and then various networks available to the general public. These could include Wi-Fi access points provided by retail stores (Starbucks, for example), airports, city-wide public networks, home-based Wi-Fi via companies like Comcast via their XFINITY service and, unfortunately, malicious networks that are controlled by attackers.
 
 While cellular and Wi-Fi networks are the most common paths to network access, there are additional techniques including:
 
@@ -66,18 +66,18 @@ While cellular and Wi-Fi networks are the most common paths to network access, t
 * Tethering over USB
 * GPS (a form of radio-based network traffic)
 
-Suffice to say, there are many ways for mobile devices can connect to networks and very few of them provide enterprises with control over the traffic. While some IT departments and mobile security solutions attempt to backhaul all mobile traffic over a device or per-app VPN, this technique will ultimately fail due to a number of causes discussed in the next section.
+Suffice to say, there are many ways mobile devices can connect to networks and very few of them provide enterprises with control over the traffic. While some IT departments and mobile security solutions attempt to backhaul all mobile traffic over a device or per-app VPN, this technique will ultimately fail due to a number of causes discussed in the next section.
 
 ### Privacy implications
-There is a growing backlash from device owner regarding mobile device management tools, techniques and their impact on privacy. In some instances, the legal teams at large enterprises are also pushing back against solutions which intercept or collect significant personal information as it becomes a liability for them. 
+There is a growing backlash from device owners regarding mobile device management tools, techniques and their impact on privacy. In some instances, the legal teams at large enterprises are also pushing back against solutions which intercept or collect significant personal information as it becomes a liability for them. 
 
 The biggest challenges are best examined exploring the impacts on a single technique. For this example, let's examine how a device or per-app VPN impacts a mobile device:
 
 1. Initial setup is cumbersome
 1. Re-connecting to the VPN is frustrating and time consuming
-1. A VPN slows down many network connections, espeically on a higher latency mobile network
+1. A VPN slows down many network connections, especially on a higher latency mobile network
 1. Additional battery drain is incurred
-1. Personal privacy is significantly imapcts
+1. Personal privacy is significantly impacted
 1. Enterprises have access to sensitive employee data (e.g. Internet searches, app traffic and geo-location) which can place significant liability on the enterprise
 1. These solutions are not possible outside of employees and perhaps contracts (though the later is unlikely)
 
@@ -87,13 +87,13 @@ The trend in mobile devices and applications is clearly towards an ecosystem whe
 
 As mobile devices and apps proliferate, cyber criminals and actors focused on espionage (with both intellectual property and national security objetives) are clearly following the trend. They recognize that a significant amount of data they are targeting is now present and at times more accessible to them on mobile devices. 
 
-While early mobile attacks were farily trivial and frankly lazy, recent trends have revealved a more sophisticated and sustained effrot to thwart mobile defences. While we will explore this topic thoroughly in the [Attacking Mobile Devices](../mobile-attacks/README.md) chapter, it is helpful to provide several examples here. 
+While early mobile attacks were fairly trivial and frankly lazy, recent trends have revealed a more sophisticated and sustained effrot to thwart mobile defences. While we will explore this topic thoroughly in the [Attacking Mobile Devices](../mobile-attacks/README.md) chapter, it is helpful to provide several examples here. 
 
 ### Mobile Threats
 
 Let's start off looking at mobile threats. This category includes vulnerabilities discovered in mobile hardware, operating systems and applications which an attacker could take advantage of. 
 
-Educating enterprises decision makers about the risks of mobile threats and attacks is a critical first step to addressing the issues. However, mobile attack are under-reported for several reasons:
+Educating enterprises decision makers about the risks of mobile threats and attacks is a critical first step to addressing the issues. However, mobile attacks are under-reported for several reasons:
 
 1. Due to lack of visibility, many individuals and enterprises are not aware an attack occurred
 1. In server-side attacks, enterprise may be compelled to disclose the breach due to consumer protection laws however it is unlikely a targeted mobile attack would trigger such action  
@@ -106,7 +106,7 @@ Android encompasses a deep intertwined ecosystem including Google/Android, OEMs,
 
 ##### Andorid Stagefright vulnerability
 
-In September 2015, Zimprium researcher Joshua Drake ([@jduck](https://twitter.com/jduck/)) disclosed a vulnerability impacting nearly all Android devices since Android 1.5 which could allow an attached to remotely execute code on the device. The flaw was discovered in the Stagefright library, shared coded that Android devices use to process media files. By employing fuzzing techniques, it was discovered that specifically crafted media files including images, audio and video files sent to the device would crash libstagefright and provide the attacker with the ability to compromise the device.
+In September 2015, Zimperium researcher Joshua Drake ([@jduck](https://twitter.com/jduck/)) disclosed a vulnerability impacting nearly all Android devices since Android 1.5 which could allow an attacker to remotely execute code on the device. The flaw was discovered in the Stagefright library, shared coded that Android devices use to process media files. By employing fuzzing techniques, it was discovered that specifically crafted media files including images, audio and video files sent to the device would crash libstagefright and provide the attacker with the ability to compromise the device.
 
 Joshua coordinated with the Android Security team and patches were submitted to the AOSP and shared in advance with Android partners. However, the patches were not fully effective in mitigating the flaws and additional research uncovered new attack vectors. In addition, due to the complexity to deploying changes to the fragmented Android ecosystem, most users remain vulnerable to the threat.
 
@@ -116,7 +116,7 @@ Note: if you own or manage risk for Android devices, you can determine if the de
 
 In June 2015, NowSecure researcher Ryan Welton ([@Fuzion24](https://twitter.com/Fuzion24)) presented at [BlackHat London](https://www.blackhat.com/ldn-15/summit.html#abusing-android-apps-and-gaining-remote-code-execution) [^4] and exposed a serious flaw in over [600 million Samsung devices](https://www.nowsecure.com/keyboard-vulnerability/). [^5] Despite following a responsible and coordinated disclosure process over the course of 9 months, the flaw was ultimately misunderstood by Samsung and at the time of the disclosure, there was no patch that users or enterprises could apply. 
 
-To make matters worse, the insecure application was signed with system privledges granting the app and thus the attacker significant access to teh device and data through remote code execution. The app could not be disabled and regular checked for updates over the network, the trigger necessary to launch the attack. Anyone attacker with a position on the network between the endpoint and the SwiftKey update server could execuate this attack.
+To make matters worse, the insecure application was signed with system privledges granting the app and thus the attacker significant access to the device and data through remote code execution. The app could not be disabled and regularly checked for updates over the network, the trigger necessary to launch the attack. An attacker with a position on the network between the endpoint and the SwiftKey update server could execuate this attack.
 
 ##### Wireless carrier examples
 
@@ -128,21 +128,21 @@ Adlib?
 
 #### iOS Security Threats
 
-Apple is incredibly effective in how they position and market the security of iOS devices. And there are indeed many excellent security features built into the platform. However, Apple developers are just as susciptiple to creating security flaws as any other developer. A key difference between Apple's approach to security and Google's approach with Android is the availability of core Android source code (via the Android Open Source Project) for community inspection. This open approach has resulted in more flaws being identified and patched at the core of Android. However, security researcher have to employ different techniques, often requiring more time and effort, when examining iOS code. Based on Apple's effective marketing and the lack on open source code for inspection, many people in the IT industry believe that Apple is more secure. However, this is clearly not the case and can be clearly shown by examining publicaly available data.
+Apple is incredibly effective in how they position and market the security of iOS devices. And there are indeed many excellent security features built into the platform. However, Apple developers are just as susceptible to creating security flaws as any other developer. A key difference between Apple's approach to security and Google's approach with Android is the availability of core Android source code (via the Android Open Source Project) for community inspection. This open approach has resulted in more flaws being identified and patched at the core of Android. However, security researcher have to employ different techniques, often requiring more time and effort, when examining iOS code. Based on Apple's effective marketing and the lack of open source code for inspection, many people in the IT industry believe that Apple is more secure. However, this is clearly not the case and can be clearly shown by examining publicly available data.
 
 ##### Apple iOS CVEs
 
-The Common Vulnerablilty and Exposure system maintained bt MITRE was designed to provide visibility to flaws expused in IT systems. You can filter the data by vendor and operating system which provides start contrast between the number of CVEs in Apple iOS vs. Android:
+The Common Vulnerablilty and Exposure system maintained bt MITRE was designed to provide visibility to flaws expused in IT systems. You can filter the data by vendor and operating system which provides stark contrast between the number of CVEs in Apple iOS vs. Android:
 
 -- INSERT CVE graphs for iOS and Android --
 
-Clearly Apple developers fair no better than any other developer in writing secure code. And the closed nature of their system means far fewer eyes are available to insect and find security flaws. Arguably, Google's more open prroach has resulted in a higher velocity of both finding and patching security flaws in the Android platform. 
+Clearly Apple developers fair no better than any other developer in writing secure code. And the closed nature of their system means far fewer eyes are available to inspect and find security flaws. Arguably, Google's more open approach has resulted in a higher velocity of both finding and patching security flaws in the Android platform. 
 
 ##### Apple's iOS 9 Security Updates
 
 It is also revealing to examine Apple's own security page for flaws they patched in each new version. I applaud Apple and other technology companies for the transparency in posting these updates but it certainly contrasts with the security marketing Apple publishes.
 
-In particular, in the initial iOS 9 release, Apple patched ??109?? security flaws, many of the quite serious. There is also a history of making rapid release just after a major release to patch serious security flaws found by researchers in the new update. For example, Apple has had over ??10?? pin-bypass flaws over the years ( try to locate the article about this, I think in fool.com), a visibile example that many end users quickly understand. The ability for an attacker to circumvent the lock screen on iOS devices broadly exposes the device and data to compromise and exfiltration. 
+In particular, in the initial iOS 9 release, Apple patched ??109?? security flaws, many of them quite serious. There is also a history of making rapid release just after a major release to patch serious security flaws found by researchers in the new update. For example, Apple has had over ??10?? pin-bypass flaws over the years ( try to locate the article about this, I think in fool.com), a visibile example that many end users quickly understand. The ability for an attacker to circumvent the lock screen on iOS devices broadly exposes the device and data to compromise and exfiltration. 
 
 ##### iPhone 4 hardware flaw
 
@@ -150,7 +150,7 @@ While most identified flaws occur in software (both the operating system and mob
 
 It has been quite some time since a flaw like this was found in an iPhone however it is worth pointing out an instance of this from the past. When Apple manufactured the iPhone 4, there was a flaw in the boot process that allowed an attacker to boot an unverified boot disk. This allowed any attacker with physical access to boot the device into a modified version of iOS that disabled the pass code and allowed full access to the operating system and the data on the device.
 
-This flaw was obviosuly fixed in the next release of the iPhone but anyone using that device was at risk and have very little mitigations they could employ.
+This flaw was obviously fixed in the next release of the iPhone but anyone using that device was at risk and have very little mitigations they could employ.
 
 Considering the history of CVEs in iOS, the sheer amount of new code that goes into each release and the ever increasing complexity of the device and operating system, it should be clear that iOS will continue to have security flaws which, if exploited, place the individual and enterprise at risk.
 
@@ -162,19 +162,19 @@ Unlike mobile threats, mobile attacks identify actual instances of mobile threat
 * Targeted attacks
 * Weaponizations of mobile threats 
 
-In the [Case Studies](../case-studies/README.md) chapter we will provide deeper examination of real world mobile attackes. However, it is useful to provide quick examples of mobile attacks in each category.
+In the [Case Studies](../case-studies/README.md) chapter we will provide deeper examination of real world mobile attacks. However, it is useful to provide quick examples of mobile attacks in each category.
 
 #### Mobile Malware
 
-Mobile malware is the most common form of mobile attacks, in particualr because they are far easier to identify by examining mobile apps. While all mobile attacks are undesirable, mobile malware is the most benign of the categories listed above. We will provide an example of malware on both iOS and Android.
+Mobile malware is the most common form of mobile attacks, in particular because they are far easier to identify by examining mobile apps. While all mobile attacks are undesirable, mobile malware is the most benign of the categories listed above. We will provide an example of malware on both iOS and Android.
 
 ##### Apple iOS XCodeGhost attack
 
-In late 2015, researchers from Palo Alto uncovered modified versions of XCode, the development environment for iOS, avaiavle on multiple websites in China. XCode is a large download and developers in China would often choose cached versions of XCode hosted in China to improve download times.
+In late 2015, researchers from Palo Alto uncovered modified versions of XCode, the development environment for iOS, available on multiple websites in China. XCode is a large download and developers in China would often choose cached versions of XCode hosted in China to improve download times.
 
-Attackers sezied this opportunity and modified XCode so that when developers complied and ultimately deployed thier applications to the App Store, malicious code was automatically included in the applications. The malicious code would exfiltrate private data from the iOS devices after the app was installed and run.
+Attackers siezed this opportunity and modified XCode so that when developers compiled and ultimately deployed thier applications to the App Store, malicious code was automatically included in the applications. The malicious code would exfiltrate private data from the iOS devices after the app was installed and run.
 
-Apple identified the affected applications and immediately removed them from the App Store. They published the list of apps on their website and worked closely with the developers to ensure a new version was pushed to the App Store quickly. Some of the apps extremely popular and the full impact of the attack is likley not yet understood.
+Apple identified the affected applications and immediately removed them from the App Store. They published the list of apps on their website and worked closely with the developers to ensure a new version was pushed to the App Store quickly. Some of the apps are extremely popular and the full impact of the attack is likley not yet understood.
 
 ##### Android YYY Malware
 
@@ -182,7 +182,7 @@ So many to choose from...which one should we pick?
 
 #### Hacking Team weaponization of mobile threats
 
-In perhaps the most compelling example of the risk from mobile attacks, the compromise of Italian firm Hacking Team exposed a company weaponizing and selling exploits to nation states with documented human rights violations against reporters and activists. Until the time of the compromise, Hacking Team adamently denied they sould their software to any countires with documented human rights violations. However, the compromise and then expouse of 400GB of th
+In perhaps the most compelling example of the risk from mobile attacks, the compromise of Italian firm Hacking Team exposed a company weaponizing and selling exploits to nation states with documented human rights violations against reporters and activists. Until the time of the compromise, Hacking Team adamently denied they sold their software to any countries with documented human rights violations. However, the compromise and then expouse of 400GB of th (NEED TO COMPLETE)
 
 ## Under-investing in security
 The trend of companies under-investing in security is, unfortunately, a clear reality in mobile.
