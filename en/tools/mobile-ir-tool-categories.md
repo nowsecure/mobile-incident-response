@@ -2,18 +2,20 @@
 
 It's helpful to characterize mobile incident response tools into four broad categories:
 
-1. Continuous Monitoring
+1. Continual Analysis
 2. Device Acquisition
 3. Analysis
 4. Prevention
 
 In this section, we will describes these categories of tools and provide more detailed examples. In the subsequent sections, we will walk through the process of setting up an environment to use a variety of mobile IR tools, as well as provide a descriptive list of those that are open source, free, and briefly explore commercial tools.
 
-## Continuous Monitoring
-The ideal scenario when responding to a mobile incident, is to have had tools and procedures already in place to proactively log data that may be useful during an investigation. The following are types of continuous monitoring tools that can be used for this purpose.
+## Continual Analysis
+The ideal scenario when responding to a mobile incident, is to have had tools and procedures already in place to proactively log data that may be useful during an investigation. The purpose of this category of tools is to provided a baseline for device properties and behavior in four main areas that make up the mobile attack surface:
 
-* Baseline devices
-* Proactive acquisition of device information
+  1. System (e.g., operating system, jailbreak status)
+  2. Configuration (e.g., passcode, encryption)
+  3. Apps (e.g., installed, updated, removed)
+  4. Network (e.g., security, DNS poisoning, SSL certificates)
 
 ## Device or Data Acquisition
 This category discuss the steps that must be taken to properly handle the device, prevent any changes to the data, and properly acquire the data from the device.
@@ -24,7 +26,7 @@ This category discuss the steps that must be taken to properly handle the device
   * Logical: A logical technique extracts allocated data and is typically achieved by accessing the file system. Allocated data simply means that the data is not deleted and is accessible on the file system.
   * Backup:  Techniques are available on both iOS and Android devices to perform a backup of the operating system. On iOS, a backup is performed either via iTunes or iCloud, and stored on the user's computer or cloud account, respectively. On Android, backups can be performed through a 3rd party application, or using the android debug bridge (adb) command. Backups essentially include the same type of data that is recovered through a logical acquisition. Backups may be useful as an examiner if you don't have access to the physical device, or if you are looking to recover historical data that might be stored in an old backup, but no longer exist on the device.
   * Physical: Physical techniques target the physical storage medium directly and these do not rely on the file system itself to access the data. There are advantages to this approach, the most significant being that physical techniques may provide access to deleted data. The file systems often only mark data as deleted or obsolete and do not actually erase the storage medium unless needed. As the physical forensic techniques provide direct access to the storage medium, it is possible to recover not only the allocated data but also the unallocated (deleted or obsolete) data. With encryption on the latest devices/operating systems, physical acquisitions are more difficult to perform than they used to be.
-* Proxying network traffic?
+* Proxying network traffic:  Collecting a sample of network traffic from an access point that a mobile device is connected to will allow for additional network analysis to analyze protocols used by various applications/services running on the device and determine if there are any unknown or insecure protocols in use.
 * Image verification: In digital forensics, examinations are performed on the original media only if absolutely necessary. In most cases, a forensic copy is made, and the examiner will analyze that image, so as to not modify the original media. In order to show that the working copy contains the same data as the original, it has become a best practice to create a unique signature for both the original and the copy by using a hash algorithm. If the values match, this technique shows that the forensic image is in fact a copy of the original. Most commercial tools will report either an MD5 or SHA1 hash value, two different algorithms, both of which are used for the same purpose. Linux commands can also be used to determine either of these values on an image or file using commands such as md5sum or sha256sum. Note that image verification will only be successful during the physical acquisition process.
 
 ## Analysis
@@ -41,7 +43,3 @@ Once the data has been acquired from the device using the techniques above, a nu
   * Known app (App intel feed)
 * Malware analysis
 * Network analysis
-
-## Prevention
-
-Tools that help prevent mobile incidents 
