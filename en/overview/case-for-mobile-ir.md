@@ -210,7 +210,25 @@ We will study this malware more closely in the Lab Exercises included in this bo
 
 #### Weaponizing mobile threats
 
-In perhaps the most compelling example of the risk from mobile attacks, the compromise of Italian firm Hacking Team exposed a company weaponizing and selling exploits to nation states with documented human rights violations against reporters and activists. Until the time of the compromise, Hacking Team adamently denied they sould their software to any countires with documented human rights violations. However, the compromise and then exposure of 400GB of [Hacking Team emails](https://wikileaks.org/hackingteam/emails/) and files revealed that Hacking Team was [weaponizing mobile security flaws](https://wikileaks.org/hackingteam/emails/emailid/1028689) and selling them to governments around the world. 
+While security problems in mobile apps and operating systems as well as malicious apps are grounds for concern, a more nefarious threat exists. It is generally accepted that it is nearly impossible to prevent a targeted attack against an invdividual or organization. As such, any evidence of organziations enabling or performing targeted attacks is a area of great concern.
+
+##### ZERODIUM's Million Dollar iOS 9 Bug Bounty
+Zerodium, is a privately held, venture backed company that positions itself as "the premium acquisition program for zero-day exploits and advanced cybersecurity research."[^11] On September 15, 2015 they announced a $1 million dollar bug bounty for iOS. The bounty would be paid out for any individual or team that "creates and *submits to ZERODIUM an exclusive, browser-based, and untethered jailbreak for the latest Apple iOS 9* operating system and devices"[^12]. While this alone should cause significant concern given the size of the bug bounty and the specific criteria, what's truly distrubing is that on November 1, 2015 Zerodium acknowledged that one team won the prize.[^11].
+
+Of course, the natural question is what does Zerodium then do with the zero-day? Accoring to their FAQ, they:
+> analyze and document the vuln, and provide that plus protective measures and security recommendations to clients as part of their Security Research Feed[^13]
+
+Zerodium also answers the next logical question of who their clients are: "ZERODIUM customers are major corporations in defense, technology, and finance, in need of advanced zero-day protection, as well as government organizations in need of specific and tailored cybersecurity capabilities."
+
+Of particular concern is the reference to government organizations and tailored cybersecurity capabilities which likely means targeted attacks. While it would be niave to assume governemnt agencies are not involved in such activities, the public acknowledgment of this should greatly inform the risk organziations of major corporations.
+
+Finally, it's quite telling to see the payout ranges for different types of exploits and systems. In particular, mobile devices are positioned as highest payout category.
+
+![Zerodium Payout Ranges](../assets/zerodium_prices.png)
+Figure 3: Zerodium Payout Ranges[^14]
+
+##### Hacking Team 
+While Zerodium is in the business of buying and then re-selling exploits, we do not have a deep look at their internal operations nor their customers. However, in July 2015 the compromise of Italian firm Hacking Team exposed not only the internal operations of a company weaponizing and selling exploits but their customer list including soverign nations with documented human rights violations against reporters and activists. Until the time of the compromise, Hacking Team adamently denied they sould their software to any countires with documented human rights violations. However, the compromise and then exposure of 400GB of [Hacking Team emails](https://wikileaks.org/hackingteam/emails/) and files revealed that Hacking Team was [weaponizing mobile security flaws](https://wikileaks.org/hackingteam/emails/emailid/1028689) and selling them to governments around the world. 
 
 We explore the [Hacking Team case study](../case-studies/hacking-team-analysis.html) in more detail but a key takeaway for security professionals is that attackers see value in targeting mobile devices and there are not only techniques for doing this but companies whose business model is to "sell offensive intrusion and surveillance capabilities to governments, law enforcement agencies and corporations." [^8] 
 
@@ -234,3 +252,7 @@ This amplifies the need for mobile incident response as the technology and data 
 [^8]: https://en.wikipedia.org/wiki/Hacking_Team
 [^9]: http://securitywatch.pcmag.com/mobile-security/324666-mobile-threat-monday-android-ransomware-encrypts-your-files-don-t-pay-up
 [^10]: http://www.statista.com/statistics/276623/number-of-apps-available-in-leading-app-stores/
+[^11]: https://www.zerodium.com/
+[^12]: https://www.zerodium.com/ios9.html
+[^13]: https://www.zerodium.com/faq.html
+[^14]: https://www.zerodium.com/program.html
