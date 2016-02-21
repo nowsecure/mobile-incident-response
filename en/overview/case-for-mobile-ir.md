@@ -5,6 +5,13 @@ Mobile devices have already sufficently penetrated enterprises to warrant full s
 
 While most enterprises have some level of incident response plans in place, very few have developed processes and tools to respond to a mobile incident. This is a clear gap that security teams must address.
 
+In the section, we will demonstrated that mobile apps and devices are increasingly:
+
+* the focus on government regulation and law enforcement
+* possess significant security and provacy flaws
+* are the target of cyber criminal and nation state attacks
+* receive very little security focus and investment from enterprises
+
 ## Regulation and Law Enforcement
 In the previous section, we explored a few examples of regulations that cover incident response. However, smartphones are a relatively new technology and at best are addressed broadly in a few of these regualted industries. This means that the industry is largely self-regulated today and, unfortunately, there are many mobile device and app security issues.
 
@@ -103,7 +110,7 @@ For these reasons, the most effective resources available today to educate indiv
 
 #### Android Security Threats
 
-Android encompasses a deep intertwined ecosystem including Google/Android, OEMs, wireless carriers and app developers. In this brief overview, we will simply provide an example of a security threat in each category.  
+Android encompasses a deep intertwined ecosystem including Google/Android, OEMs, wireless carriers and app developers. In this brief overview, we will provide examples of several publicly known Android security threats.  
 
 ##### Andorid Stagefright vulnerability
 
@@ -119,13 +126,18 @@ In June 2015, NowSecure researcher Ryan Welton ([@Fuzion24](https://twitter.com/
 
 To make matters worse, the insecure application was signed with system privledges granting the app and thus the attacker significant access to teh device and data through remote code execution. The app could not be disabled and regular checked for updates over the network, the trigger necessary to launch the attack. Anyone attacker with a position on the network between the endpoint and the SwiftKey update server could execuate this attack.
 
-##### Wireless carrier examples
-
-aaa
-
 #### App example
 
-Adlib?
+The Google Play store had 1.6 million apps available for download as of July 2015. [^10] Many of the apps actually contained security flaws so it's difficult to even choose one example. 
+
+In January 2016, Jake VanDyke spent a week reviewing video cameras and the mobile apps that can remotely control the camera. After examining some of the most popular cameras on Amazon, Jake noted that [every camera-and-app combination I tested included at least one security flaw](https://www.nowsecure.com/blog/2016/01/06/insecurity-cameras-and-mobile-apps-surveillance-or-exposure/) that concerned him. The various apps exhibited numerous flaws including:
+
+* Sensitive data transmitted without encryption including username, password and geolocation
+* Unencrypted communications allowing someone to adjust camera settings, format the SD card, access stored photos and videos and initiate the recording of audio or video
+* Sending the WPA2 key for the network it was connected to
+* Vulnerable to Man-in-the-Middle attacks
+
+Hopefully it's clear from this single example that security flaws in mobile apps create significant exposure and risk for not only the individuals using the apps but the enterprises they interact with and work for.
 
 #### iOS Security Threats
 
@@ -165,6 +177,12 @@ This flaw was obviosuly fixed in the next release of the iPhone but anyone using
 
 Considering the history of CVEs in iOS, the sheer amount of new code that goes into each release and the ever increasing complexity of the device and operating system, it should be clear that iOS will continue to have security flaws which, if exploited, place the individual and enterprise at risk.
 
+##### iOS app security
+
+Similar to Android, a significant part of the iOS ecosystem are the mobile apps avaialble from the App Store which in July 2015 was 1.5 million apps[^10]. Interestingly, iOS apps tend to be less secure than Android apps based on a high level security scan of 100 popular apps. Given the sample size is quite small, it is not safe to extrapolate this to the entire ecosystem but it is certainly true for the popular apps tested.
+
+One theory is that iOS app developers place more trust in the smart phone's operating system than Android developers do. However, while iOS provides many strong security features, it cannot prevent developers from making common mistakes like sending or storing sensitive data with encryption, failing to adequately perform certificate checking or igorning other commom [mobile app security best practices](https://www.nowsecure.com/resources/secure-mobile-development/). 
+
 ### Mobile Attacks
 
 Unlike mobile threats, mobile attacks identify actual instances of mobile threats being exploited in the wild. While these examples are less frequent, they make the strongest case for enterprises to invest in mobile security and incident response. These attacks fall broadly into these categories:
@@ -199,19 +217,50 @@ We will study this malware more closely in the Lab Exercises included in this bo
 
 #### Weaponizing mobile threats
 
-In perhaps the most compelling example of the risk from mobile attacks, the compromise of Italian firm Hacking Team exposed a company weaponizing and selling exploits to nation states with documented human rights violations against reporters and activists. Until the time of the compromise, Hacking Team adamently denied they sould their software to any countires with documented human rights violations. However, the compromise and then exposure of 400GB of [Hacking Team emails](https://wikileaks.org/hackingteam/emails/) and files revealed that Hacking Team was [weaponizing mobile security flaws](https://wikileaks.org/hackingteam/emails/emailid/1028689) and selling them to governments around the world. 
+While security problems in mobile apps and operating systems as well as malicious apps are grounds for concern, a more nefarious threat exists. It is generally accepted that it is nearly impossible to prevent a targeted attack against an invdividual or organization. As such, any evidence of organziations enabling or performing targeted attacks is a area of great concern.
+
+##### ZERODIUM's Million Dollar iOS 9 Bug Bounty
+Zerodium, is a privately held, venture backed company that positions itself as "the premium acquisition program for zero-day exploits and advanced cybersecurity research."[^11] On September 15, 2015 they announced a $1 million dollar bug bounty for iOS. The bounty would be paid out for any individual or team that "creates and *submits to ZERODIUM an exclusive, browser-based, and untethered jailbreak for the latest Apple iOS 9* operating system and devices"[^12]. While this alone should cause significant concern given the size of the bug bounty and the specific criteria, what's truly distrubing is that on November 1, 2015 Zerodium acknowledged that one team won the prize.[^11].
+
+Of course, the natural question is what does Zerodium then do with the zero-day? Accoring to their FAQ, they:
+> analyze and document the vuln, and provide that plus protective measures and security recommendations to clients as part of their Security Research Feed[^13]
+
+Zerodium also answers the next logical question of who their clients are: "ZERODIUM customers are major corporations in defense, technology, and finance, in need of advanced zero-day protection, as well as government organizations in need of specific and tailored cybersecurity capabilities."
+
+Of particular concern is the reference to government organizations and tailored cybersecurity capabilities which likely means targeted attacks. While it would be niave to assume governemnt agencies are not involved in such activities, the public acknowledgment of this should greatly inform the risk organziations of major corporations.
+
+Finally, it's quite telling to see the payout ranges for different types of exploits and systems. In particular, mobile devices are positioned as highest payout category.
+
+![Zerodium Payout Ranges](../assets/zerodium_prices.png)
+Figure 3: Zerodium Payout Ranges[^14]
+
+##### Hacking Team 
+While Zerodium is in the business of buying and then re-selling exploits, we do not have a deep look at their internal operations nor their customers. However, in July 2015 the compromise of Italian firm Hacking Team exposed not only the internal operations of a company weaponizing and selling exploits but their customer list including soverign nations with documented human rights violations against reporters and activists. Until the time of the compromise, Hacking Team adamently denied they sould their software to any countires with documented human rights violations. However, the compromise and then exposure of 400GB of [Hacking Team emails](https://wikileaks.org/hackingteam/emails/) and files revealed that Hacking Team was [weaponizing mobile security flaws](https://wikileaks.org/hackingteam/emails/emailid/1028689) and selling them to governments around the world. 
 
 We explore the [Hacking Team case study](../case-studies/hacking-team-analysis.html) in more detail but a key takeaway for security professionals is that attackers see value in targeting mobile devices and there are not only techniques for doing this but companies whose business model is to "sell offensive intrusion and surveillance capabilities to governments, law enforcement agencies and corporations." [^8] 
 
 ## Under-investing in security
-The trend of companies under-investing in security is, unfortunately, a clear reality in mobile.
+In the final incident response trend pointed out by Bruce Schneier, companies are clearly under-investing in mobile security which greatly increases the need to a effective incident response.
 
 In an IBM sponsored study in 2015, the Ponemon Institue found that:
 > Among the more than 400 organizations studied — nearly 40 percent of which were Fortune 500 companies — almost 40 percent of them aren’t scanning the code in their apps for security vulnerabilities, leaving the door wide open to the potential hacking of sensitive user, corporate and customer data. The average organization tests fewer than half of the mobile apps it builds, and a whopping 33 percent of companies never test their apps. [^7]
 
-*Insert stats on insecure mobile app*
+Instead of taking a survey, NowSecure released their [2016 Mobile App Security Study](https://www.nowsecure.com/blog/2016/02/11/2016-nowsecure-mobile-security-report-now-available/) which analyzed at 400,000 Android apps and found:
 
-This amplifies the need for mobile incident response as the technology and data is clearly distributed, generally outside the control of IT and have a large number of security and privacy flaws.
+* 24.7 percent of mobile apps include at least one high risk security flaw
+* The average device connects to 160 unique IP addresses every day
+* 35 percent of communications sent by mobile devices are unencrypted
+* Business apps are three times more likely to leak login credentials than the average app
+* Games are one-and-a-half times more likely to include a high risk vulnerability than the average app
+
+# The Case for Mobile Incident Response
+Hopefully this section outlines a clear care for moobile incident response. Mobile devices have deeply permeated all facets of the enterprise and exhibit unique characteristics that necessitate a strong incident response capablilty. These charasteristics include:
+
+* Government regulatory and law enforcement bodies are beginning to require and enforce mobile security;
+* Mobile devices and data are increasingly outside the control of IT
+* Cyber criminals and nations states are targeting mobile devices
+* Mobile apps and devices possess a large number of security and privacy flaws
+* Enterprises continue to under-invest in mobile security
 
 #### Footnotes
 [^1]: The Future of Incident Response - Schneier on Security. Web. Wed Oct 21 2015. <https://www.schneier.com/blog/archives/2014/11/the_future_of_i.html>.
@@ -222,3 +271,8 @@ This amplifies the need for mobile incident response as the technology and data 
 [^7]: https://securityintelligence.com/mobile-insecurity/
 [^8]: https://en.wikipedia.org/wiki/Hacking_Team
 [^9]: http://securitywatch.pcmag.com/mobile-security/324666-mobile-threat-monday-android-ransomware-encrypts-your-files-don-t-pay-up
+[^10]: http://www.statista.com/statistics/276623/number-of-apps-available-in-leading-app-stores/
+[^11]: https://www.zerodium.com/
+[^12]: https://www.zerodium.com/ios9.html
+[^13]: https://www.zerodium.com/faq.html
+[^14]: https://www.zerodium.com/program.html
