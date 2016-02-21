@@ -103,7 +103,7 @@ For these reasons, the most effective resources available today to educate indiv
 
 #### Android Security Threats
 
-Android encompasses a deep intertwined ecosystem including Google/Android, OEMs, wireless carriers and app developers. In this brief overview, we will simply provide an example of a security threat in each category.  
+Android encompasses a deep intertwined ecosystem including Google/Android, OEMs, wireless carriers and app developers. In this brief overview, we will provide examples of several publicly known Android security threats.  
 
 ##### Andorid Stagefright vulnerability
 
@@ -119,13 +119,18 @@ In June 2015, NowSecure researcher Ryan Welton ([@Fuzion24](https://twitter.com/
 
 To make matters worse, the insecure application was signed with system privledges granting the app and thus the attacker significant access to teh device and data through remote code execution. The app could not be disabled and regular checked for updates over the network, the trigger necessary to launch the attack. Anyone attacker with a position on the network between the endpoint and the SwiftKey update server could execuate this attack.
 
-##### Wireless carrier examples
-
-aaa
-
 #### App example
 
-Adlib?
+The Google Play store had 1.6 million apps available for download as of July 2015. [^10] Many of the apps actually contained security flaws so it's difficult to even choose one example. 
+
+In January 2016, Jake VanDyke spent a week reviewing video cameras and the mobile apps that can remotely control the camera. After examining some of the most popular cameras on Amazon, Jake noted that [every camera-and-app combination I tested included at least one security flaw](https://www.nowsecure.com/blog/2016/01/06/insecurity-cameras-and-mobile-apps-surveillance-or-exposure/) that concerned him. The various apps exhibited numerous flaws including:
+
+* Sensitive data transmitted without encryption including username, password and geolocation
+* Unencrypted communications allowing someone to adjust camera settings, format the SD card, access stored photos and videos and initiate the recording of audio or video
+* Sending the WPA2 key for the network it was connected to
+* Vulnerable to Man-in-the-Middle attacks
+
+Hopefully it's clear from this single example that security flaws in mobile apps create significant exposure and risk for not only the individuals using the apps but the enterprises they interact with and work for.
 
 #### iOS Security Threats
 
@@ -164,6 +169,12 @@ It has been quite some time since a flaw like this was found in an iPhone howeve
 This flaw was obviosuly fixed in the next release of the iPhone but anyone using that device was at risk and have very little mitigations they could employ.
 
 Considering the history of CVEs in iOS, the sheer amount of new code that goes into each release and the ever increasing complexity of the device and operating system, it should be clear that iOS will continue to have security flaws which, if exploited, place the individual and enterprise at risk.
+
+##### iOS app security
+
+Similar to Android, a significant part of the iOS ecosystem are the mobile apps avaialble from the App Store which in July 2015 was 1.5 million apps[^10]. Interestingly, iOS apps tend to be less secure than Android apps based on a high level security scan of 100 popular apps. Given the sample size is quite small, it is not safe to extrapolate this to the entire ecosystem but it is certainly true for the popular apps tested.
+
+One theory is that iOS app developers place more trust in the smart phone's operating system than Android developers do. However, while iOS provides many strong security features, it cannot prevent developers from making common mistakes like sending or storing sensitive data with encryption, failing to adequately perform certificate checking or igorning other commom [mobile app security best practices](https://www.nowsecure.com/resources/secure-mobile-development/). 
 
 ### Mobile Attacks
 
@@ -222,3 +233,4 @@ This amplifies the need for mobile incident response as the technology and data 
 [^7]: https://securityintelligence.com/mobile-insecurity/
 [^8]: https://en.wikipedia.org/wiki/Hacking_Team
 [^9]: http://securitywatch.pcmag.com/mobile-security/324666-mobile-threat-monday-android-ransomware-encrypts-your-files-don-t-pay-up
+[^10]: http://www.statista.com/statistics/276623/number-of-apps-available-in-leading-app-stores/
