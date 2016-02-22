@@ -5,7 +5,6 @@ It's helpful to characterize mobile incident response tools into four broad cate
 1. Continual Analysis
 2. Device Acquisition
 3. Analysis
-4. Prevention
 
 In this section, we will describe these categories of tools and provide more detailed examples. In the subsequent sections, we will walk through the process of setting up an environment to use a variety of mobile IR tools, as well as provide a descriptive list of those that are open source, free, and briefly explore commercial tools.
 
