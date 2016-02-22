@@ -18,7 +18,7 @@ The goal of incident response is to quickly contain and mitigate an incident. It
 
 Today, most large government and enterprise organization have an incident response team. And government regulations increasing include mandates for incident response capabilities.
 
-For example, the Federal Financial Institution Examination Council (FFIEC) is a "formal interagency body empowered to prescribe uniform principles, standards, and report forms for the federal examination of financial institutions" [^3] that developed a system dubbed InfoBase to help introduce and educate the finacial services industry on topics that the their field examiners inspect during audits. The [FFIEC's guidance on incident response](http://ithandbook.ffiec.gov/it-booklets/business-continuity-planning/other-policies,-standards-and-processes-/incident-response.aspx) includes a mandate to develop and integrate this discipline into their the financial instituions business continuity planning process.
+For example, the Federal Financial Institution Examination Council (FFIEC) is a "formal interagency body empowered to prescribe uniform principles, standards, and report forms for the federal examination of financial institutions" [^3] that developed a system dubbed InfoBase to help introduce and educate the financial services industry on topics that the their field examiners inspect during audits. The [FFIEC's guidance on incident response](http://ithandbook.ffiec.gov/it-booklets/business-continuity-planning/other-policies,-standards-and-processes-/incident-response.aspx) includes a mandate to develop and integrate this discipline into their the financial instituions business continuity planning process.
 
 This is simply one example of regulated industries which have incident response mandates. Other examples include:
 
@@ -29,7 +29,7 @@ This is simply one example of regulated industries which have incident response 
 
 ## CERT Organizations
 
-There is a large group of resources support CERTs around the world. They can be loosely organized into three types based on their sponsors:
+There is a large group of resources that support CERTs around the world. They can be loosely organized into three types based on their sponsors:
 
 1. Government
 2. Enterprise
