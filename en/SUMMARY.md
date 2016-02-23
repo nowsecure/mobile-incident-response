@@ -12,7 +12,7 @@
     * [List of Tools](tools/open-source-ir-tools.md)
 * [Mobile IR Case Studies](case-studies/README.md)
     * [CEO phone compromised](case-studies/ceo-mobile-phone-compromised.md)
-    * [Mobile Malware Discovered](case-studies/mobile-malware-discovered.md)
+    * [Unauthorized App Discovered](case-studies/unauthorized-app-discovered.md)
     * [Trojaned iOS app](case-studies/trojaned-ios-app.md)
     * [Internal Investigation](case-studies/internal-investigation.md)
     * [Hacking Team Analysis](case-studies/hacking-team-analysis.md)
