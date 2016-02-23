@@ -9,16 +9,31 @@ The [SANS Institute](https://www.sans.org/) has defined 6 key IR steps in their 
 5. Recovery
 6. Lessons learned
 
-While we will cover this topic extensively in the chapter [Framework for Mobile Incident Response](mobile-incident-response-framework.md) and build upon frameworks from both SANS and NIST.
+While we will cover this topic extensively in the chapter [Framework for Mobile Incident Response](mobile-incident-response-framework.md) and build upon frameworks from both SANS and NIST, we'd like to discuss this process here at a high level and how it relates to mobile.
 
-## Digital Forensics and Incident Response
+## Preparation
+Preparing for a mobile incident involves a number of steps. First, in order to determine the risks that exist within an organization today, a mobile threat assessment should be performed. This threat assessment would involve identifying mobile assets on the corporate network, including devices, the operating system versions their running, and list of installed applications if available. This inventoried information should then be correlated with mobile security intelligence to determine vulnerabilities in devices, OS versions, leaky and insecure apps, known malware, or other risks such as malicious WiFi networks. The last step of the mobile threat assessment should be to Work the problem. Once you've collected intelligence from the mobile devices on your network, analyze that data to identify security risks, eliminate low hangout fruit, address risk that is unacceptable to your organization, document remaining risks, and prepare playbooks for each scenario.
 
-Incident response is closely connected with forensics as nearly every incident requires the collection, storage and analysis of digital evidence.  This is a topic the authors and NowSecure employees have written about extensively since 2011:
+Building your mobile IR tool box is another criticial step in the preparation process.  When an incident occurs, your team needs to be prepared with a list of tools that are specific to mobile. Chapter 2 - [Tools for Mobile Incident Response](HOW DO I LINK TO CHAPTER?) goes into depth on different categories of mobile IR tools, a list of suggested tools, and instructions on how to setup a mobile IR workstation.
 
-1. [Android Forensics: Investigation, Analysis and Mobile Security for Google Android](http://www.amazon.com/Android-Forensics-Investigation-Analysis-Security/dp/1597496510) by Andrew Hoog
-2. [iPhone and iOS Forensics: Investigation, Analysis and Mobile Security for Apple iPhone, iPad and iOS Devices](http://www.amazon.com/iPhone-iOS-Forensics-Investigation-Analysis/dp/1597496596/ref=pd_bxgy_14_img_y) by Katie Strzempka and Andrew Hoog
-3. [Hacking and Securing iOS Applications: Stealing Data, Hijacking Software, and How to Prevent It](http://www.amazon.com/Hacking-Securing-iOS-Applications-Hijacking/dp/1449318746/ref=sr_1_1?s=books&ie=UTF8&qid=1433593160&sr=1-1&keywords=Hacking+and+Securing+iOS+Applications) by Jonathan Zdziarski
-3. [Android Security Cookbook](http://www.amazon.com/Android-Security-Cookbook-Keith-Makan/dp/1782167161/ref=sr_1_1?s=books&ie=UTF8&qid=1433593041&sr=1-1&keywords=Android+Security+Cookbook) with co-author Scott Alexander-Bown
-4. [Android Hacker’s Handbook](http://www.amazon.com/Android-Hackers-Handbook-Joshua-Drake/dp/111860864X/ref=sr_1_1?s=books&ie=UTF8&qid=1433593102&sr=1-1&keywords=Android+Hacker%E2%80%99s+Handbook) with co-author Pau Oliva Fora
+Finally, you cannot fully be prepared without defining and documenting a process, and develop playbooks for each type of mobile threat scenario. Once you've developed your documentation and prepared a workstation with pre-installed tools, the preparation should not stop there. The very best way to be prepared for an incident is practice and repetition. In a later chapter, we will provide you with sample scenarios where you can walk through some practice labs.
 
-As you explore mobile incident response more thoroughly, these books can provide far deeper technical details on mobile forensics and security.
+
+## Identification
+Identification of an incident can occur in several ways. There are varying device indicators of compromise (IOC) depending on the type of mobile incident. In some cases, a system administrator may observe increased battery drain, unusual network traffic or certificate errors. Many times, an incident may also be reported by the user, with something strange happening on their device.
+
+Another type of mobile incident may involve mobile application reputation monitoring. If an organization observed unauthorized use of their brand or see unknown apps connecting to their transactional servers, that could indicate an incident as it relates to mobile apps.
+
+
+## Containment
+Once you have identified and logged an incident, it must be contained. It is preferable to have physical access to the device, which can be a challenge with mobile. If access to the device is obtained, baseline information should be captured including type of device, OS version, and list of installed apps. If appropriate, network analysis should also be considered. The full forensic acquisition of the device should then be performed before isolating it from the network to contain the problem.
+
+## Eradication 
+The artifacts that have been collected from the mobile device, router, or network packet capture must then be analyzed in an effort to determined if the threat can be removed. At this step, it is important ot identify all impacted users or devices, remove the threat, or wipe corporate data if necessary.  
+
+## Recovery
+Steps should then be taken to preoprly bring back up the systems that may have been shut down during the incident, such as re-provisioning the mobile device(s). This should also include ensuring attacker didn't move laterally within your organization, and proactively monitoring accounts and systems that are connected to the mobile device and impacted user(s).  At this phase, the effectiveness of social engineering attacks is greatly increased, so ensure that your employees are properly educated and trained in this area. 
+
+## Lessons Learned
+The final step in the IR process is just as important as those before it, as it's purpose is to summarize what went wrong, what worked, and most importantly, what can be improved. A debrief with the team should take place to identify recommended policies and procedure changes and user education.  The team should discuss the indicators of compromise and strategize on how to best incoluate against future attacks by focusing on anomaly detection as well as shared insights and cross-referencable data.
+

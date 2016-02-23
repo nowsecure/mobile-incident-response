@@ -1,10 +1,23 @@
 {
     "gitbook": "2.x.x",
-    "plugins": [],
+    "plugins": ["edit-link", "ga"],
+    "pluginsConfig": {
+        "edit-link": {
+            "base": "https://github.com/viaforensics/mobile-incident-response/tree/master",
+            "label": "Edit This Page"
+        },
+        "ga": {
+          "token": "UA-4968988-13"
+        }
+    },
+    "title": "Mobile Incident Response for Android and iOS | NowSecure",
     "links": {
         "sidebar": {
             "NowSecure": "https://www.nowsecure.com/"
         }
     },
-    "pluginsConfig": {}
+    "styles": {
+        "website": "styles/website.css",
+        "pdf": "styles/pdf.css"
+    }
 }
