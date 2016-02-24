@@ -1,14 +1,14 @@
 # Android Incident Response
 
-This chapter will provide you:
+This chapter will provide a step-by-step technical approach for responding to an Android incident. We will discuss Android security mechanisms, a tailored incident response process and a lab exercise you can complete. THe sections include:
 
+* Android Security Model
 * Android Incident Response Process
 * Android Data Collection
 * Android Incident Response Analysis
-* Android IR Exercise
-* Answers - Android IR Exercise
+* Android Incident Response Lab Exercise
 
-# Android Security
+# Android Security Model
 
 In this section we provide a quick overview of the Android security model.
 
@@ -24,9 +24,9 @@ Android additionally supports mandatory access control (MAC) through Security En
 
 The runtime permission model grants permissions to resources available to apps running in the managed runtimes, e.g., [Dalvik and ART](https://source.android.com/devices/tech/dalvik/).
 
-# Application signing
+## Application signing
 
-# Application Distribution Channels
+## Application Distribution Channels
 
 Android has a very open ecosystem compared to Apple. There are multiple markets with applications, everywhere from Google's Play Store to various third-party markets.
 
@@ -37,13 +37,13 @@ According to Google on [How Users Understand Third-Party Applications](https://s
 Therefore, a few minor configuration tweaks, and without rooting the device, third-party applications can be readily installed to the device or "side-loaded." Unlike Apple, Android devices have multiple opportunities for customization by the OEM and carriers. Therefore, devices may come with pre-installed third-party application distribution channels in addition to Google Play. 
 
 
-## Google Play
+### Google Play
 
 The Google Play (originally the Google Play Store) is the official distribution channel operated by Google for Android devices.
 
 Only devices that pass the [Compatibility Test Suite](http://source.android.com/compatibility/cts/index.html) are officially allowed access to Google Play. There are numerous tutorials online, however, that can assist users with installing the Play Store.
 
-## Third-party markets
+### Third-party markets
 We make no attempt to enumerate all third-party markets here. 
 
 We'll highlight a few differences between some popular third-party markets and the official Play Store.
