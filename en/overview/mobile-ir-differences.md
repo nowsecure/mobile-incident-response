@@ -1,4 +1,4 @@
-# How Mobile IR differs from computer-based IR
+# Differences between Computer and Mobile Incident Response
 
 In general, an incident response framework should not need to change to address new technologies. However, the unique properties of mobile devices and operating systems do present certain challenges when responding to a mobile incident.
 

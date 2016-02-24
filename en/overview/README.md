@@ -1,3 +1,8 @@
 # Mobile Incident Response Overview
+The goal of this chapter is to provide background on incident response, mobile security challenges and specifics around mobile incident response. The sections include:
 
-This chapter will explore the basic concepts behind incident response including a brief history, the IR process, how to account for mobile technologies and common incidents you are likely to encounter.
+* [Brief History and Overview of Incident Response](history-overview-ir.md)
+* [Case for Mobile Incident Response](case-for-mobile-ir.md)
+* [Incident Response Process](ir-process.md)
+* [Difference Between Mobile and Computer IR](mobile-ir-differences.md)
+* [Mobile Incident Types](mobile-ir-types.md)
