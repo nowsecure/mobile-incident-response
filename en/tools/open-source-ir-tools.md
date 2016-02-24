@@ -33,21 +33,16 @@ This process involves not only acquiring the data from the device, but also ensu
 
 ### Proxying network traffic
 * [Charles Proxy](https://www.charlesproxy.com/): Charles is an proxy tool that allows the user to view requests, responses and HTTP headers for HTTP and SSL/HTTPS traffic. 
-* (S) Burp Suite
-* (S) ZAP
+* (S) [Burp Suite](https://portswigger.net/burp/):  A platform for security testing web applications, but can also be used to assess the security of mobile app communications and web services. 
+* (S) [ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project): Open source penetration testing tool for finding vulnerabilities in web applications.
 
 ## Analysis
 ### Forensic Analysis
-  * (S) Android Brute Force Encryption
-  * (S) ExifTool
-  * (S) scalpel
-  * (S) Sleuthkit
-  * (S) strings
-  * (S) hexedit
-
-### Behavioral Analysis
-
-### Comparative Analysis
+  * (S) Android Brute Force Encryption: Can help a forensic analyst crack the pin used to encrypt an Android device (this applies to Ice Cream Sandwich and Jelly Bean OS versions).  Here is a [HOWTO guide](https://santoku-linux.com/howto/mobile-forensics/how-to-brute-force-android-encryption/) for this tool.
+  * (S) scalpel:  A file carving utility that is used to recover deleted files from a forensic image of a device (mobile or non).  It recovers these files by searching a disk image for that file type's unique header and footer.
+  * (S) [Sleuthkit](http://www.sleuthkit.org/): A collection of command line tools and a C library that allows you to analyze disk images and recover files from them.
+  * (S) strings:  Running this command line tool against any file will print its printable characters that are at least 4 characters long. Strings can really be useful when trying to locate information within a large file, such as a forensic image of a device (can be 16GB or more, depending on the size of the device). It allows for quick and efficient searching when using in combination with the "grep" command.
+  * (S) hexedit: No forensic investigation is complete without a hex editor. Hexedit is built into the Santoku VM, and can be used to view or manipulate the binary data within a file. 
 
 ### Network Analysis:
 * (S) [Wireshark](https://www.wireshark.org/): Wireshark is a network protocol analyzer.
