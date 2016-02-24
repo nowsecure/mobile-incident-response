@@ -24,10 +24,11 @@ This process involves not only acquiring the data from the device, but also ensu
 * (S) iPhone Backup Analyzer 2:  Allows user to browse content of iOS device made by an iTunes backup (or backup performed by another tool). More details on this tool can be found in it's [repo]()https://github.com/PicciMario/iPhone-Backup-Analyzer-2); otherwise, you can find this tool in Santoku under the start menu >> Santoku >> Device Forensics >> iOS Backup Analyzer 2.
 * (S) libimobiledevice: Cross-platform library that uses iOS specific protocols to recover data from the device's filesystem (no jailbreak required), perform a backup/restore, retrieve device information, and more. Here is a [HOWTO guide](https://santoku-linux.com/howto/mobile-forensics/howto-create-a-logical-backup-of-an-ios-device-using-libimobiledevice-on-santoku-linux/) for this tool, and can be found in Santoku under the start menu >> Santoku >> Device Forensics >> libimobiledevice.
 * (S) dd:  The “dd” command can be used on a device where the examiner has root access, such as a jailbroken iPhone or iPad. This tool is generally used in forensics to acquire a full disk image of a hard drive, SD card, USB flash drive, or other device.
-* FROST
-* LiME
+* [FROST](https://www1.informatik.uni-erlangen.de/frost): A tool set that supports the forensic recovery of scrambled telephones. 
+* [Lime](https://github.com/504ensicslabs/lime): Allows for the acquisition of volatile memory from Android and other Linux-based devices.
 
 ### Image Verification: 
+The following two checksum commands can be used to generate a digital fingerprint of a file, and in forensics, can be used to show that a physical image is an exact replicate of the data on a device at a given time. Those proves that no files or content has been changed.
 * (S) md5sum
 * (S) sha256sum
 
@@ -75,12 +76,14 @@ While the focus of this chapter was mainly on OSS, it is worth mentioning the co
 
 In addition to the list of OSS Process/Incident Management tools that we linked to in the previous section, there are also commercial tools available such as [Resilient's Incident Response Platform](https://www.resilientsystems.com/). This can be used to help automate the IR process, by integrating directly with other prevention and detection systems that are already in place. It helps teams track incidents and offers dashboards and reporting reatures to provide status updates to various groups.
 
-### Continual Analysis
+### Continuous Monitoring Analysis
 [NowSecure's Protect mobile application](https://www.nowsecure.com/protect/), when installed in advance of a mobile incident, can help establish a device, OS, and app baseline. When used within an organization, it provides an administrative dashboard that can allow access to aggregated security scores, network data, and vulnerability analytics. In the event of an incident, this data can then be used to pinpoint what went wrong and when.
 
 [zANTI](https://github.com/Zimperium/zanti_plugins): zANTI is a mobile penetration testing toolkit that lets security managers assess the risk level of a network 
 
-### Device Acquisition / Analysis:  Most commercial forensics tools offer both the ability to perform a device acquisition as well as built in analysis tools.
+### Device Acquisition / Analysis
+Most commercial forensics tools offer both the ability to perform a device acquisition as well as have built in analysis tools. A sample of these tools are listed here:
+
 * [NowSecure Forensics](https://www.nowsecure.com/forensics/) (iOS / Android)
 * [Cellebrite](http://www.cellebrite.com/Mobile-forensics)
 * [XRY](https://www.msab.com/products/xry/)
