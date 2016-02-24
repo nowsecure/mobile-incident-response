@@ -19,7 +19,6 @@ The recommended method of running Santoku is by installing it as a virtual machi
 
 To acquire Santoku, you must first download the .iso file at https://www.santoku-linux.com/download
 
-
 ## Set up your virtual machine
 To run Santoku, you must install virtual machine software. For this section we will use the most recent version of VirtualBox, version 5.0.14. It can be downloaded at: http://www.virtualbox.org/wiki/Downloads
 
@@ -48,14 +47,12 @@ To get your Santoku-Linux to run on the VirtualBox, you need to have it attached
 
 A warning will pop up asking you to choose a virtual DVD. Select “Choose disk” and navigate to your recently downloaded Santoku .iso file (in this case, it’s in the home user’s /Downloads/Santoku file). Click “Open”, then “OK”.
 
-
 ## Install Santoku
 You can now click “Start” on the main VirtualBox screen to load the VM. Select to either boot from the live DVD or install. If you have created this in a Virtual Machine, choose “install – start the installer directly”.
 
 Choose your language, time zone, and clock settings, then select “Erase disk and install Santoku” on the ‘Installation type’ screen. WARNING: If you choose this option and you are not installing Santoku in a Virtual Machine (i.e., you are not using VirtualBox and instead are installing it directly to your hard drive) this will ERASE YOUR HARD DRIVE. You have been warned. From there, add your username and password and click ‘Install’.
 
 After the installation is complete, reboot when prompted, then login using the username and password you created during the install process.
-
 
 ## Install Guest Editions (VirtualBox)
 Once logged in, initiate the process to install VirtualBox Guest Additions by going to Devices -> Install Guest Additions. This is a one-time setup, and will allow for improved graphic performance, shared folders, and other features within the VM. You will see the Guest Additions icon appear on the Desktop. Right click it and select “Mount Volume”.
@@ -73,4 +70,4 @@ Update your local package index with the latest changes made in repositories by 
 Now that your VM is up and running, you’ll want to connect a mobile device to it and start having some fun. To connect a mobile device to your VM, go to the VirtualBox menu, click Devices –> USB Devices –> <Your Device>. Make sure the checkmark is checked next to your device and it will be passed through to your Santoku VM.
 
 Connect USB in VirtualBox
-Now that you’re up and running, head over to the Santoku HOWTO’s section to read up on your favourite tools and learn about some new ones. In Chapters 7 and 8, we will provide additional exercises and Labs that will demonstrate how these tools can be used in practice.
+After reading about the tools in this chapter, feel free to head over to the [Santoku HOWTO’s](https://santoku-linux.com/howtos/) section to read up on your favourite tools and learn about some new ones. In Chapters 7 and 8, we will provide additional exercises and Labs that will demonstrate how these tools can be used in practice.
