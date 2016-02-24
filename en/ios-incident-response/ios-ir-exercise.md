@@ -1,4 +1,4 @@
-# iOS IR Online Lab Exercise
+# iOS Incident Response Lab Exercise
 
 To bring all these concepts together, we have developed an online iOS Incident Response lab exercise for you to complete.
 
