@@ -59,13 +59,11 @@ Once a physical image of a device is acquired, there are various tools that can 
 
 This process scans an entire disk for specified file signatures in order to recover files or file fragments from the disk. Using this method, both deleted and undeleted files can be recovered since the process focuses on the content of the files rather than its metadata. This is a popular technique used in forensic examinations, as it has been largely successful in recovering deleted photos, e-mails, text messages, and other important data. File carving techniques are built into some forensic analysis tools; however, there are open-source Linux tools available that will perform this action as well. These tools can be run via command line against a mobile device physical image in order to recover valuable files.
 
-### Behavorial
-* Device/app from individual, group, company, functional or app/OS baseline
-
 ### Comparative
-* Known C2 servers
-* Known app (App intel feed)
+In any incident, it is ideal to use either current or historical data, and compare it to things like known malware, C2 servers, or app intel to identify security vulnerabilities. For example, in the event of an incident involving an imposter app existing on an app store, comparing the file signature to intelligence about known malware can help determine whether this is in fact a malicious or legitimate application. This comparitive process canl help an organization perform mobile app reputation monitoring, and will determine any unauthorized use of their brand.
 
 ### Malware analysis
+A common incident involving mobile is that the device is "acting strange." In these cases, the user can't always identify what the problem is, just that something is happening such as increased battery drain or certificate errors on the device. In this event, the device should be forensically imaged, analyzed, and if possible, network analysis performed. If malware is suspected, the analyst would need to review the resulting artifacts to locate the potential malware. Once identified, this application should first be compared to intelligence against known malware, then static and dynamic code analysis should be performed to determine whether the app is truly malicious.
 
 ### Network analysis
+Analysis of capture network traffic is important as it could reveal unique findings, such as personal or corporate data being transmitted insecurely. It is important to understand what data is being transmitted, where it is going to in terms of the organization that owns the server, and what countries that data is being sent to. As an incident responder, if you have access to baseline or historical device data, this is ideal. You may then be able to identify whether the mobile device was connected to any insecure WiFi access points, observe SSL re-signing, etc.
