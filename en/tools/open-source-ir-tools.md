@@ -51,30 +51,33 @@ The following two checksum commands can be used to generate a digital fingerprin
   * (S) hexedit: No forensic investigation is complete without a hex editor. Hexedit is built into the Santoku VM, and can be used to view or manipulate the binary data within a file. 
 
 ### Network Analysis:
-* (S) [Wireshark](https://www.wireshark.org/): Wireshark is a network protocol analyzer.
-* (S) Ettercap
-* (S) Zenmap (as root)
-* (S) Chaosreader
-* (S) dnschef
-* (S) DSniff
-* (S) mitmproxy
-* (S) tcpdump
-* (S) wifite
-* (S) Nmap
+The following tools can be used to analyze network traffic that was captured:
+
+* (S) [Wireshark](https://www.wireshark.org/): Wireshark is a network protocol analyzer and can be used for network troubleshooting and analysis. It can also be used to understand what type of data that a mobile app is sending over the network unencrypted.
+* (S) Ettercap is a suite of tools that are used to perform various types of man-in-the-middle attacks. 
+* (S) [Nmap](https://nmap.org/) scans a server to discover hosts and services on a network, creating a map of this information. Specific features include port scanning, version detection, operating system detection, and scripted interaction with the target.
+* (S) [Zenmap](https://nmap.org/zenmap/) (as root) allows a user to easily run an "NMAP" scan using a GUI, making it easy for beginners to use as well as advanced features for more experienced users.
+* (S) [Chaosreader](http://chaosreader.sourceforge.net/) can be run against captured network traffic and traces TCP and UDP sessions seeking application data.
+* (S) [dnschef]()http://thesprawl.org/projects/dnschef/) is a DNS proxy tools for penetration testers and malware analysts. It can be used to fake requests for a specified URL/domain and point it to a local machine as opposed to its intended server.
+* (S) [DSniff](http://www.monkey.org/~dugsong/dsniff/) is a collection of tools for network and penetration testing.
+* (S) [mitmproxy](https://mitmproxy.org/) allows for the interception and analysis of network traffic.
+* (S) [tcpdump](http://www.tcpdump.org/manpages/tcpdump.1.html) is a command line packet analyzer.
+* (S) [wifite](https://github.com/derv82/wifite) is an automated tool that is used to attack multiple WEP, WPA, and WPS encrypted networks.
 
 ### Malware Analysis
-* (S) Androguard
-* (S) AntiLVL
-* (S) APKTool
-* (S) Baksmali
-* (S) Bulb Security SPF
-* (S) dex2jar
-* (S) Drozer
-* (S) Jasmin
-* (S) JD-GUI
-* (S) Procyon
-* (S) radare2
-* (S) Smali
+The following is a list of tools that can be used to reverse-engineer Android applications, decode resources and rebuild them after modifying.
+
+* (S) [Androguard](https://github.com/androguard/androguard) is a python tool used to reverse-engineer and perform malware analysis on Android mobile applications.
+* (S) [APKTool](http://ibotpeaches.github.io/Apktool/)
+* (S) [Smali/Baksmali](https://github.com/JesusFreke/smali/wiki) is an assembler/disassembler for the dex format used by dalvik (Android's Java VM implementation).
+* * (S) [AntiLVL](http://androidcracking.blogspot.com/p/antilvl_01.html)can be used to test an Android developer's protection methods against common types of attacks. 
+* (S) [Bulb Security SPF](https://github.com/georgiaw/Smartphone-Pentest-Framework) is a smartphone pentest framework used to assess the security of a mobile device. Offers various types of attacks such as remote, client-side, social engineering, and post exploitation attacks.
+* (S) [dex2jar](https://github.com/pxb1988/dex2jar) converts .dex files to .class files (zipped up as jar).
+* (S) [Drozer](https://github.com/mwrlabs/drozer) is a security testing framework for Android, and allows the user to search for security vulnerabilities in apps and devices by assuming the role of an app and interacting with the Dalvik VM, other apps' IPC endpoints and the underlying OS.
+* (S) [JD-GUI](https://github.com/java-decompiler/jd-gui) is a standalone graphical utility that displays Java sources from CLASS files.
+* (S) [Procyon](https://bitbucket.org/mstrobel/procyon/) is a Suite of Java metaprogramming tools.
+* (S) [radare2](http://radare.org/r/) is a multi-platform, reversing framework that can be used to disassemble/assemble many different architectures, debug with local native and remote debuggers, and perform file system forensics and data carving, among other features.
+
 
 ## Commercial Tools
 While the focus of this chapter was mainly on OSS, it is worth mentioning the commercial tools that can also assist in a Mobile IR investigation. 
