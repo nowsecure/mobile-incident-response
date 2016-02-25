@@ -1,11 +1,9 @@
 # Common Mobile Incidents
-There are a number of common scenarios you will encounter when it performing IR for mobile devices:
+Here listed are a number of common scenarios you may encounter when responding to a mobile incident:
 
 * Mobile malware discovered
 * Device acting suspiciously
 * Device lost or stolen
 * Insider attack via mobile device
-* Support internal investigation (e.g. e-discovery, legal hold) 
+* Support for an internal investigation (e.g., e-discovery, legal hold) 
 * Data breach via mobile device
-
-
