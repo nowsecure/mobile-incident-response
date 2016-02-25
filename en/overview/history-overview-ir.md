@@ -1,3 +1,8 @@
+<div class="cta-banner">
+  <a class="cta-banner-pdf" href="https://info.nowsecure.com/IRforAndroidandiOS_PDFRequest.html">Read PDF<i class="fa fa-file-pdf-o"></i></a>
+  <a class="cta-banner-update" href="https://info.nowsecure.com/IRforAndroidandiOS_Updates.html">Receive Updates<i class="fa fa-bell-o"></i></a>
+</div>
+
 # A brief history of incident response
 On November 2, 1998, Robert Tappan Morris released the first Internet worm (dubbed the Morris Worm) and became part of computer security history by:
 

@@ -1,3 +1,8 @@
+<div class="cta-banner">
+  <a class="cta-banner-pdf" href="https://info.nowsecure.com/IRforAndroidandiOS_PDFRequest.html">Read PDF<i class="fa fa-file-pdf-o"></i></a>
+  <a class="cta-banner-update" href="https://info.nowsecure.com/IRforAndroidandiOS_Updates.html">Receive Updates<i class="fa fa-bell-o"></i></a>
+</div>
+
 # Hacking Team 
 
 Once challenge incidient response and more broadly security team face is providing the business case for investing in the necessary people, tools, training and process. This section includes information about the compromise of the notorious company Hacking Team to:

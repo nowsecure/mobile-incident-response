@@ -1,3 +1,8 @@
+<div class="cta-banner">
+  <a class="cta-banner-pdf" href="https://info.nowsecure.com/IRforAndroidandiOS_PDFRequest.html">Read PDF<i class="fa fa-file-pdf-o"></i></a>
+  <a class="cta-banner-update" href="https://info.nowsecure.com/IRforAndroidandiOS_Updates.html">Receive Updates<i class="fa fa-bell-o"></i></a>
+</div>
+
 # Unauthorized app discovered 
 Counterfeit apps developed by unauthorized parties and published to official or unofficial app stores (and elsewhere on the Internet) can damage a company’s brand name and put their customers at risk. As an incident responder, you may be called upon to investigate an incident involving an unauthorized app that might do any one or more of the following:
 

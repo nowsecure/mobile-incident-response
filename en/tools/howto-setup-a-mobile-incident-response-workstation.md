@@ -1,3 +1,8 @@
+<div class="cta-banner">
+  <a class="cta-banner-pdf" href="https://info.nowsecure.com/IRforAndroidandiOS_PDFRequest.html">Read PDF<i class="fa fa-file-pdf-o"></i></a>
+  <a class="cta-banner-update" href="https://info.nowsecure.com/IRforAndroidandiOS_Updates.html">Receive Updates<i class="fa fa-bell-o"></i></a>
+</div>
+
 # How to Setup a Mobile Incident Response Workstation
 
 Preparation is a key component to responding to any type of incident. Part of that step involves setting up an environment which contains all of the tools a mobile responder might need to properly respond to a situation. This chapter will provide you with the necessary tools to provide mobile incident response at your organization. We will focus on free and/or open source software. In addition, later chapters will provide labs you can perform on your workstation with detailed HOWTO walk-throughs.
