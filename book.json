@@ -3,7 +3,7 @@
     "plugins": ["edit-link", "ga"],
     "pluginsConfig": {
         "edit-link": {
-            "base": "https://github.com/viaforensics/mobile-incident-response/tree/master",
+            "base": "https://github.com/nowsecure/mobile-incident-response/tree/master",
             "label": "Edit This Page"
         },
         "ga": {
