@@ -54,7 +54,7 @@ The following two checksum commands can be used to generate a digital fingerprin
 The following tools can be used to analyze network traffic that was captured:
 
 * (S) [Wireshark](https://www.wireshark.org/): Wireshark is a network protocol analyzer and can be used for network troubleshooting and analysis. It can also be used to understand what type of data that a mobile app is sending over the network unencrypted.
-* (S) Ettercap is a suite of tools that are used to perform various types of man-in-the-middle attacks. 
+* (S) [Ettercap](https://ettercap.github.io/ettercap/) is a suite of tools that are used to perform various types of man-in-the-middle attacks. 
 * (S) [Nmap](https://nmap.org/) scans a server to discover hosts and services on a network, creating a map of this information. Specific features include port scanning, version detection, operating system detection, and scripted interaction with the target.
 * (S) [Zenmap](https://nmap.org/zenmap/) (as root) allows a user to easily run an "NMAP" scan using a GUI, making it easy for beginners to use as well as advanced features for more experienced users.
 * (S) [Chaosreader](http://chaosreader.sourceforge.net/) can be run against captured network traffic and traces TCP and UDP sessions seeking application data.
@@ -70,7 +70,7 @@ The following is a list of tools that can be used to reverse-engineer Android ap
 * (S) [Androguard](https://github.com/androguard/androguard) is a python tool used to reverse-engineer and perform malware analysis on Android mobile applications.
 * (S) [APKTool](http://ibotpeaches.github.io/Apktool/)
 * (S) [Smali/Baksmali](https://github.com/JesusFreke/smali/wiki) is an assembler/disassembler for the dex format used by dalvik (Android's Java VM implementation).
-* * (S) [AntiLVL](http://androidcracking.blogspot.com/p/antilvl_01.html)can be used to test an Android developer's protection methods against common types of attacks. 
+* (S) [AntiLVL](http://androidcracking.blogspot.com/p/antilvl_01.html)can be used to test an Android developer's protection methods against common types of attacks. 
 * (S) [Bulb Security SPF](https://github.com/georgiaw/Smartphone-Pentest-Framework) is a smartphone pentest framework used to assess the security of a mobile device. Offers various types of attacks such as remote, client-side, social engineering, and post exploitation attacks.
 * (S) [dex2jar](https://github.com/pxb1988/dex2jar) converts .dex files to .class files (zipped up as jar).
 * (S) [Drozer](https://github.com/mwrlabs/drozer) is a security testing framework for Android, and allows the user to search for security vulnerabilities in apps and devices by assuming the role of an app and interacting with the Dalvik VM, other apps' IPC endpoints and the underlying OS.
