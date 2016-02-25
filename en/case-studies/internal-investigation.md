@@ -1,3 +1,8 @@
+<div class="cta-banner">
+  <a class="cta-banner-pdf" href="https://info.nowsecure.com/IRforAndroidandiOS_PDFRequest.html">Read PDF<i class="fa fa-file-pdf-o"></i></a>
+  <a class="cta-banner-update" href="https://info.nowsecure.com/IRforAndroidandiOS_Updates.html">Receive Updates<i class="fa fa-bell-o"></i></a>
+</div>
+
 # Internal Investigation
 A number of incidents may occur within an organization that require a team to perform an internal investigation. The IR team should follow a similar process for these internal incidents as they would any other. In this section, we discuss a number ways in which a mobile device may be involved in an internal corporate investigation.
 
