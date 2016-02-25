@@ -1,6 +1,9 @@
-# The case for mobile incident response
+<div class="cta-banner">
+  <a class="cta-banner-pdf" href="https://info.nowsecure.com/IRforAndroidandiOS_PDFRequest.html">Read PDF<i class="fa fa-file-pdf-o"></i></a>
+  <a class="cta-banner-update" href="https://info.nowsecure.com/IRforAndroidandiOS_Updates.html">Receive Updates<i class="fa fa-bell-o"></i></a>
+</div>
 
-## Mobile incident response
+# The case for mobile incident response
 Use of mobile devices has sufficently penetrated enterprises to warrant including support for mobile in an incident response strategy. Mobile devices have access to sensitive data and impact the operations of an enterprise. And, like all technology, they have security flaws which expose the enterprise to risk.
 
 While most enterprises have some form of incident response plan in place, very few have developed processes and tools to respond to a mobile incident. This is a clear gap that security teams must address.
@@ -24,7 +27,7 @@ Wyndham fought the FTC suit, but the district court judge ruled in favor of the 
 
 Judge Thomas Ambro stated:
 
-> A company does not act equitably when it publishes a privacy policy to attract customers who are concerned about data privacy, fails to make good on that promise by investing inadequate resources in cybersecurity, exposes its unsuspecting customers to substantial financial injury, and retains the profits of their business. [^6]
+> A company does not act equitably when it publishes a privacy policy to attract customers who are concerned about data privacy, fails to make good on that promise by investing inadequate resources in cybersecurity, exposes its unsuspecting customers to substantial financial injury, and retains the profits of their business. [^1]
 
 While this ruling does not directly involve mobile devices or apps, it is significant for several reasons:
 
@@ -35,7 +38,7 @@ The combination of the FTC v. Wyndham ruling plus a widespread lack of investmen
 
 ## Mobile devices and incident response trends
 Over the past three decades, the process of incident response has matured. Bruce Schneier, a respected security technologist, wrote about evolution and the future of IR in his popular [Schneier on Security](https:/
-/www.schneier.com/blog/archives/2014/11/the_future_of_i.html) [^1] blog. He identified broad focuses in each decade since the 1990s starting with protection, then moving into detection and finally focused on response by the 2010s.
+/www.schneier.com/blog/archives/2014/11/the_future_of_i.html) [^2] blog. He identified broad focuses in each decade since the 1990s starting with protection, then moving into detection and finally focused on response by the 2010s.
 
 He reflected that in recent years, new IR products and services are being developed and implemented due to three important trends:
 
@@ -263,11 +266,10 @@ The objective of this section was to outline the need for mobile incident respon
 * Enterprises continue to under-invest in mobile security
 
 #### Footnotes
-[^1]: The Future of Incident Response - Schneier on Security. Web. Wed Oct 21 2015. <https://www.schneier.com/blog/archives/2014/11/the_future_of_i.html>.
-[^3]: 3nd footnote
+[^1]: http://www2.ca3.uscourts.gov/opinarch/143514p.pdf
+[^2]: The Future of Incident Response - Schneier on Security. Web. Wed Oct 21 2015. <https://www.schneier.com/blog/archives/2014/11/the_future_of_i.html>.
 [^4]: Black Hat London 2015 | Summit. Web. Wed Oct 21 2015. <https://www.blackhat.com/ldn-15/summit.html#abusing-android-apps-and-gaining-remote-code-execution>.
 [^5]: NowSecure. Samsung Keyboard Security Risk Disclosed: Over 600M+ Devices Worldwide Impacted  | NowSecure. Web. Wed Oct 21 2015. <https://www.nowsecure.com/keyboard-vulnerability/>.
-[^6]: http://www2.ca3.uscourts.gov/opinarch/143514p.pdf
 [^7]: https://securityintelligence.com/mobile-insecurity/
 [^8]: https://en.wikipedia.org/wiki/Hacking_Team
 [^9]: http://securitywatch.pcmag.com/mobile-security/324666-mobile-threat-monday-android-ransomware-encrypts-your-files-don-t-pay-up

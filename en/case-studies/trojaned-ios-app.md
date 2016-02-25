@@ -1,3 +1,8 @@
+<div class="cta-banner">
+  <a class="cta-banner-pdf" href="https://info.nowsecure.com/IRforAndroidandiOS_PDFRequest.html">Read PDF<i class="fa fa-file-pdf-o"></i></a>
+  <a class="cta-banner-update" href="https://info.nowsecure.com/IRforAndroidandiOS_Updates.html">Receive Updates<i class="fa fa-bell-o"></i></a>
+</div>
+
 # Trojaned iOS app installs
 
 This case study will examine the conditions leading up to, techniques used and impacts of an attacker installing trojaned versions of iOS apps on a target's iPhone.

@@ -1,3 +1,8 @@
+<div class="cta-banner">
+  <a class="cta-banner-pdf" href="https://info.nowsecure.com/IRforAndroidandiOS_PDFRequest.html">Read PDF<i class="fa fa-file-pdf-o"></i></a>
+  <a class="cta-banner-update" href="https://info.nowsecure.com/IRforAndroidandiOS_Updates.html">Receive Updates<i class="fa fa-bell-o"></i></a>
+</div>
+
 # International Travel Investigation
 If a company representative plans to travel abroad in potentially hostile areas, ideally they will use a dispensable tablet or phone specifically for the trip and leave the laptop or device they use for work at home. The traveler should use that designated device under the assumption that it and any data upon it is or will be compromised (i.e., they shouldn’t input, send or receive any sensitive data on it). 
 
