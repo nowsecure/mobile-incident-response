@@ -66,7 +66,7 @@ While the recent trend in enterprise mobile security has been to deploy manageme
 ### Network perimeter
 Clearly, mobile devices defy traditional network policy enforcement since they do not exclusively reside on the corporate network. By design, mobile devices likely have a least two and generally more ways they can connect to networks.
 
-The obvious network connection not directly controlled by the enterprise is the mobile phone network. Today 4G networks are prevelant and fast and many individuals choose to use their mobile operator's network over corporate-provided Wi-Fi.
+The obvious network connection not directly controlled by the enterprise is the mobile phone network. Today 4G networks are prevalent and fast and many individuals choose to use their mobile operator's network over corporate-provided Wi-Fi.
 
 The next most common accessible networks are provided via Wi-Fi. This generally includes a network provided by the enterprise (and thus a controlled ingres/egress point where a company can exert oversight or control) but also includes home networks and various networks available to the public. These public networks include Wi-Fi access points provided by retail stores (e.g., Starbucks), airports, city-wide public networks, home-based Wi-Fi via companies (e.g., Comcast via their XFINITY service), and, unfortunately, malicious networks controlled by attackers.
 
