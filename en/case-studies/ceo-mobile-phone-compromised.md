@@ -35,7 +35,7 @@ The home router was inspected and several security issues were discovered includ
 The team was able to capture the TLS negotiation at a later time so that the full certificate chain was available for inspection.
 
 ## Inconclusive findings
-Clearly, an incident of concern occurred involving the CEO's devices. Like many incidents, it was difficult to determine the root cause. The steps propsed by the incident response team included:
+Clearly, an incident of concern occurred involving the CEO's devices. Like many incidents, it was difficult to determine the root cause. The steps proposed by the incident response team included:
 
 * Take the home router offline
 * Analyze the router for signs of compromise
