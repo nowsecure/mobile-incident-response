@@ -245,7 +245,7 @@ We explore the [Hacking Team case study](../case-studies/hacking-team-analysis.h
 ## Under-investing in security
 In the final incident response trend pointed out by Bruce Schneier, companies are clearly under-investing in mobile security, which greatly increases the need for effective incident response.
 
-In an IBM sponsored study in 2015, the Ponemon Institue found that:
+In an IBM sponsored study in 2015, the Ponemon Institute found that:
 > Among the more than 400 organizations studied — nearly 40 percent of which were Fortune 500 companies — almost 40 percent of them aren’t scanning the code in their apps for security vulnerabilities, leaving the door wide open to the potential hacking of sensitive user, corporate and customer data. The average organization tests fewer than half of the mobile apps it builds, and a whopping 33 percent of companies never test their apps. [^7]
 
 Instead of taking a survey, NowSecure released their [2016 Mobile App Security Study](https://www.nowsecure.com/blog/2016/02/11/2016-nowsecure-mobile-security-report-now-available/), which performed aggregated analysis of more than 140 million mobile security data points collected each day by the NowSecure Intelligence engine and evaluated 400,000 Android apps available on the Google Play store. Key findings from the study include:
