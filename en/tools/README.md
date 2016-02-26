@@ -5,7 +5,7 @@
 
 #Tools for Mobile Incident Response
 
-This chapter will provide an overview of the tools necessary to provide mobile incident response at your organization. We will focus on free and/or open source software but will mention commerical alternatives.
+This chapter will provide an overview of the tools necessary to provide mobile incident response at your organization. We will focus on free and/or open source software but will mention commercial alternatives.
 
 The sections include:
 
