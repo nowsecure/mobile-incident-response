@@ -40,7 +40,7 @@ In many instances, an employee or contractor will inform the IT, security or inc
 ## Device lost or stolen
 A lost or stolen mobile device is a scenario that is probably the most well understood. Both Android and iOS have built in capabilities for finding a lost or stolen device, locking it and performing a remote wipe.
 
-However, with the information provided in this book, there's opportunity to better understand the potential impact of this type of event provided the security team has access to device properties such as perating system version and a list of installed apps. Armed with this information, a much better understanding of the data at risk can inform the response and resolution of the incident. 
+However, with the information provided in this book, there's opportunity to better understand the potential impact of this type of event provided the security team has access to device properties such as operating system version and a list of installed apps. Armed with this information, a much better understanding of the data at risk can inform the response and resolution of the incident. 
 
 ## Insider attack via mobile device
 Detecting insider attacks is incredibly difficult, even more so on a mobile device because the device telemetry data available is limited and security tools are still evolving. The most likely event would involve an individual already under suspicion, and an incident responder being asked to perform an investigation on the mobile device.   
