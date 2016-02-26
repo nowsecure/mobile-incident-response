@@ -63,7 +63,7 @@ After the installation is complete, reboot when prompted and then login using th
 ## Install Guest Editions (VirtualBox)
 Once logged in, initiate the process to install VirtualBox Guest Additions by going to Devices -> Install Guest Additions. This is a one-time setup, and will allow for improved graphic performance, shared folders, and other features within the VM. You will see the Guest Additions icon appear on the Desktop. Right click it and select “Mount Volume”.
 
-Next, open a Terminal window located under Applications -> Accessories -> Terminal (we have also created a shortcut to the Terminal window on the top status bar of the VM). Once open, navigate to the VBOSADDITIONS directory which was mounted in the previous step and execute the install script by running the following commands. *Do NOT type the “$.” This is intended to signify the beginning of a command prompt. Also, in this case it is VBOXADDITIONS_4.1.8_75467. The numbers following VBOXADDITIONS may vary.*
+Next, open a Terminal window located under Applications -> Accessories -> Terminal (we have also created a shortcut to the Terminal window on the top status bar of the VM). Once open, navigate to the VBOXADDITIONS directory which was mounted in the previous step and execute the install script by running the following commands. *Do NOT type the “$.” This is intended to signify the beginning of a command prompt. Also, in this case it is VBOXADDITIONS_4.1.8_75467. The numbers following VBOXADDITIONS may vary.*
 
 `$ cd /media/VBOXADDITIONS_4.1.8_75467/`
 `$ sudo sh VBoxLinuxAdditions.run`
