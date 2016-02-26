@@ -65,8 +65,10 @@ Once logged in, initiate the process to install VirtualBox Guest Additions by go
 
 Next, open a Terminal window located under Applications -> Accessories -> Terminal (we have also created a shortcut to the Terminal window on the top status bar of the VM). Once open, navigate to the VBOXADDITIONS directory which was mounted in the previous step and execute the install script by running the following commands. *Do NOT type the “$.” This is intended to signify the beginning of a command prompt. Also, in this case it is VBOXADDITIONS_4.1.8_75467. The numbers following VBOXADDITIONS may vary.*
 
-`$ cd /media/VBOXADDITIONS_4.1.8_75467/`
-`$ sudo sh VBoxLinuxAdditions.run`
+```bash
+$ cd /media/VBOXADDITIONS_4.1.8_75467/
+$ sudo sh VBoxLinuxAdditions.run
+```
 
 You may need to enter the administrator password, which you set up during install. Finally, the VM may need to be restarted for the changes to take effect.
 
