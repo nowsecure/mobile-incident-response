@@ -29,29 +29,29 @@ To run Santoku, you must install virtual machine software. For this section we w
 
 After downloading, install the virtual machine software on your forensic workstation, then take the following steps to start the virtual machine (VM):
 
-1. Locate your VirtualBox installation. Select “New” to create a new VM.
+* Locate your VirtualBox installation. Select “New” to create a new VM.
 
-3. Going through the wizard, create a name for your VM and select the Linux/Debian Operating System and Version. Note: For Santoku Linux 0.4 and newer, select “Ubuntu 64-bit”. 
+* Going through the wizard, create a name for your VM and select the Linux/Debian Operating System and Version. Note: For Santoku Linux 0.4 and newer, select “Ubuntu 64-bit”. 
 
 ![Create new VM](../assets/tools-newvm.1.png)
 
-4. Select an appropriate amount of memory for the VM. 512MB is standard, however, increasing the memory size will typically make your VM run faster (but make your host machine run slower). If you plan to use the Android Virtual Device Manager (AVD) and Android device emulator frequently, we recommend selecting at least 4GB of memory.
+* Select an appropriate amount of memory for the VM. 512MB is standard, however, increasing the memory size will typically make your VM run faster (but make your host machine run slower). If you plan to use the Android Virtual Device Manager (AVD) and Android device emulator frequently, we recommend selecting at least 4GB of memory.
 
 ![Create new VM](../assets/tools-memory.2.png)
 
-5. At the “Hard Disk” screen, select “Create a virtual hard disk now”. To create a new hard disk, select the “VDI (VirtualBox Disk Image)” option.
+* At the “Hard Disk” screen, select “Create a virtual hard disk now”. To create a new hard disk, select the “VDI (VirtualBox Disk Image)” option.
 
 ![Create new VM](../assets/tools-harddisk.3.png)
 
-6. On the next screen, select “Dynamically allocated” and click ‘Continue’.
+* On the next screen, select “Dynamically allocated” and click ‘Continue’.
 
-7. Choose the Virtual disk location where the virtual hard disk will be stored by clicking the folder icon on the right, then click the “Save” button. Adjust the ‘Size’ slider to allocate however much space you would like for your Santoku hard drive. Depending on your use, you may want to set this to a smaller or a larger value. The default in VirtualBox is 8 GB, we recommend increasing this to 40GB, as show below. When finished, click “Create”. This will bring you back to the main VirtualBox menu.
+* Choose the Virtual disk location where the virtual hard disk will be stored by clicking the folder icon on the right, then click the “Save” button. Adjust the ‘Size’ slider to allocate however much space you would like for your Santoku hard drive. Depending on your use, you may want to set this to a smaller or a larger value. The default in VirtualBox is 8 GB, we recommend increasing this to 40GB, as show below. When finished, click “Create”. This will bring you back to the main VirtualBox menu.
 
 ![Create new VM](../assets/tools-create.4.png)
 
-8. To get your Santoku-Linux to run on the VirtualBox, you need to have it attached it to your newly created Virtual Machine. This is similar to putting in a CD or DVD from which you will boot your machine when installing a new operating system. To do this, select the Santoku-Linux VM that you just created and click the “Settings” button at the top of the screen. Select the “Storage” option on the left of the Settings screen, and then click CD icon next to the “IDE Controller.”
+* To get your Santoku-Linux to run on the VirtualBox, you need to have it attached it to your newly created Virtual Machine. This is similar to putting in a CD or DVD from which you will boot your machine when installing a new operating system. To do this, select the Santoku-Linux VM that you just created and click the “Settings” button at the top of the screen. Select the “Storage” option on the left of the Settings screen, and then click CD icon next to the “IDE Controller.”
 
-9. A warning will pop up asking you to choose a virtual DVD. Select “Choose disk” and navigate to your recently downloaded Santoku .iso file (in this case, it’s in the home user’s /Downloads/Santoku file). Click “Open”, then “OK”.
+* A warning will pop up asking you to choose a virtual DVD. Select “Choose disk” and navigate to your recently downloaded Santoku .iso file (in this case, it’s in the home user’s /Downloads/Santoku file). Click “Open”, then “OK”.
 
 ## Install Santoku
 You can now click “Start” on the main VirtualBox screen to load the VM. Select to either boot from the live DVD or install. If you have created this in a Virtual Machine, choose “install – start the installer directly.”
