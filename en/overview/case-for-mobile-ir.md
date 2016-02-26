@@ -68,7 +68,7 @@ Clearly, mobile devices defy traditional network policy enforcement since they d
 
 The obvious network connection not directly controlled by the enterprise is the mobile phone network. Today 4G networks are prevalent and fast and many individuals choose to use their mobile operator's network over corporate-provided Wi-Fi.
 
-The next most common accessible networks are provided via Wi-Fi. This generally includes a network provided by the enterprise (and thus a controlled ingres/egress point where a company can exert oversight or control) but also includes home networks and various networks available to the public. These public networks include Wi-Fi access points provided by retail stores (e.g., Starbucks), airports, city-wide public networks, home-based Wi-Fi via companies (e.g., Comcast via their XFINITY service), and, unfortunately, malicious networks controlled by attackers.
+The next most common accessible networks are provided via Wi-Fi. This generally includes a network provided by the enterprise (and thus a controlled ingress/egress point where a company can exert oversight or control) but also includes home networks and various networks available to the public. These public networks include Wi-Fi access points provided by retail stores (e.g., Starbucks), airports, city-wide public networks, home-based Wi-Fi via companies (e.g., Comcast via their XFINITY service), and, unfortunately, malicious networks controlled by attackers.
 
 While cellular and Wi-Fi networks are the most common paths to network access, there are additional techniques including:
 
