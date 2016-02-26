@@ -121,7 +121,7 @@ In September 2015, Zimprium researcher Joshua Drake ([@jduck](https://twitter.co
 
 Joshua coordinated with the Android Security team and patches were submitted to the Android Open Source Project (AOSP) and shared in advance with Android partners. However, the patches were not fully effective in mitigating the flaws and additional research uncovered new attack vectors. In addition, due to the complexity in deploying changes to the fragmented Android ecosystem, most users remain vulnerable to this day.
 
-Note: if you own or manage risk for Android devices, you can determine if the device is vulnerable to Stagefight or other know flaws by running the Vulnerability Test Suite (VTS) for Android app. The app, developed by the NowSecure Research Team, is fully [open sourced](https://github.com/nowsecure/android-vts/) and actively maintained.
+Note: if you own or manage risk for Android devices, you can determine if the device is vulnerable to Stagefright or other know flaws by running the Vulnerability Test Suite (VTS) for Android app. The app, developed by the NowSecure Research Team, is fully [open sourced](https://github.com/nowsecure/android-vts/) and actively maintained.
 
 ##### Samsung keyboard vulnerability
 
