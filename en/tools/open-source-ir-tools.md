@@ -60,7 +60,7 @@ The following tools can be used to analyze captured network traffic:
 * (S) [Nmap](https://nmap.org/) scans a server to discover hosts and services on a network and create a map using this information. Specific features include port scanning, version detection, operating system detection, and scripted interaction with the target.
 * (S) [Zenmap](https://nmap.org/zenmap/) (as root) allows a user to easily run an "NMAP" scan using a graphical user interface (GUI) making it easy for beginners to use, and it includes advanced features for more experienced users.
 * (S) [Chaosreader](http://chaosreader.sourceforge.net/) can be run against captured network traffic and traces TCP and UDP sessions seeking application data.
-* (S) [dnschef]()http://thesprawl.org/projects/dnschef/) is a DNS proxy tool for penetration testers and malware analysts. It can be used to create fake requests for a specified URL/domain and point it to a local machine as opposed to its intended server.
+* (S) [dnschef](http://thesprawl.org/projects/dnschef/) is a DNS proxy tool for penetration testers and malware analysts. It can be used to create fake requests for a specified URL/domain and point it to a local machine as opposed to its intended server.
 * (S) [DSniff](http://www.monkey.org/~dugsong/dsniff/) is a collection of tools for network and penetration testing.
 * (S) [mitmproxy](https://mitmproxy.org/) allows for the interception and analysis of network traffic.
 * (S) [tcpdump](http://www.tcpdump.org/manpages/tcpdump.1.html) is a command line packet analyzer.
