@@ -45,7 +45,7 @@ After downloading, install the virtual machine software on your forensic worksta
 
 * On the next screen, select “Dynamically allocated” and click ‘Continue’.
 
-* Choose the Virtual disk location where the virtual hard disk will be stored by clicking the folder icon on the right, then click the “Save” button. Adjust the ‘Size’ slider to allocate however much space you would like for your Santoku hard drive. Depending on your use, you may want to set this to a smaller or a larger value. The default in VirtualBox is 8 GB, we recommend increasing this to 40GB, as show below. When finished, click “Create”. This will bring you back to the main VirtualBox menu.
+* Choose the Virtual disk location where the virtual hard disk will be stored by clicking the folder icon on the right, then click the “Save” button. Adjust the ‘Size’ slider to allocate however much space you would like for your Santoku hard drive. Depending on your use, you may want to set this to a smaller or a larger value. The default in VirtualBox is 8 GB, we recommend increasing this to 40GB, as shown below. When finished, click “Create”. This will bring you back to the main VirtualBox menu.
 
 ![Create new VM](../assets/tools-create.4.png)
 
