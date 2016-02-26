@@ -21,7 +21,7 @@ The goal of incident response is to quickly contain and mitigate an incident. A 
 
 ## Incident response today (2016)
 
-Today, most large government and enterprise organization have an incident response team. And government regulations increasingly mandate incident response capabilities.
+Today, most large government and enterprise organizations have an incident response team. And government regulations increasingly mandate incident response capabilities.
 
 For example, the Federal Financial Institution Examination Council (FFIEC) is a "formal interagency body empowered to prescribe uniform principles, standards, and report forms for the federal examination of financial institutions" [^3] that developed a system dubbed InfoBase to help introduce and educate the financial services industry on items field examiners were inspecting during audits. The [FFIEC's guidance on incident response](http://ithandbook.ffiec.gov/it-booklets/business-continuity-planning/other-policies,-standards-and-processes-/incident-response.aspx) includes a mandate to develop and integrate this discipline into the financial institution's business continuity planning process.
 
@@ -29,7 +29,7 @@ This is only one example of regulated industries required to have incident respo
 
 Other examples include:
 
-* The healthcase industry is beholden to a [HIPAA incident response regulation](http://www.hhs.gov/hipaa/for-professionals/faq/2002/what-does-the-security-rule-require-a-covered-entity-to-do-to-comply/index.html) that "requires a covered entity to implement policies and procedures to address security incidents" 
+* The healthcare industry is beholden to a [HIPAA incident response regulation](http://www.hhs.gov/hipaa/for-professionals/faq/2002/what-does-the-security-rule-require-a-covered-entity-to-do-to-comply/index.html) that "requires a covered entity to implement policies and procedures to address security incidents" 
 * The payments industry must comply with [PCI DSS incident response requirements](https://www.pcisecuritystandards.org/documents/PCI_DSS_v3.pdf) [PDF] (section 12.10) that require organizations to "implement an incident response plan," and "Be prepared to respond immediately to a system breach"
 * The financial services industry has multiple regulatory acts and bodies overseeing it including the FDIC and [Gramm-Leach-Bliley Act incident response standards](https://www.fdic.gov/regulations/laws/rules/2000-8660.html) that "require the service provider to take appropriate actions to address incidents of unauthorized access to the financial institution's customer information, including notification to the institution as soon as possible of any such incident, to enable the institution to expeditiously implement its response program"
 * Federal agencies are regulated under the Federal Information Security Management Act of 2002 that includes [FISMA incident response regulations](http://www.gao.gov/assets/670/662901.pdf) [PDF] requiring agencies to develop, document, and implement an information security program (FISMA Act of 2002, Pub. L. No. 107-347, Title III, Dec. 17, 2002).
@@ -55,7 +55,7 @@ These organizations generally coordinate incident response for entire nations.
 
 ### Enterprise-sponsored CERTs / CSIRTs
 
-These organization, while focused on a particular enterprise, have a visibile public presence and sometimes support the industry with educational information and tools:
+These organizations, while focused on a particular enterprise, have a visible public presence and sometimes support the industry with educational information and tools:
 
 1. [Microsoft Security Response Center](https://technet.microsoft.com/en-us/security/dn528958)
 1. [Apple Product Security](https://www.apple.com/support/security/)
@@ -65,7 +65,7 @@ These organization, while focused on a particular enterprise, have a visibile pu
 
 ### Community
 
-These organization provide various resources to the incident response community including threat reporting, training, certifications, conferences, and research. 
+These organizations provide various resources to the incident response community including threat reporting, training, certifications, conferences, and research. 
 
 1. [FIRST](http://www.first.org/) (global Forum for Incident Response and Security Teams) 
 1. [SANS Institute](https://www.sans.org/about/)
