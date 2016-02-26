@@ -16,7 +16,7 @@ Here listed are a number of common scenarios you may encounter when responding t
 ## Mobile malware discovered
 While mobile malware is overhyped by the security industry, it certainly exists. It is more prevalent in the Android ecosystem due to the ability to more easily distribute and install apps outside the Google Play store.
 
-The two most common mobile malware incidents encoutered are:
+The two most common mobile malware incidents encountered are:
 
 1. Malware installed on an individual's device
 1. Malware impersonating your brand
