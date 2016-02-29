@@ -4,7 +4,7 @@
 </div>
 
 # Compromise of company executive's phone
-Another mobile scenario an incident response analyst may encouter is the potential compromise of an executive's phone. Mobile devices have become very personal, and individuals are acutely aware of minor changes in their device's behavior. When an executive's mobile device is acting strangely, many times its owner will turn the device over to the IT or security team for investigation.
+Another mobile scenario an incident response analyst may encounter is the potential compromise of an executive's phone. Mobile devices have become very personal, and individuals are acutely aware of minor changes in their device's behavior. When an executive's mobile device is acting strangely, many times its owner will turn the device over to the IT or security team for investigation.
 
 These are incredibly challenging cases because so many different factors can cause a device to act in a different manner. Very few organizations have the [continual analysis tools](../tools/mobile-ir-tool-categories.md) in place to help understand how a device's state has changed over time.
 
@@ -35,7 +35,7 @@ The home router was inspected and several security issues were discovered includ
 The team was able to capture the TLS negotiation at a later time so that the full certificate chain was available for inspection.
 
 ## Inconclusive findings
-Clearly, an incident of concern occurred involving the CEO's devices. Like many incidents, it was difficult to determine the root cause. The steps propsed by the incident response team included:
+Clearly, an incident of concern occurred involving the CEO's devices. Like many incidents, it was difficult to determine the root cause. The steps proposed by the incident response team included:
 
 * Take the home router offline
 * Analyze the router for signs of compromise

@@ -78,7 +78,7 @@ Below we’ve provided a non-exhaustive list of areas of exposure within mobile 
     * Fake SSL certificates
 * Data center layer
     * Web server
-        * Platform vulnerabilities (i.e., operating system, server software, or application modules) vulnerabilities
+        * Platform (i.e., operating system, server software, or application modules) vulnerabilities
         * Server misconfiguration
         * Cross-site scripting (XSS)
         * Cross-site request forgery (CSRF)

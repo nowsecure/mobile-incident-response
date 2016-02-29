@@ -66,9 +66,9 @@ While the recent trend in enterprise mobile security has been to deploy manageme
 ### Network perimeter
 Clearly, mobile devices defy traditional network policy enforcement since they do not exclusively reside on the corporate network. By design, mobile devices likely have a least two and generally more ways they can connect to networks.
 
-The obvious network connection not directly controlled by the enterprise is the mobile phone network. Today 4G networks are prevelant and fast and many individuals choose to use their mobile operator's network over corporate-provided Wi-Fi.
+The obvious network connection not directly controlled by the enterprise is the mobile phone network. Today 4G networks are prevalent and fast and many individuals choose to use their mobile operator's network over corporate-provided Wi-Fi.
 
-The next most common accessible networks are provided via Wi-Fi. This generally includes a network provided by the enterprise (and thus a controlled ingres/egress point where a company can exert oversight or control) but also includes home networks and various networks available to the public. These public networks include Wi-Fi access points provided by retail stores (e.g., Starbucks), airports, city-wide public networks, home-based Wi-Fi via companies (e.g., Comcast via their XFINITY service), and, unfortunately, malicious networks controlled by attackers.
+The next most common accessible networks are provided via Wi-Fi. This generally includes a network provided by the enterprise (and thus a controlled ingress/egress point where a company can exert oversight or control) but also includes home networks and various networks available to the public. These public networks include Wi-Fi access points provided by retail stores (e.g., Starbucks), airports, city-wide public networks, home-based Wi-Fi via companies (e.g., Comcast via their XFINITY service), and, unfortunately, malicious networks controlled by attackers.
 
 While cellular and Wi-Fi networks are the most common paths to network access, there are additional techniques including:
 
@@ -121,7 +121,7 @@ In September 2015, Zimprium researcher Joshua Drake ([@jduck](https://twitter.co
 
 Joshua coordinated with the Android Security team and patches were submitted to the Android Open Source Project (AOSP) and shared in advance with Android partners. However, the patches were not fully effective in mitigating the flaws and additional research uncovered new attack vectors. In addition, due to the complexity in deploying changes to the fragmented Android ecosystem, most users remain vulnerable to this day.
 
-Note: if you own or manage risk for Android devices, you can determine if the device is vulnerable to Stagefight or other know flaws by running the Vulnerability Test Suite (VTS) for Android app. The app, developed by the NowSecure Research Team, is fully [open sourced](https://github.com/nowsecure/android-vts/) and actively maintained.
+Note: if you own or manage risk for Android devices, you can determine if the device is vulnerable to Stagefright or other know flaws by running the Vulnerability Test Suite (VTS) for Android app. The app, developed by the NowSecure Research Team, is fully [open sourced](https://github.com/nowsecure/android-vts/) and actively maintained.
 
 ##### Samsung keyboard vulnerability
 
@@ -212,7 +212,7 @@ Apple identified the affected apps and immediately removed them from the App Sto
 
 The Android ecosystem has been a larger target of mobile malware than any other smart phone to date. As such, choosing a single example malware to discuss is difficult. In our Mobile IR Case Studies section, we will explore the outbreak of a [malicious app targeting customers of Aetna, an insurance provider](../case-studies/mobile-malware-discovered.html), and how the incident was handled. For this overview, though, we will discuss a piece of malware that falls into the "ransomware" category.
 
-In June 2014, a number of security companies ([Sophos](https://nakedsecurity.sophos.com/2014/06/06/cryptolocker-wannabe-simplelocker-android/) | [Blue Coat](https://www.bluecoat.com/security-blog/2014-06-06/simplelocker-android-ransomware-encrypts-files)) began reporting on and analyzing a newly discovered instance of malware dubbed SimplerLocker.
+In June 2014, a number of security companies ([Sophos](https://nakedsecurity.sophos.com/2014/06/06/cryptolocker-wannabe-simplelocker-android/) | [Blue Coat](https://www.bluecoat.com/security-blog/2014-06-06/simplelocker-android-ransomware-encrypts-files)) began reporting on and analyzing a newly discovered instance of malware dubbed SimpleLocker.
 
 The initial attack vector appeared to be fake porn sites that prompted the user to download and install a video player.[^9] After installation, the app launched and immediately took over the screen. It then presented a threatening message demanding payment to decrypt the user's files. The back button was disabled, and if the user hit the "home" button, the app rapidly re-launched. During this time, the app encrypted images (PNG, JPEG) and plain text files (TXT) within the device's media storage. It also leveraged the TOR network for its command-and-control (C2) traffic.
 
@@ -238,14 +238,14 @@ Finally, it's quite telling to see the pay-out ranges for different types of exp
 Figure 3: Zerodium Payout Ranges[^14]
 
 ##### Hacking Team 
-While Zerodium is in the business of buying and then re-selling exploits, we do not have a clear view into their internal operations nor their customers. However, in July 2015 the compromise of Italian firm Hacking Team exposed not only the internal operations of a company weaponizing and selling exploits but also their customer list. That list included sovereign nations with documented human rights violations against reporters and activists. Until the time of the compromise, Hacking Team adamently denied they sold their software to any countries with documented human rights violations. However, the compromise and exposure of 400GB of [Hacking Team emails](https://wikileaks.org/hackingteam/emails/) and files revealed that Hacking Team was in fact [weaponizing mobile security flaws](https://wikileaks.org/hackingteam/emails/emailid/1028689) and selling them to governments around the world. 
+While Zerodium is in the business of buying and then re-selling exploits, we do not have a clear view into their internal operations nor their customers. However, in July 2015 the compromise of Italian firm Hacking Team exposed not only the internal operations of a company weaponizing and selling exploits but also their customer list. That list included sovereign nations with documented human rights violations against reporters and activists. Until the time of the compromise, Hacking Team adamantly denied they sold their software to any countries with documented human rights violations. However, the compromise and exposure of 400GB of [Hacking Team emails](https://wikileaks.org/hackingteam/emails/) and files revealed that Hacking Team was in fact [weaponizing mobile security flaws](https://wikileaks.org/hackingteam/emails/emailid/1028689) and selling them to governments around the world. 
 
 We explore the [Hacking Team case study](../case-studies/hacking-team-analysis.html) in more detail later, but a key takeaway for security professionals is that attackers see value in targeting mobile devices and are capable of compromising them. In addition, there are companies out there whose whose business model is based on selling "offensive intrusion and surveillance capabilities to governments, law enforcement agencies and corporations." [^8] 
 
 ## Under-investing in security
 In the final incident response trend pointed out by Bruce Schneier, companies are clearly under-investing in mobile security, which greatly increases the need for effective incident response.
 
-In an IBM sponsored study in 2015, the Ponemon Institue found that:
+In an IBM sponsored study in 2015, the Ponemon Institute found that:
 > Among the more than 400 organizations studied — nearly 40 percent of which were Fortune 500 companies — almost 40 percent of them aren’t scanning the code in their apps for security vulnerabilities, leaving the door wide open to the potential hacking of sensitive user, corporate and customer data. The average organization tests fewer than half of the mobile apps it builds, and a whopping 33 percent of companies never test their apps. [^7]
 
 Instead of taking a survey, NowSecure released their [2016 Mobile App Security Study](https://www.nowsecure.com/blog/2016/02/11/2016-nowsecure-mobile-security-report-now-available/), which performed aggregated analysis of more than 140 million mobile security data points collected each day by the NowSecure Intelligence engine and evaluated 400,000 Android apps available on the Google Play store. Key findings from the study include:

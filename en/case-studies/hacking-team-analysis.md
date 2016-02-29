@@ -5,7 +5,7 @@
 
 # Hacking Team 
 
-One challenge incident response, and more broadly security, teams face is providing the business case for investing in the necessary people, tools, training and process. This section includes information about the compromise of the notorious company Hacking Team to acheive the following:
+One challenge incident response, and more broadly security, teams face is providing the business case for investing in the necessary people, tools, training and process. This section includes information about the compromise of the notorious company Hacking Team to achieve the following:
 
 * Provide empirical evidence that nation-states and malicious actors target mobile devices 
 * Explain that there exists a market willing to pay for the ability to compromise mobile devices

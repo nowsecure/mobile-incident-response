@@ -45,7 +45,7 @@ After downloading, install the virtual machine software on your forensic worksta
 
 * On the next screen, select “Dynamically allocated” and click ‘Continue’.
 
-* Choose the Virtual disk location where the virtual hard disk will be stored by clicking the folder icon on the right, then click the “Save” button. Adjust the ‘Size’ slider to allocate however much space you would like for your Santoku hard drive. Depending on your use, you may want to set this to a smaller or a larger value. The default in VirtualBox is 8 GB, we recommend increasing this to 40GB, as show below. When finished, click “Create”. This will bring you back to the main VirtualBox menu.
+* Choose the Virtual disk location where the virtual hard disk will be stored by clicking the folder icon on the right, then click the “Save” button. Adjust the ‘Size’ slider to allocate however much space you would like for your Santoku hard drive. Depending on your use, you may want to set this to a smaller or a larger value. The default in VirtualBox is 8 GB, we recommend increasing this to 40GB, as shown below. When finished, click “Create”. This will bring you back to the main VirtualBox menu.
 
 ![Create new VM](../assets/tools-create.4.png)
 
@@ -63,10 +63,12 @@ After the installation is complete, reboot when prompted and then login using th
 ## Install Guest Editions (VirtualBox)
 Once logged in, initiate the process to install VirtualBox Guest Additions by going to Devices -> Install Guest Additions. This is a one-time setup, and will allow for improved graphic performance, shared folders, and other features within the VM. You will see the Guest Additions icon appear on the Desktop. Right click it and select “Mount Volume”.
 
-Next, open a Terminal window located under Applications -> Accessories -> Terminal (we have also created a shortcut to the Terminal window on the top status bar of the VM). Once open, navigate to the VBOSADDITIONS directory which was mounted in the previous step and execute the install script by running the following commands. *Do NOT type the “$.” This is intended to signify the beginning of a command prompt. Also, in this case it is VBOXADDITIONS_4.1.8_75467. The numbers following VBOXADDITIONS may vary.*
+Next, open a Terminal window located under Applications -> Accessories -> Terminal (we have also created a shortcut to the Terminal window on the top status bar of the VM). Once open, navigate to the VBOXADDITIONS directory which was mounted in the previous step and execute the install script by running the following commands. *Do NOT type the “$.” This is intended to signify the beginning of a command prompt. Also, in this case it is VBOXADDITIONS_4.1.8_75467. The numbers following VBOXADDITIONS may vary.*
 
-`$ cd /media/VBOXADDITIONS_4.1.8_75467/`
-`$ sudo sh VBoxLinuxAdditions.run`
+```bash
+$ cd /media/VBOXADDITIONS_4.1.8_75467/
+$ sudo sh VBoxLinuxAdditions.run
+```
 
 You may need to enter the administrator password, which you set up during install. Finally, the VM may need to be restarted for the changes to take effect.
 
